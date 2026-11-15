@@ -1,0 +1,10 @@
+{
+ "export_version": "p0_v1_review-spine1.0.0-0be48822",
+ "sha256": "0be48822b7ab2e4ccf47c1153db9f37aa0440327ddb47195940202a5a05996bf",
+ "bytes": 1811973,
+ "dataset_version": "p0_v1_review",
+ "manifest_sha256": "374628c5f4e80d2e8366cf0de7737fc3977916f4af34483593dc2df244defe69",
+ "scientific_approval": false,
+ "policy": "Provisional NASA source records with visible review status; AI candidates only after human review (reviewer identity removed); model evaluations without coefficients; no credentials, local paths or reviewer data.",
+ "path": "data/p0_v1_review-spine1.0.0-0be48822/spine.json"
+}

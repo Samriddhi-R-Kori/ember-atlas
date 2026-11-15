@@ -1,0 +1,220 @@
+<div class="shell">
+<aside class="side" id="side">
+  <button type="button" id="collapse" class="collapse" aria-expanded="true" aria-controls="tabs" aria-label="Collapse sidebar" title="Collapse sidebar"><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M12.5 4.5 7 10l5.5 5.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+  <span class="brand">Ember Atlas</span>
+  <strong>Earth applications</strong>
+  <div role="tablist" aria-orientation="vertical" aria-label="Applications" id="tabs"></div>
+  <p>Page 3 of Ember Atlas. Built from 25 NASA investigation records.</p>
+</aside>
+<main id="main">
+<div class="view" id="overview" data-v="data" role="tabpanel">
+
+<header class="hero"><div class="wrap">
+  <div>
+    <h1>What a flame in free fall tells us about fire on Earth</h1>
+    <p>Take gravity away and a flame stops rising. What is left is simple enough to measure and model. This dashboard follows that knowledge into six Earth uses, and shows where it stops.</p>
+    <p style="font-size:.95rem">Built from 25 investigation records in NASA's Physical Sciences Informatics repository.</p>
+  </div>
+  <div class="stage">
+    <canvas id="hero" role="img" aria-label="Candle flame that changes shape and colour with gravity"></canvas>
+    <div class="slider"></svg>
+    <div class="slider">
+      <label for="g" style="font-size:.9rem;color:#C9D6F2">Gravity: <b id="gv" style="color:#fff"></b></label>
+      <input id="g" type="range" min="0" max="100" value="0" step="1">
+      <div class="ticks"><span>0 g</span><span>Moon, 1/6 g</span><span>Earth, 1 g</span></div>
+    </div>
+    <dl class="read">
+      <div><dt>Shape</dt><dd id="rShape"></dd></div>
+      <div><dt>Colour</dt><dd id="rCol"></dd></div>
+      <div><dt>Soot</dt><dd id="rSoot"></dd></div>
+      <div><dt>What moves the gas</dt><dd id="rFlow"></dd></div>
+    </dl>
+    <p class="fine">A drawing, not a simulation. The two ends follow NASA's candle comparison<span class="cs" data-c="n2,n12"></span>; the shapes in between are interpolated.</p>
+  </div>
+</div></header>
+
+<section class="band w" id="route"><div class="wrap">
+  <h2>Microgravity results reach Earth through models</h2>
+  <p class="lede">A flame near 2,300 K sits in air near 300 K. That is an eight-fold density change across about a centimetre, and on Earth it drives a rising flow that hides the chemistry. A space result does not apply to Earth directly. It goes through three steps.<span class="cs" data-c="n1"></span></p>
+  <ol class="route">
+    <li><span class="n">Step 1</span><b>Remove buoyancy</b><p>In orbit or a drop tower the rising flow disappears. The flame becomes close to one-dimensional, so temperature, soot and extinction can be measured cleanly.</p></li>
+    <li><span class="n">Step 2</span><b>Test the model</b><p>A combustion model is checked against that simple flame. If it fails here, it has no chance on a real fire.</p></li>
+    <li><span class="n">Step 3</span><b>Add Earth back</b><p>The validated model is extended with buoyancy, wind and turbulence, then checked again against 1 g experiments before anyone relies on it.</p></li>
+  </ol>
+</div></section>
+
+<section class="band" id="home"><div class="wrap">
+  <div class="kpis" id="kpis"></div>
+  <h2 style="margin-top:44px">Six Earth uses, one evidence base</h2>
+  <p class="lede">Open a module. Each one states what the microgravity research supports and where it stops.</p>
+  <div class="cards" id="cards"></div>
+</div></section>
+</div>
+
+<section class="band w view" id="materials" role="tabpanel"><div class="wrap">
+  <h2>Will this building material keep burning?</h2>
+  <p class="lede">Set the oxygen level of a room on Earth and see which common materials keep burning once lit. The marker is the oxygen level in the room; a material burns when the room has more oxygen than the material needs.</p>
+  <div class="tool">
+    <div class="ctl">
+      <label>Atmosphere</label>
+      <div class="presets" id="atm"></div>
+      <label for="o2">Oxygen in the air <span id="o2v"></span></label>
+      <input id="o2" type="range" min="15" max="40" step="0.5" value="21">
+      <div id="gnote" class="flag"></div>
+      <p class="model">Oxygen index values are typical handbook figures measured at 1 g and normal pressure. Grades vary; use the supplier's data sheet for a real design. Reduced pressure is not modelled. Test method: <span class="cs" data-c="n9"></span></p>
+    </div>
+    <div class="out">
+      <div id="msum" style="font-weight:600;margin-bottom:8px"></div>
+      <div id="mlist"></div>
+      <div class="burn"><canvas id="bt" aria-label="Animated burn test of the selected material"></canvas><p class="src" id="btnote" style="margin-top:6px"></p></div>
+    </div>
+  </div>
+  <div class="limit"><b>What this cannot tell you</b>An oxygen index describes a small sample under one test condition. NASA burned several of these materials in microgravity to test flame-spread models, and those models are what carry over to building fire work. A real fire also depends on thickness, airflow, heat from nearby flames and how the material is mounted. NASA's flame-spread work on these materials: <span class="cs" data-c="PSI-25,PSI-26,PSI-98,PSI-99" data-l="1"></span></div>
+  <div class="srcs" data-s="n9,PSI-20,PSI-25,PSI-26,PSI-62,PSI-98,PSI-99,PSI-100"></div>
+  <div class="ev" data-m="materials"></div>
+</div></section>
+
+<section class="band view" id="safety" role="tabpanel"><div class="wrap">
+  <h2>Fire safety basics for Earth</h2>
+  <p class="lede">A fire needs fuel, oxygen and heat, and removing any one controls it. Each experiment family works on one side of that triangle.</p>
+  <div class="demo"><canvas id="tri" role="img" aria-label="Candle with the three sides of the fire triangle"></canvas>
+    <div><b style="font-family:var(--display);font-size:1.2rem">Take one side of the triangle away</b><p>A candle burns because fuel, oxygen and heat are all present. Remove any one and it goes out.</p><div class="btnrow presets" id="trib"></div><div id="trin" class="flag" style="margin-top:12px"></div><p class="src">Principle from NASA Glenn's Beginner's Guide to combustion<span class="cs" data-c="n4"></span>. Animation is illustrative.</p></div></div>
+  <div class="tri">
+    <div><b>Fuel</b><p>BASS, BASS-II and Saffire test which materials ignite and spread flame, so the safest can be chosen.</p><p class="src"><span class="cs" data-c="PSI-25,PSI-26,PSI-98,PSI-99,PSI-100" data-l="1"></span></p></div>
+    <div><b>Oxygen</b><p>FLEX and BASS measure how well CO2, helium, SF6 and nitrogen starve a flame.</p><p class="src"><span class="cs" data-c="PSI-69,PSI-26" data-l="1"></span></p></div>
+    <div><b>Heat</b><p>A flame that loses heat faster than it makes it goes out. Flame Design tests the hypothesis that spherical flames die once their peak falls below 1,130 K.</p><p class="src"><span class="cs" data-c="PSI-10" data-l="1"></span></p></div>
+  </div>
+  <div class="ins" id="ins"></div>
+  <div class="limit"><b>Where this stops</b>The Earth settings the records name are sealed, ventilated spaces: mines, aircraft, submarines. In an ordinary room buoyancy carries heat and smoke upward, so spacecraft findings on spread and detection do not apply unchanged. Settings named in: <span class="cs" data-c="PSI-98,PSI-99,PSI-101,PSI-102" data-l="1"></span></div>
+  <div class="srcs" data-s="n4,n2,n12,n3,PSI-10,PSI-20,PSI-25,PSI-26,PSI-69,PSI-98,PSI-99,PSI-101,PSI-102,PSI-115,PSI-159"></div>
+  <div class="ev" data-m="safety"></div>
+</div></section>
+
+<section class="band view" id="burners" role="tabpanel"><div class="wrap">
+  <h2>Tips for cleaner, more efficient burners</h2>
+  <p class="lede">Directions the flame experiments support. They are design principles to test on your own burner, not operating settings.</p>
+  <div class="tool" style="margin-top:26px">
+    <div class="ctl">
+      <label for="bd">Nitrogen dilution of the fuel <span id="bdv"></span></label><input id="bd" type="range" min="0" max="60" value="0">
+      <label for="bgr">Gravity</label><select id="bgr"><option value="1">Earth, 1 g</option><option value="0">Microgravity</option></select>
+      <p class="model">Dilution lowers soot in the Flame Design records; the fuel ranking and the numbers here are an illustration of that trend, not measurements. <span class="cs" data-c="PSI-10" data-l="1"></span></p>
+    </div>
+    <div class="out"><canvas id="bn" role="img" aria-label="Three jet flames of methane, propane and ethylene"></canvas><div id="bnt" style="margin-top:12px"></div></div>
+  </div>
+  <ul class="tips" id="tips"></ul>
+  <div class="limit"><b>Where this stops</b>The benchmark flames are small and laminar. Industrial burners are turbulent and momentum-driven, and soot behaves differently at 0 g and 1 g, so soot amounts cannot be copied across. Only a model validated at both can carry the result. <span class="cs" data-c="PSI-60" data-l="1"></span></div>
+  <div class="srcs" data-s="n1,PSI-10,PSI-21,PSI-22,PSI-60,PSI-106,PSI-107"></div>
+  <div class="ev" data-m="burners"></div>
+</div></section>
+
+<section class="band view" id="wildfire" role="tabpanel"><div class="wrap">
+  <h2>Wildfire spread scenario</h2>
+  <p class="lede">Change wind, slope and fuel moisture and watch how fast the fire front moves compared with a mild baseline. Then see which parts of that answer microgravity research can and cannot inform.</p>
+  <div class="tool">
+    <div class="ctl">
+      <label for="wf">Fuel</label>
+      <select id="wf"><option value="15">Grass</option><option value="20">Shrubland</option><option value="25" selected>Forest litter</option></select>
+      <label for="ww">Wind speed <span id="wwv"></span></label><input id="ww" type="range" min="0" max="60" value="20">
+      <label for="ws">Uphill slope toward the east <span id="wsv"></span></label><input id="ws" type="range" min="0" max="30" value="0">
+      <label for="wm">Fuel moisture <span id="wmv"></span></label><input id="wm" type="range" min="2" max="30" value="5">
+      <p class="model">Textbook rules of thumb: spread roughly proportional to wind, doubling for every 10° of slope, Rothermel's moisture damping. The map is a stochastic grid simulation on made-up terrain. Fuel types differ only by assumed relative rates. None of this comes from the NASA files. It is a teaching model, not a forecast. Sources: <span class="cs" data-c="n8,n11"></span></p>
+    </div>
+    <div class="out">
+      <canvas id="wcv" role="img" aria-label="Simulated fire spreading across terrain with a road and a lake"></canvas>
+      <div class="btnrow"><button type="button" id="wpl">Pause</button><button type="button" id="wrs">Restart fire</button></div>
+      <div class="stat" id="wstat" aria-live="off"></div>
+      <div class="split" style="margin-top:14px">
+        <div><div class="big" id="wout"></div><div id="wflag" class="flag"></div></div>
+        <div>
+          <div class="fbar"><span>Wind</span><div class="track"><i id="fw"></i></div><span id="fwv"></span></div>
+          <div class="fbar"><span>Slope</span><div class="track"><i id="fs"></i></div><span id="fsv"></span></div>
+          <div class="fbar"><span>Fuel moisture</span><div class="track"><i id="fm"></i></div><span id="fmv"></span></div>
+        </div>
+      </div>
+      <div class="who">
+        <b>Who knows what in this scenario</b>
+        <div><i style="background:var(--earth)"></i><span>Wind, slope and moisture effects come from field and laboratory fire science on Earth.<span class="cs" data-c="n8,n11"></span></span></div>
+        <div><i style="background:var(--ug)"></i><span>Whether the fuel ignites, keeps burning or goes out at a given oxygen level and airflow is the kind of physics BASS-II measures and uses to test flame-spread models.<span class="cs" data-c="PSI-25"></span></span></div>
+        <div><i style="background:var(--ink2)"></i><span>What the fire emits is measured from aircraft and satellites. NASA Langley flew 12 campaigns over six ecosystems from 1986 to 1993 and built an emissions model based on fire temperature.<span class="cs" data-c="n5"></span></span></div>
+      </div>
+    </div>
+  </div>
+  <div class="limit"><b>Where this stops</b>This is the weakest link on the page. One record, BASS-II, says its validated models can be used to study wildfires and building fires. A wildfire adds wind, terrain, vegetation and turbulence at scales no chamber reaches, and no file here contains wildfire measurements. <span class="cs" data-c="PSI-25" data-l="1"></span></div>
+  <div class="srcs" data-s="n8,n11,n5,PSI-25"></div>
+  <div class="ev" data-m="wildfire"></div>
+</div></section>
+
+<section class="band view" id="soot" role="tabpanel"><div class="wrap">
+  <h2>Soot and air pollution</h2>
+  <p class="lede">Combustion supplies about 85% of the energy delivered in the United States<span class="cs" data-c="n1"></span> and burning fossil fuels is the main cause of current climate change<span class="cs" data-c="n7"></span>. The harm comes from what a flame gives off. Microgravity research speaks to some of these products and not to others.</p>
+  <table class="pt"><thead><tr><th>What a flame gives off</th><th>Where it comes from</th><th>Why it matters</th><th>Does this research address it?</th></tr></thead><tbody id="prod"></tbody></table>
+  <h3 style="margin-top:34px">How far a particle gets into the body depends on its size</h3>
+  <p class="src" style="max-width:none">Size ranges as stated in the Engineering LibreTexts chapter on combustion products. Soot is a primary combustion particle.<span class="cs" data-c="n6"></span></p>
+  <svg id="psvg" viewBox="0 0 640 190" role="img" aria-label="Particle size against where it deposits in the lungs"></svg>
+  <div class="ins" id="sootins"></div>
+  <div class="srcs" data-s="n1,n6,n7,n5,PSI-60,PSI-101,PSI-102,PSI-107,PSI-115"></div>
+  <div class="ev" data-m="soot"></div>
+</div></section>
+
+<section class="band view" id="engines" role="tabpanel"><div class="wrap">
+  <h2>Engine efficiency scenario</h2>
+  <p class="lede">Raise the compression ratio or run leaner and an engine turns more of its fuel into work. Both moves run into limits set by low-temperature flame chemistry, which is what the cool-flame experiments measure.</p>
+  <div class="tool">
+    <div class="ctl">
+      <label for="er">Compression ratio <span id="erv"></span></label><input id="er" type="range" min="8" max="20" step="0.5" value="10">
+      <label for="ep">Fuel-air mix <span id="epv"></span></label><input id="ep" type="range" min="0.4" max="1" step="0.05" value="1">
+      <p class="src" style="margin-top:4px">1.00 is exactly enough air to burn the fuel. Lower is leaner.</p>
+      <p class="model">Ideal Otto cycle from engineering thermodynamics, with the gas property that sets efficiency approximated from the mix. Real engines fall well below the ideal because of heat loss and friction. The knock and misfire thresholds are typical values for a petrol spark-ignition engine. None of this uses NASA measurements. Cycle formula: <span class="cs" data-c="n10"></span></p>
+    </div>
+    <div class="out">
+      <div class="split">
+        <div>
+          <div class="big" id="eout"></div>
+          <p id="esave" style="font-weight:600;margin:.5em 0"></p>
+          <div id="ef1" class="flag"></div><div id="ef2" class="flag"></div>
+          <svg id="esvg" viewBox="0 0 300 200" role="img" aria-label="Ideal efficiency against compression ratio" style="width:100%;background:#0D1320;border:1px solid var(--line);border-radius:12px;margin-top:12px"></svg>
+        </div>
+        <div><canvas id="ecv" role="img" aria-label="Cutaway of a petrol engine cylinder through its four strokes"></canvas>
+          <div class="btnrow"><button type="button" id="epl">Pause</button></div>
+          <p class="src">Animated cutaway of a four-stroke petrol cylinder. The clearance above the piston shrinks as compression ratio rises. Illustrative, not to engineering scale.</p></div>
+      </div>
+      <div class="who">
+        <b>Where the NASA research comes in</b>
+        <div><i style="background:var(--ug)"></i><span>Knock is fuel igniting on its own through low-temperature chemistry. The Cool Flames record says this chemistry is what sets a fuel's octane and cetane rating.<span class="cs" data-c="PSI-39"></span></span></div>
+        <div><i style="background:var(--ug)"></i><span>The ACME CFI-G record says real engines reach 38% or lower and that ultra-lean combustion could approach 60%, but poor understanding of cool-flame chemistry is holding that back.<span class="cs" data-c="PSI-159"></span></span></div>
+      </div>
+    </div>
+  </div>
+  <div class="limit"><b>Where this stops</b>The experiments are single droplets and laminar gas flames at about 0.25 to 5 atm. Real engines run turbulent at 20 to 40 atm. The link is through chemistry models, not through engine tests. <span class="cs" data-c="PSI-39,PSI-142,PSI-159" data-l="1"></span></div>
+  <div class="srcs" data-s="n10,PSI-39,PSI-69,PSI-142,PSI-159"></div>
+  <div class="ev" data-m="engines"></div>
+</div></section>
+
+<section class="band view" id="evidence" data-v="data" role="tabpanel"><div class="wrap">
+  <h2>The evidence, record by record</h2>
+  <p class="lede">Which investigation supports which module, then all 25 records to search and open.</p>
+  <div class="matrix">
+    <table id="mx"></table>
+    <div class="key"><span><i class="dot f"></i> flight investigation</span><span><i class="dot g"></i> ground investigation</span><span>The mapping is this team's reading of the records, not a NASA rating.</span></div>
+  </div>
+  <div class="tools">
+    <input id="q" type="search" placeholder="Search by name, fuel or topic, e.g. soot, FLEX, smoke" aria-label="Search investigations">
+    <select id="fa" aria-label="Filter by module"></select>
+    <select id="ft" aria-label="Filter by investigation type"><option value="">Flight and ground</option><option value="f">Flight (microgravity)</option><option value="g">Ground</option></select>
+  </div>
+  <div class="count" id="count" aria-live="polite"></div>
+  <div id="list"></div>
+  <div class="srcs" data-s="n1,n2,n12,n3,n4,n5,n6,n7"></div>
+  <h2 style="margin-top:56px">What this evidence cannot show yet</h2>
+  <ul class="gaps" id="gapl"></ul>
+</div></section>
+
+
+
+<footer><div class="wrap">
+  <p><b style="color:#fff">Sources.</b> Investigation records from NASA Physical Sciences Informatics (psi.nasa.gov), each cited by DOI in the evidence list; NASA Glenn Research Center, Combustion Science overview; NASA image article "Candle Flame: 1g vs Microgravity" (2020); NASA, A Researcher's Guide to Combustion Science (2015 edition); NASA Glenn Beginner's Guide, "Combustion"; NASA Earth Observatory, "Biomass Burning" (2001); Engineering LibreTexts, "Fossil Fuels and Products of Combustion"; UC Museum of Paleontology, Understanding Global Change, "Burning of fossil fuels". Summaries are paraphrased. PSI asks users to cite each dataset by its DOI.</p>
+  <p>The material oxygen-index values, the wildfire rules of thumb and the engine cycle model are standard textbook material added by the team, and are labelled where they appear.</p>
+  <p>NASA Space Apps Challenge 2026, Flame in Free Fall. A research reference, not an operational fire safety tool.</p>
+</div></footer>
+</main>
+</div>

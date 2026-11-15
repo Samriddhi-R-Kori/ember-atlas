@@ -1,0 +1,62 @@
+{
+ "n1": {
+  "text": "NASA Glenn Research Center, Combustion Science",
+  "url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/",
+  "from_user_files": true
+ },
+ "n2": {
+  "text": "NASA, Candle Flame: 1g vs Microgravity (30 April 2020)",
+  "url": "https://www.nasa.gov/image-article/candle-flame-1g-vs-microgravity/",
+  "from_user_files": true
+ },
+ "n3": {
+  "text": "NASA, A Researcher's Guide to Combustion Science (2015 edition)",
+  "url": "https://www.nasa.gov/missions/station/a-researchers-guide-to-combustion-science/",
+  "from_user_files": true
+ },
+ "n4": {
+  "text": "NASA Glenn, Beginner's Guide to Aeronautics: Combustion",
+  "url": "https://www.grc.nasa.gov/www/k-12/airplane/combst1.html",
+  "from_user_files": true
+ },
+ "n5": {
+  "text": "NASA Earth Observatory, Biomass Burning (2001)",
+  "url": "https://science.nasa.gov/earth/earth-observatory/biomass-burning/",
+  "from_user_files": true
+ },
+ "n6": {
+  "text": "Engineering LibreTexts (Pisupati), 4.1 Fossil Fuels and Products of Combustion",
+  "url": "https://eng.libretexts.org/Bookshelves/Environmental_Engineering_(Sustainability_and_Conservation)/Energy_Conservation_for_Environmental_Protection_(Pisupati)/04%3A_Energy_and_the_Environment/4.01%3A_New_Page",
+  "from_user_files": true
+ },
+ "n7": {
+  "text": "UC Museum of Paleontology, Understanding Global Change: Burning of fossil fuels",
+  "url": "https://ugc.berkeley.edu/background-content/burning-of-fossil-fuels/",
+  "from_user_files": true
+ },
+ "n8": {
+  "text": "Rothermel, R.C. (1972). A mathematical model for predicting fire spread in wildland fuels. USDA Forest Service Research Paper INT-115. Used for the moisture-damping curve. Textbook source, not in the provided files.",
+  "url": null,
+  "from_user_files": false
+ },
+ "n9": {
+  "text": "Limiting oxygen index test method (ASTM D2863 / ISO 4589-2). The oxygen-index values on this page are typical handbook figures supplied by the team, not taken from the provided files. Check the supplier data sheet.",
+  "url": null,
+  "from_user_files": false
+ },
+ "n10": {
+  "text": "Ideal Otto cycle, efficiency = 1 - r^(1-gamma): standard thermodynamics textbook result. Knock and lean-limit thresholds are typical petrol-engine values, not from the provided files.",
+  "url": null,
+  "from_user_files": false
+ },
+ "n11": {
+  "text": "Wildland fire rules of thumb (spread roughly proportional to wind; roughly doubling per 10 degrees of uphill slope). Common field guidance, not from the provided files.",
+  "url": null,
+  "from_user_files": false
+ },
+ "n12": {
+  "text": "NASA Scientific Visualization Studio, NASA Studies Fire in Microgravity (6 May 2026)",
+  "url": "https://svs.gsfc.nasa.gov/31394/",
+  "from_user_files": true
+ }
+}

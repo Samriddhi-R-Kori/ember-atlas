@@ -1,0 +1,117 @@
+[
+  {
+    "code": "NASA_IDENTITY_LICENSE",
+    "status": "verified",
+    "detail": "All five investigation DOIs and CC0-1.0 catalog declarations verified; all eight local data files byte-identical to public NASA downloads.",
+    "evidence": [
+      "https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-107",
+      "https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-69",
+      "https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-39",
+      "https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-101",
+      "https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-25"
+    ],
+    "blocker_type": "none"
+  },
+  {
+    "code": "SAME_COUNT_CONTEXT",
+    "status": "resolved_documentary",
+    "detail": "SAME-R final report flight-operation section describes 67 runs and 109 entries including secondary aging; introductory 66 test points is not a row-count requirement. No suffixes stripped or rows merged.",
+    "evidence": [
+      "official_PSI-101_Reports_SAME-R_Final Report.pdf: flight operation section and Appendix A"
+    ],
+    "blocker_type": "none"
+  },
+  {
+    "code": "FLEX_BURNING_RATE_UNIT",
+    "status": "resolved_unit_definition",
+    "detail": "Appendix A.1 defines diameter-squared/time burning-rate constant; Table IX specifies mm²/s. Source heading retained; numeric normalization uses documented unit.",
+    "evidence": [
+      "https://ntrs.nasa.gov/citations/20150023456#Appendix-A.1-and-Table-IX"
+    ],
+    "blocker_type": "none"
+  },
+  {
+    "code": "FLEX_PRESSURE",
+    "status": "verified_unresolved",
+    "detail": "Original report contradicts itself: Table IX Test114 is zero mmHg; Table VI and Fig118 describe 0.70 atm. Original zero retained as disputed.",
+    "evidence": [
+      "https://ntrs.nasa.gov/citations/20150023456; Table IX printed p23; Table VI; Fig118 printed p142"
+    ],
+    "blocker_type": "qualified_scientific_review"
+  },
+  {
+    "code": "FLEX_COVERAGE",
+    "status": "verified_unresolved",
+    "detail": "CSV ends at 274. Report Table IX contains Tests275–280, but introduction says 284; 281–284 not established. Six publication-only records are inventoried separately, not appended to source CSV.",
+    "evidence": [
+      "https://ntrs.nasa.gov/citations/20150023456; Table IX printed pp27–28; introduction"
+    ],
+    "blocker_type": "source_documentation"
+  },
+  {
+    "code": "FLEX_EXTINCTION",
+    "status": "resolved_general_definition_individual_values_open",
+    "detail": "Appendix A.1 defines dash as completion/disruption and explains extrapolated/missing diameters. Explicit zeros remain uninterpreted; no blanket replacement.",
+    "evidence": [
+      "https://ntrs.nasa.gov/citations/20150023456; Appendix A.1"
+    ],
+    "blocker_type": "qualified_scientific_review"
+  },
+  {
+    "code": "SPICE_PROTOCOL",
+    "status": "resolved_general_interpretation",
+    "detail": "Final and postflight reports describe fuel-flow adjustment during an ignition and image-specific conditions; repeated clocks with changed conditions are not automatically duplicate experiments. Source groups remain candidates.",
+    "evidence": [
+      "official_PSI-107_Reports_SPICE_FinalReport.pdf: printed pp13–14",
+      "official_PSI-107_Reports_SPICE_30-DayPostFlightReport.pdf: Methods"
+    ],
+    "blocker_type": "none"
+  },
+  {
+    "code": "SPICE_COUNTS",
+    "status": "verified_unresolved",
+    "detail": "Final report claims 526 flames and 52 smoke points; workbooks contain 526 flight rows and 55 candidate smoke records per sheet. Postflight report lists 108+155 test points. Different denominators cannot be equated.",
+    "evidence": [
+      "official_PSI-107_Reports_SPICE_FinalReport.pdf: abstract; flight tests",
+      "official_PSI-107_Reports_SPICE_30-DayPostFlightReport.pdf: Results"
+    ],
+    "blocker_type": "source_documentation"
+  },
+  {
+    "code": "SPICE_DAY_MEDIA",
+    "status": "resolved_documentary",
+    "detail": "Image Organization Guide explicitly defines GMT day-of-year in 2009 and day+TP+columnAC media naming. It scopes flame-length workbook to Day045 and maps AD Nikon identifiers. This supports media references, not unique runs.",
+    "evidence": [
+      "official_PSI-107_Raw Data_SPICE Image Organization Guide.docx"
+    ],
+    "blocker_type": "none"
+  },
+  {
+    "code": "BASS_DISPLAY_DATE_SENSOR",
+    "status": "resolved_general_definition_individual_values_open",
+    "detail": "NASA ReadMe documents fan voltage×10 versus pot settings, slow air-display response, one-day video-date offset, a/b repeated-sample runs, O2 offset calibration and CO overrange >1000 ppm. Keep original dates/readings; do not apply a global correction.",
+    "evidence": [
+      "official_PSI-25_Science Documents_BASS-II_ReadMe.docx"
+    ],
+    "blocker_type": "qualified_scientific_review"
+  },
+  {
+    "code": "CFI_DUPLICATE_ORIGIN",
+    "status": "verified_origin_meaning_open",
+    "detail": "The eight exact repeats are in byte-identical official NASA CSV; master workbook has one row per corresponding test ID. Duplicates are not introduced by local extraction; keep them until reviewed.",
+    "evidence": [
+      "official_PSI-39_Experimental table_CFI.csv",
+      "official_PSI-39_Science Documents_CFI_DataSummary_Spreadsheet_Jan2021.xlsx: Master Sheet"
+    ],
+    "blocker_type": "qualified_scientific_review"
+  },
+  {
+    "code": "SPICE_CALIBRATION_COEFFICIENTS",
+    "status": "verified_context_assignments_open",
+    "detail": "Thesis Table6.1 independently supports 13 context comparisons. Day119 DVCAM and Day174 DVCAM share rounded coefficients; a Day174-labelled reference is not proof of a wrong numeric calibration. Day119 DVD differs. Day055 mixed intercept and Day136 DVCAM errors remain unresolved.",
+    "evidence": [
+      "https://drum.lib.umd.edu/items/e1cf9d1d-2c54-475a-a201-a57d3874011b; Table6.1 printed p67"
+    ],
+    "blocker_type": "qualified_scientific_review"
+  }
+]

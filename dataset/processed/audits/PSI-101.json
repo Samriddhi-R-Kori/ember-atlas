@@ -1,0 +1,149 @@
+{
+  "statistics": {
+    "investigation": "PSI-101",
+    "source": "dataset/raw/same-r/SAME-R.csv",
+    "encoding": "utf-8",
+    "headers": [
+      "Sample Type",
+      "SAME Test #",
+      "Description",
+      "Date",
+      "Inlet velocity (cm/s)",
+      "Rt/R0",
+      "Duration (sec)",
+      "Primary aging time (sec)",
+      "Primary mixing time (sec)",
+      "Net aging time (sec)"
+    ],
+    "source_rows": 109,
+    "exact_duplicate_rows_beyond_first": 0,
+    "repeated_identifier_groups": 1,
+    "fields": {
+      "1": {
+        "heading": "Sample Type",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "2": {
+        "heading": "SAME Test #",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "3": {
+        "heading": "Description",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "4": {
+        "heading": "Date",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "5": {
+        "heading": "Inlet velocity (cm/s)",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 22,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "6": {
+        "heading": "Rt/R0",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "7": {
+        "heading": "Duration (sec)",
+        "blank": 41,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "8": {
+        "heading": "Primary aging time (sec)",
+        "blank": 42,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "9": {
+        "heading": "Primary mixing time (sec)",
+        "blank": 42,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "10": {
+        "heading": "Net aging time (sec)",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 5,
+        "negative_numeric": 0
+      }
+    },
+    "scientific_status": "not_reviewed",
+    "provenance_status": "local_file_traced_external_authenticity_pending"
+  },
+  "scope": "bounded local structural/unit/missingness/identifier review; primary-source scientific validation pending",
+  "issues": [
+    {
+      "code": "REPEATED_SOURCE_IDENTIFIER",
+      "evidence": [
+        "dataset/raw/same-r/SAME-R.csv::CSV::57",
+        "dataset/raw/same-r/SAME-R.csv::CSV::75"
+      ],
+      "detail": "Identifier repetition does not establish duplicate experiments",
+      "status": "open",
+      "requires_human_review": true,
+      "identifier": "57",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00059"
+    },
+    {
+      "code": "SAMER_66_VS_109",
+      "evidence": "PSI-101",
+      "detail": "info.md describes 66 flight test points, CSV has 109 rows; suffixes and aging records need run mapping",
+      "status": "resolved_documentary",
+      "requires_human_review": false,
+      "evidence_type": "local_metadata_or_prior_review_not_independently_validated",
+      "review_resolution": "Final report explicitly distinguishes 66 test points, 67 runs, and 109 entries including secondary aging.",
+      "review_evidence": [
+        "SAME_COUNT_CONTEXT"
+      ],
+      "blocker_type": "none",
+      "issue_id": "P0-QI-00346"
+    },
+    {
+      "code": "EXTERNAL_PROVENANCE_AND_LICENSE",
+      "evidence": "PSI-101",
+      "detail": "Local hash and location verified; authoritative provenance, redistribution license and human scientific approval pending",
+      "status": "resolved_investigation_data_scope",
+      "requires_human_review": false,
+      "review_resolution": "NASA catalog and original dataset bytes verified; source-data CC0 distinct from code and publication rights.",
+      "review_evidence": [
+        "NASA_IDENTITY_LICENSE"
+      ],
+      "blocker_type": "none",
+      "issue_id": "P0-QI-00353"
+    }
+  ]
+}

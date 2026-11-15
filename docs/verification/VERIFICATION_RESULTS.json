@@ -1,0 +1,71 @@
+{
+ "generated_at": "2026-11-15T11:19:45+00:00",
+ "checks": [
+  {
+   "name": "Dataset manifest, hashes and record counts",
+   "status": "passed",
+   "detail": "dataset OK: files, hashes, baseline and record counts match the manifest",
+   "evidence": "python scripts/validate_dataset.py"
+  },
+  {
+   "name": "Curation pipeline regression tests (pytest)",
+   "status": "passed",
+   "detail": "30 passed in 8.63s",
+   "evidence": "python -m pytest -q -p no:cacheprovider tests"
+  },
+  {
+   "name": "PostgreSQL API, research, science and ML tests (pytest)",
+   "status": "passed",
+   "detail": "47 passed, 1 warning in 13.15s",
+   "evidence": "python -m pytest -q -p no:cacheprovider backend/tests"
+  },
+  {
+   "name": "ML evaluation reproduces registered metrics",
+   "status": "passed",
+   "detail": "grouped-CV metrics reproduced",
+   "evidence": "python -m ml.train --check"
+  },
+  {
+   "name": "Alembic schema drift check",
+   "status": "passed",
+   "detail": "no schema drift",
+   "evidence": "python -m alembic -c database/alembic.ini check"
+  },
+  {
+   "name": "Gap engine, interpolation and graph tests (vitest)",
+   "status": "passed",
+   "detail": "48 passed (48)",
+   "evidence": "(frontend) npx vitest run"
+  },
+  {
+   "name": "TypeScript + Vite production build",
+   "status": "passed",
+   "detail": "built in 3.85s",
+   "evidence": "(frontend) npm run build"
+  },
+  {
+   "name": "Static public build (VITE_STATIC_ONLY=1)",
+   "status": "passed",
+   "detail": "built in 3.93s",
+   "evidence": "(frontend) npx vite build --outDir dist-static --base ./"
+  },
+  {
+   "name": "Browser journeys incl. legacy MVP (Playwright, Chromium)",
+   "status": "passed",
+   "detail": "17 passed (33.5s)",
+   "evidence": "(frontend) npx playwright test"
+  },
+  {
+   "name": "Static demo smoke test (no database)",
+   "status": "passed",
+   "detail": "STATIC demo renders all four pages from the export with no API",
+   "evidence": "(frontend) node scripts/static_smoke.mjs"
+  },
+  {
+   "name": "Static bundle secret/path scan",
+   "status": "passed",
+   "detail": "no database URLs, local paths or reviewer tokens",
+   "evidence": "scripts/verify.py (scan of frontend/dist-static)"
+  }
+ ]
+}

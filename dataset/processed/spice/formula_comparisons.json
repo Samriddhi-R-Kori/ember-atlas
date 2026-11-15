@@ -1,0 +1,387 @@
+[
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::5",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::5",
+    "left_formula": "=R5*Reference!$B$23+Reference!$B$24",
+    "right_formula": "=O5*Reference!$B$23+Reference!$B$24",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::6",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::6",
+    "left_formula": "=R6*Reference!$B$23+Reference!$B$24",
+    "right_formula": "=O6*Reference!$B$23+Reference!$B$24",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::7",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::7",
+    "left_formula": "=R7*Reference!$B$23+Reference!$B$24",
+    "right_formula": "=O7*Reference!$B$23+Reference!$B$24",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::8",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::8",
+    "left_formula": "=R8*Reference!$R$60+Reference!$R$61",
+    "right_formula": "=O8*Reference!$R$60+Reference!$R$61",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::9",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::9",
+    "left_formula": "=R9*Reference!$B$23+Reference!$B$24",
+    "right_formula": "=O9*Reference!$B$23+Reference!$B$24",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::10",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::10",
+    "left_formula": "=R10*Reference!$B$23+Reference!$B$24",
+    "right_formula": "=O10*Reference!$B$23+Reference!$B$24",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::11",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::11",
+    "left_formula": "=R11*Reference!$B$42+Reference!$B$43",
+    "right_formula": "=O11*Reference!$B$42+Reference!$B$43",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::12",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::12",
+    "left_formula": "=R12*Reference!$B$42+Reference!$B$43",
+    "right_formula": "=O12*Reference!$B$42+Reference!$B$43",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::13",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::13",
+    "left_formula": "=R13*Reference!$N$78+Reference!$N$79",
+    "right_formula": "=O13*Reference!$N$78+Reference!$N$79",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::14",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::14",
+    "left_formula": "=R14*Reference!$F$42+Reference!$F$43",
+    "right_formula": "=O14*Reference!$F$42+Reference!$F$43",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::15",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::15",
+    "left_formula": "=R15*Reference!$F$42+Reference!$F$43",
+    "right_formula": "=O15*Reference!$F$42+Reference!$F$43",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::16",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::16",
+    "left_formula": "=R16*Reference!$F$42+Reference!$F$43",
+    "right_formula": "=O16*Reference!$F$42+Reference!$F$43",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::17",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::17",
+    "left_formula": "=R17*Reference!$F$42+Reference!$F$43",
+    "right_formula": "=O17*Reference!$F$42+Reference!$F$43",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::18",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::18",
+    "left_formula": "=R18*Reference!$B$23+Reference!$B$24",
+    "right_formula": "=O18*Reference!$B$23+Reference!$B$24",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::19",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::19",
+    "left_formula": "=R19*Reference!$F$42+Reference!$F$43",
+    "right_formula": "=O19*Reference!$F$42+Reference!$F$43",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::20",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::20",
+    "left_formula": "=R20*Reference!$B$23+Reference!$B$24",
+    "right_formula": "=O20*Reference!$B$23+Reference!$B$24",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::21",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::21",
+    "left_formula": "=R21*Reference!$F$42+Reference!$F$43",
+    "right_formula": "=O21*Reference!$F$42+Reference!$F$43",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::22",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::22",
+    "left_formula": "=R22*Reference!$F$42+Reference!$F$43",
+    "right_formula": "=O22*Reference!$F$42+Reference!$F$43",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::23",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::23",
+    "left_formula": "=R23*Reference!$K$78+Reference!$K$79",
+    "right_formula": "=O23*Reference!$R$42+Reference!$R$43",
+    "reference_assignment_differs": true
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::24",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::24",
+    "left_formula": "=R24*Reference!$K$78+Reference!$K$79",
+    "right_formula": "=O24*Reference!$R$42+Reference!$R$43",
+    "reference_assignment_differs": true
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::25",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::25",
+    "left_formula": "=R25*Reference!$F$60+Reference!$F$61",
+    "right_formula": "=O25*Reference!$F$60+Reference!$F$61",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::26",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::26",
+    "left_formula": "=R26*Reference!$F$60+Reference!$F$61",
+    "right_formula": "=O26*Reference!$F$60+Reference!$F$61",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::27",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::27",
+    "left_formula": "=R27*Reference!$F$42+Reference!$F$43",
+    "right_formula": "=O27*Reference!$F$42+Reference!$F$43",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::28",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::28",
+    "left_formula": "=R28*Reference!$F$60+Reference!$F$61",
+    "right_formula": "=O28*Reference!$F$60+Reference!$F$61",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::29",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::29",
+    "left_formula": "=R29*Reference!$F$60+Reference!$F$61",
+    "right_formula": "=O29*Reference!$F$60+Reference!$F$61",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::30",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::30",
+    "left_formula": "=R30*Reference!$B$78+Reference!$B$79",
+    "right_formula": "=O30*Reference!$B$78+Reference!$B$79",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::31",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::31",
+    "left_formula": "=R31*Reference!$J$42+Reference!$F$43",
+    "right_formula": "=O31*Reference!$J$42+Reference!$F$43",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::32",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::32",
+    "left_formula": "=R32*Reference!$J$42+Reference!$F$43",
+    "right_formula": "=O32*Reference!$J$42+Reference!$F$43",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::33",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::33",
+    "left_formula": "=R33*Reference!$N$60+Reference!$N$61",
+    "right_formula": "=O33*Reference!$N$60+Reference!$N$61",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::34",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::34",
+    "left_formula": "=R34*Reference!$N$60+Reference!$N$61",
+    "right_formula": "=O34*Reference!$N$60+Reference!$N$61",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::35",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::35",
+    "left_formula": "=R35*Reference!$N$60+Reference!$N$61",
+    "right_formula": "=O35*Reference!$N$60+Reference!$N$61",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::36",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::36",
+    "left_formula": "=R36*Reference!$N$60+Reference!$N$61",
+    "right_formula": "=O36*Reference!$N$60+Reference!$N$61",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::37",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::37",
+    "left_formula": "=R37*Reference!$J$42+Reference!$F$43",
+    "right_formula": "=O37*Reference!$J$42+Reference!$F$43",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::38",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::38",
+    "left_formula": "=R38*Reference!$N$42+Reference!$N$43",
+    "right_formula": "=O38*Reference!$N$42+Reference!$N$43",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::39",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::39",
+    "left_formula": "=R39*Reference!$N$42+Reference!$N$43",
+    "right_formula": "=O39*Reference!$N$42+Reference!$N$43",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::40",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::40",
+    "left_formula": "=R40*Reference!$N$42+Reference!$N$43",
+    "right_formula": "=O40*Reference!$N$42+Reference!$N$43",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::41",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::41",
+    "left_formula": "=R41*Reference!$N$42+Reference!$N$43",
+    "right_formula": "=O41*Reference!$N$42+Reference!$N$43",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::42",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::42",
+    "left_formula": "=R42*Reference!$F$78+Reference!$F$79",
+    "right_formula": "=O42*Reference!$F$78+Reference!$F$79",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::43",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::43",
+    "left_formula": "=R43*Reference!$F$78+Reference!$F$79",
+    "right_formula": "=O43*Reference!$F$78+Reference!$F$79",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::44",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::44",
+    "left_formula": "=R44*Reference!$F$78+Reference!$F$79",
+    "right_formula": "=O44*Reference!$F$78+Reference!$F$79",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::45",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::45",
+    "left_formula": "=R45*Reference!$F$78+Reference!$F$79",
+    "right_formula": "=O45*Reference!$F$78+Reference!$F$79",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::46",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::46",
+    "left_formula": "=R46*Reference!$F$78+Reference!$F$79",
+    "right_formula": "=O46*Reference!$F$78+Reference!$F$79",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::47",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::47",
+    "left_formula": "=R47*Reference!$F$78+Reference!$F$79",
+    "right_formula": "=O47*Reference!$F$78+Reference!$F$79",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::48",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::48",
+    "left_formula": "=R48*Reference!$N$42+Reference!$N$43",
+    "right_formula": "=O48*Reference!$N$42+Reference!$N$43",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::49",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::49",
+    "left_formula": "=R49*Reference!$N$42+Reference!$N$43",
+    "right_formula": "=O49*Reference!$N$42+Reference!$N$43",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::50",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::50",
+    "left_formula": "=R50*Reference!$N$42+Reference!$N$43",
+    "right_formula": "=O50*Reference!$N$42+Reference!$N$43",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::51",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::51",
+    "left_formula": "=R51*Reference!$F$78+Reference!$F$79",
+    "right_formula": "=O51*Reference!$F$78+Reference!$F$79",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::52",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::52",
+    "left_formula": "=R52*Reference!$F$78+Reference!$F$79",
+    "right_formula": "=O52*Reference!$F$78+Reference!$F$79",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::53",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::53",
+    "left_formula": "=R53*Reference!$F$78+Reference!$F$79",
+    "right_formula": "=O53*Reference!$F$78+Reference!$F$79",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::54",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::54",
+    "left_formula": "=R54*Reference!$F$78+Reference!$F$79",
+    "right_formula": "=O54*Reference!$F$78+Reference!$F$79",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::55",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::55",
+    "left_formula": "=R55*Reference!$N$42+Reference!$N$43",
+    "right_formula": "=O55*Reference!$N$42+Reference!$N$43",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::56",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::56",
+    "left_formula": "=R56*Reference!$N$42+Reference!$N$43",
+    "right_formula": "=O56*Reference!$N$42+Reference!$N$43",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::57",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::57",
+    "left_formula": "=R57*Reference!$N$42+Reference!$N$43",
+    "right_formula": "=O57*Reference!$N$42+Reference!$N$43",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::58",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::58",
+    "left_formula": "=R58*Reference!$F$78+Reference!$F$79",
+    "right_formula": "=O58*Reference!$F$78+Reference!$F$79",
+    "reference_assignment_differs": false
+  },
+  {
+    "left": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::59",
+    "right": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::59",
+    "left_formula": "=R59*Reference!$N$42+Reference!$N$43",
+    "right_formula": "=O59*Reference!$N$42+Reference!$N$43",
+    "reference_assignment_differs": false
+  }
+]

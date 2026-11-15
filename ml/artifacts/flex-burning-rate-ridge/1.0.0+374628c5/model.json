@@ -1,0 +1,52 @@
+{
+  "model_id": "flex-burning-rate-ridge",
+  "version": "1.0.0+374628c5",
+  "kind": "ridge_regression_standardized",
+  "features": [
+    "fuel_heptane",
+    "oxygen",
+    "pressure_kpa",
+    "he_fraction",
+    "co2_fraction",
+    "initial_diameter_mm"
+  ],
+  "feature_units": {
+    "fuel_heptane": "indicator (1 = n-heptane, 0 = methanol)",
+    "oxygen": "mol/mol",
+    "pressure_kpa": "kPa",
+    "he_fraction": "mol/mol",
+    "co2_fraction": "mol/mol",
+    "initial_diameter_mm": "mm"
+  },
+  "target": {
+    "id": "PSI-69:burning_rate",
+    "definition": "FLEX d\u00b2-law burning-rate constant",
+    "unit": "mm^2/s"
+  },
+  "coefficients_standardized": [
+    0.015903547164207596,
+    0.08690682811814854,
+    0.007734153684064324,
+    0.05458021996344631,
+    -0.0251641228315255,
+    -0.042564920264848496
+  ],
+  "intercept": 0.5022178988326848,
+  "feature_mean": [
+    0.4163424124513619,
+    0.20089494163424132,
+    93.20215344558363,
+    0.049027237354085595,
+    0.114396887159533,
+    2.994863813229571
+  ],
+  "feature_std": [
+    0.4929517299346285,
+    0.04772220862662188,
+    30.11088046622583,
+    0.11386825634422275,
+    0.1619498351199181,
+    0.6930893458821477
+  ],
+  "alpha": 10.0
+}

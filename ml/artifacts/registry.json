@@ -1,0 +1,430 @@
+{
+ "registry_version": 1,
+ "dataset_version": "p0_v1_review",
+ "manifest_sha256": "374628c5f4e80d2e8366cf0de7737fc3977916f4af34483593dc2df244defe69",
+ "contract_version": "2026-11-15.3",
+ "gate": {
+  "min_independent_groups": 10,
+  "rule": "A target is eligible for grouped validation only with a documented physical definition and unit, a single measurement method, >= 10 independent condition groups, no unresolved calibration blocker, and inputs that are reported for every training record (no imputation)."
+ },
+ "eligibility": [
+  {
+   "target": "PSI-69:burning_rate",
+   "label": "Burning-rate constant",
+   "unit": "mm^2/s",
+   "criterion": "d²-law burning-rate constant (NASA/TP-2015-216046 App. A.1, Table IX: mm²/s)",
+   "reported_values": 258,
+   "restricted_values": 0,
+   "not_reported_values": 16,
+   "decision": "eligible_for_grouped_validation",
+   "independent_condition_groups": 107,
+   "reason": "Documented definition and unit (NASA/TP-2015-216046), single ISS method, 107 condition groups; inputs reported without imputation."
+  },
+  {
+   "target": "PSI-69:burn_time",
+   "label": "Burn time",
+   "unit": "s",
+   "criterion": "Burn duration; some values are source-approximate (estimated status kept)",
+   "reported_values": 266,
+   "restricted_values": 2,
+   "not_reported_values": 6,
+   "decision": "rejected",
+   "reason": "Burn time is largely determined by initial diameter and burning-rate constant (d²-law) from the same video record and includes source-approximate values; it is not an independent target and would leak the burning-rate information."
+  },
+  {
+   "target": "PSI-69:extinction_diameter",
+   "label": "Extinction diameter",
+   "unit": "mm",
+   "criterion": null,
+   "reported_values": 0,
+   "restricted_values": 197,
+   "not_reported_values": 77,
+   "decision": "rejected",
+   "reason": "Restricted by scientific contract: Zero/dash meanings vary per test (quality issue FLEX_EXTINCTION_AND_BURN_RATE partially resolved)."
+  },
+  {
+   "target": "PSI-69:initial_diameter",
+   "label": "Droplet initial diameter",
+   "unit": "mm",
+   "criterion": "Initial droplet diameter (sample scale)",
+   "reported_values": 262,
+   "restricted_values": 0,
+   "not_reported_values": 12,
+   "decision": "rejected",
+   "reason": "Sample-scale input chosen by the experiment, not a combustion outcome."
+  },
+  {
+   "target": "PSI-101:rt_r0",
+   "label": "Rt/R0",
+   "unit": "1",
+   "criterion": null,
+   "reported_values": 0,
+   "restricted_values": 109,
+   "not_reported_values": 0,
+   "decision": "rejected",
+   "reason": "Restricted by scientific contract: Physical meaning of the ratio is not mapped in the index (semantics pending)."
+  },
+  {
+   "target": "PSI-101:net_aging_time",
+   "label": "Net aging time",
+   "unit": "s",
+   "criterion": "Smoke aging time",
+   "reported_values": 104,
+   "restricted_values": 0,
+   "not_reported_values": 5,
+   "decision": "rejected",
+   "reason": "Operating setting of the smoke-aging procedure, not a combustion outcome."
+  },
+  {
+   "target": "PSI-107:flame_length",
+   "label": "Flame length",
+   "unit": "mm",
+   "criterion": null,
+   "reported_values": 0,
+   "restricted_values": 138,
+   "not_reported_values": 388,
+   "decision": "rejected",
+   "reason": "Restricted by scientific contract: Image-derived length; calibration context and record-to-image assignment are unapproved (open SPICE calibration issues)."
+  },
+  {
+   "target": "PSI-107:fuel_mass_flow",
+   "label": "Fuel mass flow",
+   "unit": "mg/s",
+   "criterion": "Fuel mass flow rate setting/record",
+   "reported_values": 507,
+   "restricted_values": 0,
+   "not_reported_values": 19,
+   "decision": "rejected",
+   "reason": "Operating setting (fuel flow), not a combustion outcome."
+  },
+  {
+   "target": "PSI-107:smoke_point_length",
+   "label": "Smoke-point flame length",
+   "unit": "mm",
+   "criterion": null,
+   "reported_values": 0,
+   "restricted_values": 55,
+   "not_reported_values": 0,
+   "decision": "rejected",
+   "reason": "Restricted by scientific contract: Two smoke-point sheets disagree for 3 pairs; Day055/119/136 calibration assignments unapproved; neither sheet is authoritative."
+  },
+  {
+   "target": "PSI-25:final_o2",
+   "label": "Final O2 (calibrated)",
+   "unit": "volume_fraction",
+   "criterion": "Calibrated final O2 % by volume",
+   "reported_values": 127,
+   "restricted_values": 0,
+   "not_reported_values": 2,
+   "decision": "rejected",
+   "reason": "End-of-test chamber gas reading depends on test duration, chamber mixing and sample consumption, none of which are reported as usable inputs in the index."
+  },
+  {
+   "target": "PSI-25:final_co2",
+   "label": "Final CO2",
+   "unit": "volume_fraction",
+   "criterion": "Final CO2 % by volume",
+   "reported_values": 123,
+   "restricted_values": 0,
+   "not_reported_values": 6,
+   "decision": "rejected",
+   "reason": "End-of-test chamber gas reading depends on test duration, chamber mixing and sample consumption, none of which are reported as usable inputs in the index."
+  },
+  {
+   "target": "PSI-25:final_co",
+   "label": "Final CO",
+   "unit": "ppm_unspecified",
+   "criterion": null,
+   "reported_values": 0,
+   "restricted_values": 124,
+   "not_reported_values": 5,
+   "decision": "rejected",
+   "reason": "Restricted by scientific contract: ppm basis unspecified; CO overrange documented in ReadMe."
+  }
+ ],
+ "models": [
+  {
+   "model_id": "flex-burning-rate-ridge",
+   "version": "1.0.0+374628c5",
+   "training_code_version": "f438dba91f73fc93",
+   "training_code_sha256": "0915fce63a71bfb2ef0426629f13482eaa674280f87b53d3dd3b436d3dbb9a38",
+   "data_release": "p0_v1_review",
+   "manifest_sha256": "374628c5f4e80d2e8366cf0de7737fc3977916f4af34483593dc2df244defe69",
+   "inputs": [
+    "fuel_heptane",
+    "oxygen",
+    "pressure_kpa",
+    "he_fraction",
+    "co2_fraction",
+    "initial_diameter_mm"
+   ],
+   "target": {
+    "id": "PSI-69:burning_rate",
+    "definition": "FLEX d²-law burning-rate constant",
+    "unit": "mm^2/s"
+   },
+   "training_records": 257,
+   "independent_condition_groups": 107,
+   "excluded_records": {
+    "target_not_reported": 16,
+    "input_not_usable:pressure": 1
+   },
+   "validation": {
+    "procedure": "5-fold grouped CV by condition signature; alpha by inner grouped CV on training folds only",
+    "folds": 5,
+    "fold_alphas": [
+     10.0,
+     1.0,
+     10.0,
+     1.0,
+     0.01
+    ],
+    "metrics": {
+     "global_mean": {
+      "mae": 0.10715513059630377,
+      "rmse": 0.13826300622311818,
+      "bias": -0.0003125810665939317,
+      "n": 257
+     },
+     "per_fuel_mean": {
+      "mae": 0.10210120905747117,
+      "rmse": 0.13367564626583797,
+      "bias": -1.8943759852799115e-05,
+      "n": 257
+     },
+     "ridge": {
+      "mae": 0.047460425620957446,
+      "rmse": 0.07462642813583659,
+      "bias": 0.0003971109968419418,
+      "n": 257
+     }
+    },
+    "per_fuel": {
+     "global_mean": {
+      "Heptane": {
+       "mae": 0.12538299091340263,
+       "rmse": 0.16618447959757127,
+       "bias": -0.04297925356867756,
+       "n": 107
+      },
+      "Methanol": {
+       "mae": 0.09415259023677325,
+       "rmse": 0.11424920831139607,
+       "bias": 0.030122978651559055,
+       "n": 150
+      }
+     },
+     "per_fuel_mean": {
+      "Heptane": {
+       "mae": 0.12065619245226783,
+       "rmse": 0.16097134529757987,
+       "bias": 0.00012195636753131941,
+       "n": 107
+      },
+      "Methanol": {
+       "mae": 0.08886532090251624,
+       "rmse": 0.11014593444577149,
+       "bias": -0.00011945251738680329,
+       "n": 150
+      }
+     },
+     "ridge": {
+      "Heptane": {
+       "mae": 0.07051621081939217,
+       "rmse": 0.10395592129404953,
+       "bias": 0.0006335592101982037,
+       "n": 107
+      },
+      "Methanol": {
+       "mae": 0.031013965512740688,
+       "rmse": 0.04281187360988876,
+       "bias": 0.00022844460464780948,
+       "n": 150
+      }
+     }
+    },
+    "largest_errors": [
+     {
+      "record_id": "dataset/raw/flex/FLEX.csv::CSV::70",
+      "row": 70,
+      "flex_test": "69",
+      "fuel": "Heptane",
+      "observed": 0.94,
+      "cv_prediction": 0.507535454387262,
+      "error": -0.43246454561273795,
+      "flags": [
+       "FLEX_284_VS_274",
+       "FLEX_EXTINCTION_AND_BURN_RATE",
+       "FLEX_PRESSURE_TEST114"
+      ]
+     },
+     {
+      "record_id": "dataset/raw/flex/FLEX.csv::CSV::131",
+      "row": 131,
+      "flex_test": "130",
+      "fuel": "Heptane",
+      "observed": 0.05,
+      "cv_prediction": 0.40978422432255995,
+      "error": 0.35978422432255996,
+      "flags": [
+       "FLEX_284_VS_274",
+       "FLEX_EXTINCTION_AND_BURN_RATE",
+       "FLEX_PRESSURE_TEST114"
+      ]
+     },
+     {
+      "record_id": "dataset/raw/flex/FLEX.csv::CSV::271",
+      "row": 271,
+      "flex_test": "270",
+      "fuel": "Heptane",
+      "observed": 1.06,
+      "cv_prediction": 0.7241668473561429,
+      "error": -0.33583315264385716,
+      "flags": [
+       "FLEX_284_VS_274",
+       "FLEX_EXTINCTION_AND_BURN_RATE",
+       "FLEX_PRESSURE_TEST114"
+      ]
+     },
+     {
+      "record_id": "dataset/raw/flex/FLEX.csv::CSV::239",
+      "row": 239,
+      "flex_test": "238",
+      "fuel": "Heptane",
+      "observed": 0.91,
+      "cv_prediction": 0.6534484177723332,
+      "error": -0.25655158222766683,
+      "flags": [
+       "FLEX_284_VS_274",
+       "FLEX_EXTINCTION_AND_BURN_RATE",
+       "FLEX_PRESSURE_TEST114"
+      ]
+     },
+     {
+      "record_id": "dataset/raw/flex/FLEX.csv::CSV::9",
+      "row": 9,
+      "flex_test": "8",
+      "fuel": "Heptane",
+      "observed": 0.79,
+      "cv_prediction": 0.5361556660470158,
+      "error": -0.2538443339529842,
+      "flags": [
+       "FLEX_284_VS_274",
+       "FLEX_EXTINCTION_AND_BURN_RATE",
+       "FLEX_PRESSURE_TEST114"
+      ]
+     },
+     {
+      "record_id": "dataset/raw/flex/FLEX.csv::CSV::75",
+      "row": 75,
+      "flex_test": "74",
+      "fuel": "Heptane",
+      "observed": 0.77,
+      "cv_prediction": 0.5169851660178885,
+      "error": -0.25301483398211155,
+      "flags": [
+       "FLEX_284_VS_274",
+       "FLEX_EXTINCTION_AND_BURN_RATE",
+       "FLEX_PRESSURE_TEST114"
+      ]
+     },
+     {
+      "record_id": "dataset/raw/flex/FLEX.csv::CSV::74",
+      "row": 74,
+      "flex_test": "73",
+      "fuel": "Heptane",
+      "observed": 0.56,
+      "cv_prediction": 0.31717473234034016,
+      "error": -0.2428252676596599,
+      "flags": [
+       "FLEX_284_VS_274",
+       "FLEX_EXTINCTION_AND_BURN_RATE",
+       "FLEX_PRESSURE_TEST114",
+       "FLEX_REPEATED_IDENTIFIER"
+      ]
+     },
+     {
+      "record_id": "dataset/raw/flex/FLEX.csv::CSV::49",
+      "row": 49,
+      "flex_test": "48",
+      "fuel": "Methanol",
+      "observed": 0.27,
+      "cv_prediction": 0.4676827770357278,
+      "error": 0.19768277703572779,
+      "flags": [
+       "FLEX_284_VS_274",
+       "FLEX_EXTINCTION_AND_BURN_RATE",
+       "FLEX_PRESSURE_TEST114"
+      ]
+     }
+    ],
+    "skill_vs_per_fuel_mean_mae": 0.5351629421524018
+   },
+   "beats_per_fuel_baseline": true,
+   "uncertainty": "Predictive uncertainty not validated",
+   "applicability_domain": {
+    "per_fuel_feature_ranges": {
+     "Heptane": {
+      "oxygen": {
+       "min": 0.13,
+       "max": 0.34
+      },
+      "pressure_kpa": {
+       "min": 70.39422055512,
+       "max": 207.15632556542698
+      },
+      "he_fraction": {
+       "min": 0.0,
+       "max": 0.45
+      },
+      "co2_fraction": {
+       "min": 0.0,
+       "max": 0.7
+      },
+      "initial_diameter_mm": {
+       "min": 1.1,
+       "max": 4.67
+      },
+      "n": 107
+     },
+     "Methanol": {
+      "oxygen": {
+       "min": 0.12,
+       "max": 0.34
+      },
+      "pressure_kpa": {
+       "min": 70.16757249651451,
+       "max": 309.2679420865755
+      },
+      "he_fraction": {
+       "min": 0.0,
+       "max": 0.45
+      },
+      "co2_fraction": {
+       "min": 0.0,
+       "max": 0.7
+      },
+      "initial_diameter_mm": {
+       "min": 1.61,
+       "max": 4.53
+      },
+      "n": 150
+     }
+    },
+    "gravity": "orbital_microgravity",
+    "method": "FLEX ISS droplet d²-law burning-rate constant",
+    "rule": "A query is inside the domain only if its fuel was trained on, every input is reported and lies within that fuel's observed training range, and gravity is orbital microgravity. Range membership is a support warning, not a statistical confidence statement."
+   },
+   "artifact": "ml/artifacts/flex-burning-rate-ridge/1.0.0+374628c5/model.json",
+   "artifact_sha256": "ee7c09eaac4f21a37902bcfffe880aa67baabf918f443d87ca5aaf608174148f",
+   "approval_status": "not_approved",
+   "approval_note": "Engineering evaluation only. No qualified scientific reviewer has approved this model; predictions are disabled in every user interface.",
+   "limitations": [
+    "Inputs are prepared ambient compositions and pressure; no gravity variation (all ISS μg).",
+    "Burning-rate values are provisional source values; FLEX coverage (274/280/284) and Test 114 remain open.",
+    "Grouped CV estimates interpolation to unseen condition groups within the observed range only.",
+    "Ridge regression is linear in inputs; physical d²-law dependences are not encoded."
+   ]
+  }
+ ]
+}

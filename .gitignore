@@ -1,0 +1,53 @@
+# Environments and dependencies
+.venv
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Builds, test output, logs
+frontend/dist/
+frontend/dist-static/
+frontend/test-results/
+frontend/playwright-report/
+*.tsbuildinfo
+*.log
+.verify-logs/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Databases and runtime state (the database is rebuilt from dataset/; never commit dumps)
+*.sqlite
+*.sqlite3
+*.dump
+*.sql.gz
+pgdata/
+
+# Reference documents whose redistribution rights are not established.
+# Restore with: python scripts/restore_references.py --download
+dataset/references/**/*.pdf
+dataset/references/**/*.docx
+dataset/references/nasa-psi/psi_main.js
+dataset/references/nasa-psi/nasa_data_license.html
+dataset/references/nasa-psi/official_PSI-25_Reference Data_Fan calibration data.xlsx
+dataset/references/nasa-psi/official_PSI-39_Science Documents_CFI_DataSummary_Spreadsheet_Jan2021.xlsx
+# Local reviewer decisions contain reviewer identities
+dataset/references/findings/decisions.jsonl
+dataset/references/findings/extraction_candidates.jsonl
+
+# Regenerated test screenshots (the dashboard screenshots 01–05 are kept for the README)
+assets/screenshots/legacy_*.png
+assets/screenshots/static_*.png
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp

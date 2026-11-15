@@ -1,0 +1,127 @@
+[
+  {
+    "path": "dataset/references/nasa-psi/bass_ntrs.json",
+    "sha256": "3fcf1e93014a6c0e210bc77714c5a7f95b0ccbedb7e28390184e051d517ab9e9",
+    "bytes": 7042
+  },
+  {
+    "path": "dataset/references/nasa-psi/bass_report.pdf",
+    "sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770",
+    "bytes": 48972416
+  },
+  {
+    "path": "dataset/references/nasa-psi/flex_ntrs.json",
+    "sha256": "738926274e32b6e4b0ba7fa98a4be389969c49b5b67399bb5e029fcd22445826",
+    "bytes": 5520
+  },
+  {
+    "path": "dataset/references/nasa-psi/flex_report.pdf",
+    "sha256": "b4f6ca983e2792c33a0b92220a791a818f426bb635b94f7fd33dc8c9c471e79d",
+    "bytes": 42900650
+  },
+  {
+    "path": "dataset/references/nasa-psi/nasa_data_license.html",
+    "sha256": "38e81cd4e65301221bec2eaab54d7b6078b73e9bd7f422380bc1d357a889c299",
+    "bytes": 72405
+  },
+  {
+    "path": "dataset/references/nasa-psi/official_PSI-101_Reports_SAME-R_Final Report.pdf",
+    "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
+    "bytes": 4578437
+  },
+  {
+    "path": "dataset/references/nasa-psi/official_PSI-107_Raw Data_SPICE Image Organization Guide.docx",
+    "sha256": "2124cf2da51a5bbb46dd3072d16ba1a7c4eaffe33f99c4c56667114b8def1691",
+    "bytes": 139512
+  },
+  {
+    "path": "dataset/references/nasa-psi/official_PSI-107_Reports_SPICE_30-DayPostFlightReport.pdf",
+    "sha256": "0ba8a154fc17c560874c2ef23b508b9f078fa849650472f5819efc54eface32d",
+    "bytes": 160909
+  },
+  {
+    "path": "dataset/references/nasa-psi/official_PSI-107_Reports_SPICE_FinalReport.pdf",
+    "sha256": "95e76859017d201dcd6a9fb12f1df568aed77e0edf7a1b609975db37f32fa680",
+    "bytes": 601754
+  },
+  {
+    "path": "dataset/references/nasa-psi/official_PSI-25_Reference Data_Fan calibration data.xlsx",
+    "sha256": "bc0dca3efdef44a7774d8dd37aebc0cedae8d67d7bae8c9cbde9590014a3c983",
+    "bytes": 23973
+  },
+  {
+    "path": "dataset/references/nasa-psi/official_PSI-25_Science Documents_BASS-II_ReadMe.docx",
+    "sha256": "69f32647792f54ab2a561e3cdafc6c87d854564fe487aed2b09265286bd84e1d",
+    "bytes": 21538
+  },
+  {
+    "path": "dataset/references/nasa-psi/official_PSI-39_Reports_CFI Science Final Report.pdf",
+    "sha256": "e15158689180314583917200a071730d3aed9088e1ae689b847bd416674010f9",
+    "bytes": 811459
+  },
+  {
+    "path": "dataset/references/nasa-psi/official_PSI-39_Science Documents_CFI_DataSummary_Spreadsheet_Jan2021.xlsx",
+    "sha256": "a5b04b6a32bda764a9b367e491cc46b78ad0af0ac6b5e723e63b57abdb1d7dd8",
+    "bytes": 208743
+  },
+  {
+    "path": "dataset/references/nasa-psi/official_file_manifest.json",
+    "sha256": "57c29c0db18f6c57c8324e6972f20a211559e680ef15598b94bc109be5b61c18",
+    "bytes": 9282
+  },
+  {
+    "path": "dataset/references/nasa-psi/psi101_catalog.json",
+    "sha256": "e0aa75d015705a5943b51dbb4a8ba52751a35e4cafc2307d9201d77ebed711a5",
+    "bytes": 552733
+  },
+  {
+    "path": "dataset/references/nasa-psi/psi107.html",
+    "sha256": "bb12a7d383fbd8a64a54179ac6b90b0afb63a7ce6d8c5d7375c41a54c17959cb",
+    "bytes": 954
+  },
+  {
+    "path": "dataset/references/nasa-psi/psi107_catalog.json",
+    "sha256": "f31081deb2b079373a0cbc98ad8483d87856aeca1aa6946ce31acff6cefcfbf2",
+    "bytes": 320156
+  },
+  {
+    "path": "dataset/references/nasa-psi/psi25_catalog.json",
+    "sha256": "b9234754db5da651ad27d888af082b889d07210b018e543369662f065b4ec2da",
+    "bytes": 680348
+  },
+  {
+    "path": "dataset/references/nasa-psi/psi39_catalog.json",
+    "sha256": "ab2501bbe6200dabd012e7bf199e79426f8d19eb484c2af421183bb61b558d35",
+    "bytes": 4232395
+  },
+  {
+    "path": "dataset/references/nasa-psi/psi69_catalog.json",
+    "sha256": "a2d8ec5d0e9ad1060f6ecc7a850598634cc5519c373ae70462bf76c31fc8731c",
+    "bytes": 31770
+  },
+  {
+    "path": "dataset/references/nasa-psi/psi_main.js",
+    "sha256": "8509c035ffdeabc5d3b86891d47fb6b9afced8915593fd4b171636d4f8222c28",
+    "bytes": 1638325
+  },
+  {
+    "path": "dataset/references/nasa-psi/retrieval_manifest.json",
+    "sha256": "54b58964ba7bcde2f7017f136c17a2cf17a20a4416e063708031e0b977ff6dee",
+    "bytes": 6250
+  },
+  {
+    "path": "dataset/references/nasa-psi/same_ntrs.json",
+    "sha256": "ebce810350f2c1f6dac8007b0996878a5c22bb68d12bbc092485ad2470e54e5f",
+    "bytes": 7067
+  },
+  {
+    "path": "dataset/references/nasa-psi/same_report.pdf",
+    "sha256": "bdc5e7e0d65f569c2c4a0b8899870d2d47e8f0d644cfe033a450d9fd892375aa",
+    "bytes": 757824
+  },
+  {
+    "path": "dataset/references/nasa-psi/spice_thesis.pdf",
+    "sha256": "1bb111e67a9101ca957265d08a193e55cc6e4cc800f84766f6bfbf2c6f3df9cf",
+    "bytes": 2227738
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "source": "https://ntrs.nasa.gov/citations/20150023456",
+    "source_table": "IX",
+    "test_identifier": "FLEX-275",
+    "printed_page": 27,
+    "status": "verified_table_presence_not_ingested_as_CSV_row"
+  },
+  {
+    "source": "https://ntrs.nasa.gov/citations/20150023456",
+    "source_table": "IX",
+    "test_identifier": "FLEX-276",
+    "printed_page": 28,
+    "status": "verified_table_presence_not_ingested_as_CSV_row"
+  },
+  {
+    "source": "https://ntrs.nasa.gov/citations/20150023456",
+    "source_table": "IX",
+    "test_identifier": "FLEX-277",
+    "printed_page": 28,
+    "status": "verified_table_presence_not_ingested_as_CSV_row"
+  },
+  {
+    "source": "https://ntrs.nasa.gov/citations/20150023456",
+    "source_table": "IX",
+    "test_identifier": "FLEX-278",
+    "printed_page": 28,
+    "status": "verified_table_presence_not_ingested_as_CSV_row"
+  },
+  {
+    "source": "https://ntrs.nasa.gov/citations/20150023456",
+    "source_table": "IX",
+    "test_identifier": "FLEX-279",
+    "printed_page": 28,
+    "status": "verified_table_presence_not_ingested_as_CSV_row"
+  },
+  {
+    "source": "https://ntrs.nasa.gov/citations/20150023456",
+    "source_table": "IX",
+    "test_identifier": "FLEX-280",
+    "printed_page": 28,
+    "status": "verified_table_presence_not_ingested_as_CSV_row"
+  }
+]

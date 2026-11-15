@@ -1,0 +1,621 @@
+[
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice.csv",
+    "encoding": "utf-8",
+    "headers": [
+      "GMT date",
+      "GMT ignition",
+      "GMT  Flame Off ",
+      "Fuel",
+      "Nozzle (mm)",
+      "Fuel Rate (sccm)",
+      "Fuel Rate (mg/s)",
+      "HC Fuel Rate (mg/s)",
+      "Air Rate (cm/s)"
+    ],
+    "source_rows": 469,
+    "exact_duplicate_rows_beyond_first": 34,
+    "repeated_identifier_groups": 0,
+    "fields": {
+      "1": {
+        "heading": "GMT date",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "2": {
+        "heading": "GMT ignition",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 1,
+        "negative_numeric": 0
+      },
+      "3": {
+        "heading": "GMT  Flame Off ",
+        "blank": 11,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 1,
+        "negative_numeric": 0
+      },
+      "4": {
+        "heading": "Fuel",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "5": {
+        "heading": "Nozzle (mm)",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "6": {
+        "heading": "Fuel Rate (sccm)",
+        "blank": 12,
+        "source_dash": 0,
+        "zero": 1,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "7": {
+        "heading": "Fuel Rate (mg/s)",
+        "blank": 12,
+        "source_dash": 0,
+        "zero": 1,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "8": {
+        "heading": "HC Fuel Rate (mg/s)",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 13,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "9": {
+        "heading": "Air Rate (cm/s)",
+        "blank": 25,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 8
+      }
+    },
+    "scientific_status": "not_reviewed",
+    "provenance_status": "local_file_traced_external_authenticity_pending"
+  },
+  {
+    "investigation": "PSI-69",
+    "source": "dataset/raw/flex/FLEX.csv",
+    "encoding": "cp1252",
+    "headers": [
+      "FLEX Test #",
+      "FLEX Identifier",
+      "Test Date",
+      "Test GMT",
+      "Fuel",
+      "Ambient pressure; mmHg",
+      "O initial ambient composition; mole fraction",
+      "N initial ambient composition; mole fraction",
+      "CO initial ambient composition; mole fraction",
+      "He initial ambient composition; mole fraction",
+      "Droplet initial diameter; mm",
+      "Visible flame extinction diameter; mm",
+      "Burning rate; mm",
+      "Burn time; s",
+      "Test end"
+    ],
+    "source_rows": 274,
+    "exact_duplicate_rows_beyond_first": 0,
+    "repeated_identifier_groups": 0,
+    "fields": {
+      "1": {
+        "heading": "FLEX Test #",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "2": {
+        "heading": "FLEX Identifier",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "3": {
+        "heading": "Test Date",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "4": {
+        "heading": "Test GMT",
+        "blank": 1,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "5": {
+        "heading": "Fuel",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "6": {
+        "heading": "Ambient pressure; mmHg",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 1,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "7": {
+        "heading": "O initial ambient composition; mole fraction",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "8": {
+        "heading": "N initial ambient composition; mole fraction",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "9": {
+        "heading": "CO initial ambient composition; mole fraction",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 151,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "10": {
+        "heading": "He initial ambient composition; mole fraction",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 224,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "11": {
+        "heading": "Droplet initial diameter; mm",
+        "blank": 6,
+        "source_dash": 6,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "12": {
+        "heading": "Visible flame extinction diameter; mm",
+        "blank": 49,
+        "source_dash": 28,
+        "zero": 8,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "13": {
+        "heading": "Burning rate; mm",
+        "blank": 16,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "14": {
+        "heading": "Burn time; s",
+        "blank": 6,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 2,
+        "negative_numeric": 0
+      },
+      "15": {
+        "heading": "Test end",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      }
+    },
+    "scientific_status": "not_reviewed",
+    "provenance_status": "local_file_traced_external_authenticity_pending"
+  },
+  {
+    "investigation": "PSI-39",
+    "source": "dataset/raw/cfi/CFI.csv",
+    "encoding": "utf-8",
+    "headers": [
+      "Flex Number",
+      "Test Date",
+      "Local Time",
+      "CIR ",
+      "Pressure",
+      "Oxygen",
+      "Nitrogen",
+      "Helium",
+      "Fiber",
+      "Fuel "
+    ],
+    "source_rows": 87,
+    "exact_duplicate_rows_beyond_first": 8,
+    "repeated_identifier_groups": 8,
+    "fields": {
+      "1": {
+        "heading": "Flex Number",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "2": {
+        "heading": "Test Date",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "3": {
+        "heading": "Local Time",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "4": {
+        "heading": "CIR ",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "5": {
+        "heading": "Pressure",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "6": {
+        "heading": "Oxygen",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "7": {
+        "heading": "Nitrogen",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "8": {
+        "heading": "Helium",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 73,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "9": {
+        "heading": "Fiber",
+        "blank": 9,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "10": {
+        "heading": "Fuel ",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      }
+    },
+    "scientific_status": "not_reviewed",
+    "provenance_status": "local_file_traced_external_authenticity_pending"
+  },
+  {
+    "investigation": "PSI-101",
+    "source": "dataset/raw/same-r/SAME-R.csv",
+    "encoding": "utf-8",
+    "headers": [
+      "Sample Type",
+      "SAME Test #",
+      "Description",
+      "Date",
+      "Inlet velocity (cm/s)",
+      "Rt/R0",
+      "Duration (sec)",
+      "Primary aging time (sec)",
+      "Primary mixing time (sec)",
+      "Net aging time (sec)"
+    ],
+    "source_rows": 109,
+    "exact_duplicate_rows_beyond_first": 0,
+    "repeated_identifier_groups": 1,
+    "fields": {
+      "1": {
+        "heading": "Sample Type",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "2": {
+        "heading": "SAME Test #",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "3": {
+        "heading": "Description",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "4": {
+        "heading": "Date",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "5": {
+        "heading": "Inlet velocity (cm/s)",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 22,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "6": {
+        "heading": "Rt/R0",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "7": {
+        "heading": "Duration (sec)",
+        "blank": 41,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "8": {
+        "heading": "Primary aging time (sec)",
+        "blank": 42,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "9": {
+        "heading": "Primary mixing time (sec)",
+        "blank": 42,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "10": {
+        "heading": "Net aging time (sec)",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 5,
+        "negative_numeric": 0
+      }
+    },
+    "scientific_status": "not_reviewed",
+    "provenance_status": "local_file_traced_external_authenticity_pending"
+  },
+  {
+    "investigation": "PSI-25",
+    "source": "dataset/raw/bass-ii/BASS-II.csv",
+    "encoding": "utf-8",
+    "headers": [
+      "﻿PI",
+      "Test #",
+      "Date",
+      "GMT",
+      "Sample #",
+      "Fuel Sample Material",
+      "Flow restrictor",
+      "Fan display",
+      "Air display",
+      "Radiometer gain   (1000   250   50   10)",
+      "Total Frames Shot",
+      "Calibrated  initial O2 % by vol ",
+      "Calibrated final O2 % by vol",
+      "Initial CO2 % by vol",
+      "Final CO2 % by vol",
+      "Initial CO (ppm)",
+      "Final CO (ppm)"
+    ],
+    "source_rows": 129,
+    "exact_duplicate_rows_beyond_first": 0,
+    "repeated_identifier_groups": 0,
+    "fields": {
+      "1": {
+        "heading": "﻿PI",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "2": {
+        "heading": "Test #",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "3": {
+        "heading": "Date",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "4": {
+        "heading": "GMT",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "5": {
+        "heading": "Sample #",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "6": {
+        "heading": "Fuel Sample Material",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "7": {
+        "heading": "Flow restrictor",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 12,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "8": {
+        "heading": "Fan display",
+        "blank": 13,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "9": {
+        "heading": "Air display",
+        "blank": 4,
+        "source_dash": 0,
+        "zero": 1,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "10": {
+        "heading": "Radiometer gain   (1000   250   50   10)",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "11": {
+        "heading": "Total Frames Shot",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 1,
+        "negative_numeric": 0
+      },
+      "12": {
+        "heading": "Calibrated  initial O2 % by vol ",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "13": {
+        "heading": "Calibrated final O2 % by vol",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 2,
+        "negative_numeric": 0
+      },
+      "14": {
+        "heading": "Initial CO2 % by vol",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 1,
+        "annotation": 2,
+        "negative_numeric": 0
+      },
+      "15": {
+        "heading": "Final CO2 % by vol",
+        "blank": 1,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 5,
+        "negative_numeric": 0
+      },
+      "16": {
+        "heading": "Initial CO (ppm)",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 23,
+        "annotation": 2,
+        "negative_numeric": 13
+      },
+      "17": {
+        "heading": "Final CO (ppm)",
+        "blank": 1,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 4,
+        "negative_numeric": 0
+      }
+    },
+    "scientific_status": "not_reviewed",
+    "provenance_status": "local_file_traced_external_authenticity_pending"
+  }
+]

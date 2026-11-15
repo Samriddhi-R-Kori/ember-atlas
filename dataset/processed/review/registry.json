@@ -1,0 +1,622 @@
+[
+  {
+    "investigation": "PSI-107",
+    "doi": "10.60555/9kbh-e962",
+    "title": "Smoke Point In Co-flow Experiment",
+    "catalog_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-107",
+    "api_url": "https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-107",
+    "snapshot": "dataset/references/nasa-psi/psi107_catalog.json",
+    "snapshot_sha256": "f31081deb2b079373a0cbc98ad8483d87856aeca1aa6946ce31acff6cefcfbf2",
+    "catalog_version": 4,
+    "license": "CC0-1.0",
+    "license_url": "https://spdx.org/licenses/CC0-1.0.html",
+    "project_type": "Microgravity Investigation",
+    "flight_platform": "International Space Station (ISS)",
+    "publications": [
+      {
+        "title": "Laminar Smoke Points in Coflow Measured Aboard the International Space Station",
+        "doi": "10.2514/6.2010-1105",
+        "authors": "Dotson Keenan, Sunderland Peter, Yuan Zeng-Guang, Urban David",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Scaling of Gas-Jet Flame Lengths in Elevated Gravity",
+        "doi": "10.1007/978-1-4020-8682-3_22",
+        "authors": "Sunderland Peter B., Urban David L., Nayagam Vedha",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "The Microgravity Science Glovebox (MSG), a Resource for Gravity-Dependent Phenomena Research on the International Space Station (ISS)",
+        "doi": null,
+        "authors": "RA Spivey, LB Jeter, C Vonk",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "The Microgravity Science Glovebox as a Platform for Exploration Research on the International Space Station",
+        "doi": "10.2514/6.2006-941",
+        "authors": "Spivey Reggie, Luz Paul",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "A Combined Experimental and Computational Study of Soot Formation in Normal and Microgravity Conditions",
+        "doi": "10.1080/00102202.2022.2041621",
+        "authors": "Dobbins Richard R., Tinjero Jesse, Squeo Joseph, Zhao Xinyu, Hall Robert J., Colket Meredith B., Long Marshall B., Smooke Mitchell D.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Shapes of nonbuoyant round hydrocarbon-fueled laminar-jet diffusion flames in still air",
+        "doi": "10.1016/j.combustflame.2004.12.009",
+        "authors": "Aalburg C., Diez F.J., Faeth G.M., Sunderland P.B., Urban D.L., Yuan Z.-G.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Shapes of nonbuoyant round luminous hydrocarbon/air laminar jet diffusion flames",
+        "doi": "10.1016/S0010-2180(98)00100-X",
+        "authors": "LIN K, FAETH G, SUNDERLAND P, URBAN D, YUAN Z",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Smoke Points of Microgravity and Normal Gravity Coflow Diffusion",
+        "doi": null,
+        "authors": "KT Dotson",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Laminar smoke points of coflowing flames in microgravity",
+        "doi": "10.1016/j.firesaf.2011.08.002",
+        "authors": "Dotson K.T., Sunderland P.B., Yuan Z.-G., Urban D.L.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      }
+    ]
+  },
+  {
+    "investigation": "PSI-69",
+    "doi": "10.60555/mbq8-0451",
+    "title": "Flame Extinguishment Experiment",
+    "catalog_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-69",
+    "api_url": "https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-69",
+    "snapshot": "dataset/references/nasa-psi/psi69_catalog.json",
+    "snapshot_sha256": "a2d8ec5d0e9ad1060f6ecc7a850598634cc5519c373ae70462bf76c31fc8731c",
+    "catalog_version": 5,
+    "license": "CC0-1.0",
+    "license_url": "https://spdx.org/licenses/CC0-1.0.html",
+    "project_type": "Microgravity Investigation",
+    "flight_platform": "International Space Station (ISS)",
+    "publications": [
+      {
+        "title": "Methanol Droplet Combustion in Oxygen-Inert Environments in Microgravity",
+        "doi": null,
+        "authors": "V Nayagam, DL Dietrich, MC Hicks, FA Williams",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Methanol Droplet Extinction in Oxygen/Carbon-dioxide/Nitrogen Mixtures in Microgravity: Results from the International Space Station Experiments",
+        "doi": null,
+        "authors": "V. Nayagam",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "A Numerical Study On The Extinction Characteristics Of Droplet Combustion Under Microgravity Conditions",
+        "doi": "10.2514/6.2012-1252",
+        "authors": "Farouk Tanvir, Dryer Frederick",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Tethered methanol droplet combustion in carbon-dioxide enriched environment under microgravity conditions",
+        "doi": "10.1016/j.combustflame.2011.06.014",
+        "authors": "Farouk Tanvir, Dryer Frederick L.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "FLEX: A Decisive Step Forward in NASA's Combustion Research Program",
+        "doi": null,
+        "authors": "JM Hickman, DL Dietrich, MC Hicks, V Nayagam, D Stocker",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Dynamics of Water Absorption and Evaporation During Methanol Droplet Combustion in Microgravity",
+        "doi": null,
+        "authors": "MC Hicks, DL Dietrich, V Nayagam, FA Williams",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Activation energy asymptotics for methanol droplet extinction in microgravity",
+        "doi": "10.1016/j.combustflame.2013.05.011",
+        "authors": "Nayagam Vedha",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Experimental Study of Initial Diameter Effects on Convection-free Droplet Combustion in the Standard Atmosphere for n-Heptane, n-Octane, and n-Decane: International Space Station and Ground-based Experiments",
+        "doi": "10.2514/6.2014-1019",
+        "authors": "Liu Yu Cheng, Rah Jeff K., Trenou Koffi N., Hicks Michael C., Avedisian C Thomas",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Isolated n-heptane droplet combustion in microgravity: “Cool Flames” – Two-stage combustion",
+        "doi": "10.1016/j.combustflame.2013.09.011",
+        "authors": "Farouk Tanvir I., Dryer Frederick L.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Theory of the propagation dynamics of spiral edges of diffusion flames in von Kármán swirling flows",
+        "doi": "10.1016/j.combustflame.2010.08.015",
+        "authors": "Urzay Javier, Nayagam Vedha, Williams Forman A.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Analysis of the melt phase of a rotating polymer disc supporting a diffusion flame",
+        "doi": "10.1017/jfm.2011.349",
+        "authors": "Nayagam Vedha, Williams F. A.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Partial-Burning Regime for Quasi-Steady Droplet Combustion Supported by Cool Flames",
+        "doi": "10.2514/1.J054437",
+        "authors": "Nayagam Vedha, Dietrich Daniel L., Williams Forman A.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Asymptotic analysis of quasi-steady n-heptane droplet combustion supported by cool-flame chemistry",
+        "doi": "10.1080/13647830.2016.1248494",
+        "authors": "Seshadri Kalyanasundaram, Peters Norbert, Williams Forman A., Nayagam Vedha, Paczko Guenter",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "n-Butanol droplet combustion: Numerical modeling and reduced gravity experiments",
+        "doi": "10.1016/j.proci.2014.06.043",
+        "authors": "Alam Fahd E., Liu Y.C., Avedisian C.T., Dryer F.L., Farouk T.I.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Droplet Combustion Experiments Aboard the International Space Station",
+        "doi": "10.1007/s12217-014-9372-2",
+        "authors": "Dietrich Daniel L., Nayagam Vedha, Hicks Michael C., Ferkul Paul V., Dryer Frederick L., Farouk Tanvir, Shaw Benjamin D., Suh Hyun Kyu, Choi Mun Y., Liu Yu Cheng, Avedisian C. Thomas, Williams Forman A.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Computational modeling of the effects of support fibers on evaporation of fiber-supported droplets in reduced gravity",
+        "doi": null,
+        "authors": "N Ghata, BD Shaw",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Oxygen Lewis Number Effects on Reduced Gravity Combustion of Methanol and n-Heptane Droplets",
+        "doi": "10.1080/00102202.2015.1072176",
+        "authors": "Shaw Benjamin D., Vang Chang L.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "ISS Droplet Combustion Experiments - Uncertainties in Droplet Sizes and Burning Rates",
+        "doi": "10.1007/s12217-014-9377-x",
+        "authors": "Shaw Benjamin D.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Combustion of n-Butanol, Gasoline, and n-Butanol/Gasoline Mixture Droplets",
+        "doi": "10.1021/acs.energyfuels.5b00158",
+        "authors": "Xu Yuhao, Avedisian C. Thomas",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Computational Modeling of Unsupported and Fiber-Supported n-Heptane Droplet Combustion in Reduced Gravity: A Study of Fiber Effects",
+        "doi": "10.1080/00102202.2014.971950",
+        "authors": "Ghata Narugopal, Shaw Benjamin D.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "The effect of support fibers on micro-convection in droplet combustion experiments",
+        "doi": "10.1016/j.proci.2014.07.022",
+        "authors": "Liu Y.C., Xu Y., Avedisian C.T., Hicks M.C.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Cool-flame extinction during n-alkane droplet combustion in microgravity",
+        "doi": "10.1016/j.combustflame.2015.01.012",
+        "authors": "Nayagam Vedha, Dietrich Daniel L., Hicks Michael C., Williams Forman A.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "A short mechanism for the low-temperature ignition of n-heptane at high pressures",
+        "doi": "10.1016/j.fuel.2014.08.063",
+        "authors": "Prince Juan C., Williams Forman A., Ovando Guillermo E.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "The role of cool-flame chemistry in quasi-steady combustion and extinction of n-heptane droplets",
+        "doi": "10.1080/13647830.2014.934296",
+        "authors": "Paczko Guenter, Peters Norbert, Seshadri Kalyanasundaram, Williams Forman Arthur",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Combustion of Submillimeter Heptane/Methanol and Heptane/Ethanol Droplets in Reduced Gravity",
+        "doi": "10.1155/2013/154202",
+        "authors": "Aharon I., Tam V. K., Shaw B. D.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Sub-millimeter sized methyl butanoate droplet combustion: Microgravity experiments and detailed numerical modeling",
+        "doi": "10.1016/j.proci.2012.07.074",
+        "authors": "Farouk T.I., Liu Y.C., Savas A.J., Avedisian C.T., Dryer F.L.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "On the spherically symmetrical combustion of methyl decanoate droplets and comparisons with detailed numerical modeling",
+        "doi": "10.1016/j.combustflame.2012.11.006",
+        "authors": "Liu Yu Cheng, Farouk Tanvir, Savas Anthony J., Dryer Frederick L., Thomas Avedisian C.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "The spherically symmetric droplet burning characteristics of Jet-A and biofuels derived from camelina and tallow",
+        "doi": "10.1016/j.fuel.2013.02.025",
+        "authors": "Liu Yu Cheng, Savas Anthony J., Avedisian C. Thomas",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Spherically symmetric droplet combustion of three and four component miscible mixtures as surrogates for Jet-A",
+        "doi": "10.1016/j.proci.2012.05.065",
+        "authors": "Liu Yu Cheng, Savas Anthony J., Thomas Avedisian C.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "AUTOMATED DATA ANALYSIS FOR CONSECUTIVE IMAGES FROM DROPLET COMBUSTION EXPERIMENTS",
+        "doi": "10.5566/ias.v31.p137-148",
+        "authors": "Dembia Christopher Lee, Liu Yu Cheng, Avedisian C. Thomas",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "On the extinction characteristics of alcohol droplet combustion under microgravity conditions – A numerical study",
+        "doi": "10.1016/j.combustflame.2012.04.005",
+        "authors": "Farouk Tanvir I., Dryer Frederick L.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "A comparison of the spherical flame characteristics of sub-millimeter droplets of binary mixtures of n-heptane/iso-octane and n-heptane/toluene with a commercial unleaded gasoline",
+        "doi": "10.1016/j.combustflame.2011.08.015",
+        "authors": "Liu Yu Cheng, Avedisian C. Thomas",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Comparison of the Burning Characteristics of Indolene and Commercial Grade Gasoline Droplets without Convection",
+        "doi": "10.1021/ef3007849",
+        "authors": "Liu Yu Cheng, Savas Anthony J., Avedisian C. Thomas",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Can cool flames support quasi-steady alkane droplet burning?",
+        "doi": "10.1016/j.combustflame.2012.07.012",
+        "authors": "Nayagam Vedha, Dietrich Daniel L., Ferkul Paul V., Hicks Michael C., Williams Forman A.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Experiments on Submillimeter Free Droplet Flame Extinction",
+        "doi": "10.1080/00102202.2012.759946",
+        "authors": "Shaw B. D., Wang D. F.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Influences of support fibers on vaporizing fuel droplets",
+        "doi": "10.1016/j.compfluid.2013.02.005",
+        "authors": "Shringi D., Dwyer H.A., Shaw B.D.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Numerical studies of flows over liquid droplets on cylindrical fibers",
+        "doi": "10.1016/j.compfluid.2013.02.011",
+        "authors": "Shringi D., Dwyer H.A., Shaw B.D.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Interpretation of Backlit Droplet Images from ISS Droplet Combustion Experiments",
+        "doi": "10.2478/gsr-2014-0007",
+        "authors": "Yu Fei, Shaw Benjamin D.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Combustion of Methanol Droplets in Air-Diluent Environments with Reduced and Normal Gravity",
+        "doi": "10.1155/2012/587987",
+        "authors": "BD Shaw, J Wei",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Microgravity droplet combustion: effect of tethering fiber on burning rate and flame structure",
+        "doi": "10.1080/13647830.2010.547601",
+        "authors": "Farouk T., Dryer F. L.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Influence of Gravity and Ambient Pressure on Combustion and Flammability of n-Heptane and 1-Propanol Droplets in Air-Diluent Environments",
+        "doi": "10.1080/00102202.2010.498798",
+        "authors": "Shaw B. D., Wei J. B.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Ignition and combustion of n-heptane droplets in carbon dioxide enriched environments",
+        "doi": "10.1016/j.icheatmasstransfer.2009.10.006",
+        "authors": "Dzik Justin, Nayagam Vedha, Williams Forman A.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Computational modeling of n-heptane droplet combustion in air–diluent environments under reduced-gravity",
+        "doi": "10.1016/j.ijheatmasstransfer.2010.08.005",
+        "authors": "Jin Y., Shaw B.D.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Numerical Simulation of Unsteady Flows and Shape Oscillations in Liquid Droplets Induced by Deployment Needle Retraction",
+        "doi": "10.1007/s12217-008-9096-2",
+        "authors": "Yan Jin, Shaw Benjamin D.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Nonane droplet combustion with and without buoyant convection: Flame structure, burning rate and extinction in air and helium",
+        "doi": "10.1016/j.proci.2008.06.221",
+        "authors": "Bae J.H., Avedisian C.T.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Temperature and fiber optic spectroscopy composition measurements of heated propanol–acetone droplets",
+        "doi": "10.1016/j.optlaseng.2009.05.004",
+        "authors": "Xiao J.S., Wei J.B., Shaw B.D., Peng Z.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Laser-induced fluorescence imaging of acetone inside evaporating and burning fuel droplets",
+        "doi": "10.1016/j.optlaseng.2008.08.002",
+        "authors": "Shringi D.S., Shaw B.D., Dwyer H.A.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Reduced Gravity Combustion of Propanol Droplets in Oxygen-Inert Environments",
+        "doi": "10.1080/00102200903190851",
+        "authors": "Wei J. B., Shaw B. D.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "PROPANOL DROPLET FLAMMABILITY AND COMBUSTION IN AIR-DILUENT ENVIRONMENTS UNDER NORMAL AND REDUCED GRAVITY",
+        "doi": "10.1080/00102200601057394",
+        "authors": "SHAW B. D., WEI J. B.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Developing Surrogates for Liquid Transportation Fuels: The Role of Spherically Symmetric Droplet Combustion",
+        "doi": "10.1007/978-81-322-2211-8_16",
+        "authors": "Avedisian C. Thomas",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Detailed results from the flame extinugishment experiment (FLEX) - March 2009 to December 2011",
+        "doi": null,
+        "authors": "DL Dietrich, VM Bryg, PV Ferkul, FA Williams, FL Dryer, BD Shaw, MY Choi, MV Nayagam, MC Hicks, CT Avedisian",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      }
+    ]
+  },
+  {
+    "investigation": "PSI-39",
+    "doi": "10.60555/m6pj-a914",
+    "title": "Cool Flames Investigation",
+    "catalog_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-39",
+    "api_url": "https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-39",
+    "snapshot": "dataset/references/nasa-psi/psi39_catalog.json",
+    "snapshot_sha256": "ab2501bbe6200dabd012e7bf199e79426f8d19eb484c2af421183bb61b558d35",
+    "catalog_version": 4,
+    "license": "CC0-1.0",
+    "license_url": "https://spdx.org/licenses/CC0-1.0.html",
+    "project_type": "Microgravity Investigation",
+    "flight_platform": "International Space Station (ISS)",
+    "publications": [
+      {
+        "title": "Can cool flames support quasi-steady alkane droplet burning?",
+        "doi": "10.1016/j.combustflame.2012.07.012",
+        "authors": "V Nayagam, DL Dietrich, PV Ferkul, MC Hicks, FA Williams",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Cool-flame extinction during n-alkane droplet combustion in microgravity",
+        "doi": "10.1016/j.combustflame.2015.01.012",
+        "authors": "V Nayagam, DL Dietrich, MC Hicks, FA Williams",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Partial-Burning Regime for Quasi-Steady Droplet Combustion Supported by Cool Flames",
+        "doi": "10.2514/1.J054437",
+        "authors": "Nayagam Vedha, Dietrich Daniel L., Williams Forman A.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "The role of cool-flame chemistry in quasi-steady combustion and extinction of n-heptane droplets",
+        "doi": "10.1080/13647830.2014.934296",
+        "authors": "Paczko Guenter, Peters Norbert, Seshadri Kalyanasundaram, Williams Forman Arthur",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Asymptotic analysis of quasi-steady n-heptane droplet combustion supported by cool-flame chemistry",
+        "doi": "10.1080/13647830.2016.1248494",
+        "authors": "Seshadri Kalyanasundaram, Peters Norbert, Williams Forman A., Nayagam Vedha, Paczko Guenter",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Science in Short: Cool Flames",
+        "doi": null,
+        "authors": "Rachel Barry",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Low Temperature n-Dodecane Droplet Combustion Experiments Aboard the International Space Station",
+        "doi": "10.1007/s12217-024-10115-x",
+        "authors": "Dietrich Daniel, Krause Timmothy, Nayagam Vedha, Farouk Tanvir, Dryer Frederick, Williams Forman",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      }
+    ]
+  },
+  {
+    "investigation": "PSI-101",
+    "doi": "10.60555/2np7-jv14",
+    "title": "Smoke Aerosol Measurement Experiment-Reflight",
+    "catalog_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+    "api_url": "https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-101",
+    "snapshot": "dataset/references/nasa-psi/psi101_catalog.json",
+    "snapshot_sha256": "e0aa75d015705a5943b51dbb4a8ba52751a35e4cafc2307d9201d77ebed711a5",
+    "catalog_version": 4,
+    "license": "CC0-1.0",
+    "license_url": "https://spdx.org/licenses/CC0-1.0.html",
+    "project_type": "Microgravity Investigation",
+    "flight_platform": "International Space Station (ISS)",
+    "publications": [
+      {
+        "title": "Smoke Aerosol Measurement Experiment-2: Comparison of Flight Experiment Results with Ground Test Results",
+        "doi": "10.2514/6.2013-3433",
+        "authors": "Meyer Marit E., Urban David L., Ruff Gary A., Mulholland George, Yuan Zeng-guang, Bryg Victoria, Cleary Thomas, Yang Jiann",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Evaluation of Low-Gravity Smoke Particulate for Spacecraft Fire Detection",
+        "doi": null,
+        "authors": "D Urban, G Ruff, G Mulholland, M Meyer, ZG Yuan, T Cleary, J Yang, P Greenberg, V Bryg",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Particle Morphology and Size Results from the Smoke Aerosol Measurement Experiment-2",
+        "doi": "10.2514/6.2012-3536",
+        "authors": "Urban David, Ruff Gary, Greenberg Paul, Fischer David, Meyer Marit, Mulholland George, Yuan Zeng-guang, Bryg Victoria, Cleary Thomas, Yang Jiann",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Preliminary Results from the Smoke Aerosol Measurement Experiment - Reflight",
+        "doi": null,
+        "authors": "D Urban, G Ruff, M Meyer, T Cleary, J Yang, G Mulholland, ZG Yuan, V Bryg",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Detection of Smoke from Microgravity Fires",
+        "doi": null,
+        "authors": "DL Urban, D Griffin, G Ruff, T Cleary, J Yang, G Mulholland, ZG Yuan",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Evaluation of spacecraft smoke detector performance in the low-gravity environment",
+        "doi": "10.1016/j.firesaf.2018.04.004",
+        "authors": "Meyer Marit E., Urban David L., Mulholland George W., Bryg Victoria, Yuan Zeng-Guang, Ruff Gary A., Cleary Thomas, Yang Jiann",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      }
+    ]
+  },
+  {
+    "investigation": "PSI-25",
+    "doi": "10.60555/4qc4-de67",
+    "title": "Burning and Suppression of Solids - II",
+    "catalog_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+    "api_url": "https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-25",
+    "snapshot": "dataset/references/nasa-psi/psi25_catalog.json",
+    "snapshot_sha256": "b9234754db5da651ad27d888af082b889d07210b018e543369662f065b4ec2da",
+    "catalog_version": 4,
+    "license": "CC0-1.0",
+    "license_url": "https://spdx.org/licenses/CC0-1.0.html",
+    "project_type": "Microgravity Investigation",
+    "flight_platform": "International Space Station (ISS)",
+    "publications": [
+      {
+        "title": "Microgravity flammability boundary for PMMA rods in axial stagnation flow: Experimental results and energy balance analyses",
+        "doi": "10.1016/j.combustflame.2017.03.001",
+        "authors": "Olson Sandra L., Ferkul Paul V.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Temperature and CO2 fields of a downward spreading flame over thin cellulose: A comparison of experimental and computational results",
+        "doi": "10.1016/j.proci.2014.05.093",
+        "authors": "Bhattacharjee Subrata, Paolini Christopher, Tran Wynn, Villaraza Jeanie Ray, Takahashi Shuhei",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Opposed-flow flame spread: A comparison of microgravity and normal gravity experiments to establish the thermal regime",
+        "doi": "10.1016/j.firesaf.2015.11.011",
+        "authors": "Bhattacharjee Subrata, Laue Matthew, Carmignani Luca, Ferkul Paul, Olson Sandra",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "The critical flow velocity for radiative extinction in opposed-flow flame spread in a microgravity environment: A comparison of experimental, computational, and theoretical results",
+        "doi": "10.1016/j.combustflame.2015.10.023",
+        "authors": "Bhattacharjee Subrata, Simsek Aslihan, Olson Sandra, Ferkul Paul",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Experimental validation of a correlation capturing the boundary layer effect on spread rate in the kinetic regime of opposed-flow flame spread",
+        "doi": "10.1016/j.proci.2014.06.125",
+        "authors": "Bhattacharjee Subrata, Tran Wynn, Laue Matthew, Paolini Christopher, Nakamura Yuji",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Results from on-board CSA-CP and CDM Sensor Readings during the Burning and Suppression of Solids - II (BASS-II) Experiment in the Microgravity Science Glovebox (MSG)",
+        "doi": null,
+        "authors": "SL Olson, PV Ferkul, S Bhattacharjee, FJ Miller, C Fernandez-Pello, S Link, JS Tien, I Wichman",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Modeling and Analysis of Intermediate Thickness PMMA Sheets Burning in Microgravity Opposed Flow",
+        "doi": null,
+        "authors": "TJ Shah, FJ Miller, S Olson, I Wichman",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Concurrent flame growth, spread and extinction over composite fabric samples in low speed purely forced flow in microgravity",
+        "doi": null,
+        "authors": "X Zhao, JS Tien, PV Ferkul, S. Olson",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Radiative, thermal, and kinetic regimes of opposed-flow flame spread: A comparison between experiment and theory",
+        "doi": "10.1016/j.proci.2016.06.025",
+        "authors": "Bhattacharjee Subrata, Simsek Aslihan, Miller Fletcher, Olson Sandra, Ferkul Paul",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Concurrent flame growth, spread, and quenching over composite fabric samples in low speed purely forced flow in microgravity",
+        "doi": "10.1016/j.proci.2016.06.028",
+        "authors": "Zhao Xiaoyang, Liao Ya-Ting T., Johnston Michael C., T'ien James S., Ferkul Paul V., Olson Sandra L.",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "A Study of the Effectiveness of a Narrow Channel Apparatus in Simulating Microgravity Flame Spread over Thin Fuels",
+        "doi": "10.2514/6.2012-3493",
+        "authors": "Pepper Jacob, Miller Fletcher, Olson Sandra, Wichman Indrek",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "BASS-II Summary Report",
+        "doi": null,
+        "authors": "J Marcum, S Olson, P Ferkul",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Correlation of normal gravity mixed convection blowoff limits with microgravity forced flow blowoff limits",
+        "doi": null,
+        "authors": "JW Marcum, SL Olson, PV Ferkul",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Fire in Microgravity",
+        "doi": "10.1511/2016.118.44",
+        "authors": "Hariharan Ashwin, Miller Fletcher, Olson Sandra, Wichman Indrek",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Microgravity Flammability of PMMA Rods in Concurrent Flow",
+        "doi": null,
+        "authors": "SL Olson, PV Ferkul",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Using a Narrow Channel Apparatus to Study Thermally-Intermediate Fuel Combustion in a Simulated 0g Environment",
+        "doi": null,
+        "authors": "G Bornand, G Sullivan, T Shah, F Miller",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      },
+      {
+        "title": "Burning and Suppression of Solids – II Fire Safety Investigation for the Microgravity Science Glovebox",
+        "doi": null,
+        "authors": "SL Olson, PV Ferkul, S Bhattacharjee, FJ Miller, AC Fernandez-Pello, JS Tien",
+        "verification_scope": "listed_by_NASA_not_independently_validated_scientific_results"
+      }
+    ]
+  }
+]

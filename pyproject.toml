@@ -1,0 +1,10 @@
+[project]
+name = "ember-atlas"
+version = "1.0.0"
+description = "Ember Atlas — Flame in Freefall: NASA microgravity combustion evidence dashboard (backend, curation pipeline and ML)."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+# Run from the repository root: `python -m pytest` runs the curation and backend suites.
+pythonpath = [".", "backend"]
+testpaths = ["tests", "backend/tests"]

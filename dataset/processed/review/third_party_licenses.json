@@ -1,0 +1,15 @@
+[
+  {
+    "directory": "dataset/upstream",
+    "license_files": [
+      {
+        "path": "dataset/upstream/FOTIA_LICENSE",
+        "sha256": "98de92427e6c65b2108f4fc2b14a055117d9370daa2cf31434756d0d48d6e326"
+      }
+    ],
+    "code_license": "MIT",
+    "code_reuse": "upstream packaging of NASA PSI files only; copyright and permission notice retained",
+    "data_license": "separate_from_code; eight reviewed NASA originals CC0-1.0",
+    "redistribution_approval": "not_requested_not_published"
+  }
+]

@@ -1,0 +1,1916 @@
+[
+  {
+    "day_source_normalized": "119.0",
+    "ignition_seconds": 37697,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::330",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::331",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::332",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::333"
+    ],
+    "distinct_condition_signatures": 4,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "119.0",
+    "ignition_seconds": 38314,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::334",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::335",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::336",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::337"
+    ],
+    "distinct_condition_signatures": 4,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "136.0",
+    "ignition_seconds": 57120,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::338",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::339",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::340"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "136.0",
+    "ignition_seconds": 57446,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::341",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::342",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::343",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::344",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::345"
+    ],
+    "distinct_condition_signatures": 5,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "136.0",
+    "ignition_seconds": 59638,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::346",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::347",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::348",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::349",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::350"
+    ],
+    "distinct_condition_signatures": 5,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "136.0",
+    "ignition_seconds": 59961,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::351",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::352",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::353",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::354",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::355"
+    ],
+    "distinct_condition_signatures": 5,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "136.0",
+    "ignition_seconds": 60739,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::356"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "136.0",
+    "ignition_seconds": 60860,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::357"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "136.0",
+    "ignition_seconds": 60982,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::358",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::359",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::360",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::361"
+    ],
+    "distinct_condition_signatures": 4,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "136.0",
+    "ignition_seconds": 62493,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::362",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::363",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::364",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::365"
+    ],
+    "distinct_condition_signatures": 4,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "167.0",
+    "ignition_seconds": 33612,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::366",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::367",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::368"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "167.0",
+    "ignition_seconds": 34277,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::369",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::370",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::371"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "167.0",
+    "ignition_seconds": 34768,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::372",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::373",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::374"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "167.0",
+    "ignition_seconds": 35092,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::375",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::376",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::377"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "167.0",
+    "ignition_seconds": 35986,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::378",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::379",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::380",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::381",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::382",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::383",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::384",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::385"
+    ],
+    "distinct_condition_signatures": 8,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "167.0",
+    "ignition_seconds": 36366,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::386"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "167.0",
+    "ignition_seconds": 36723,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::387",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::388"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "167.0",
+    "ignition_seconds": 39899,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::389",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::390",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::391",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::392",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::393",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::394",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::395",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::396"
+    ],
+    "distinct_condition_signatures": 8,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "168.0",
+    "ignition_seconds": 31841,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::400",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::401",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::402"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "168.0",
+    "ignition_seconds": 32606,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::403"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "168.0",
+    "ignition_seconds": 35353,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::404",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::405",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::406"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "168.0",
+    "ignition_seconds": 35545,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::407"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "168.0",
+    "ignition_seconds": 35769,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::408"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "168.0",
+    "ignition_seconds": 38568,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::409"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "168.0",
+    "ignition_seconds": 40608,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::410"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "168.0",
+    "ignition_seconds": 41421,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::411"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "168.0",
+    "ignition_seconds": 42078,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::412"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "173.0",
+    "ignition_seconds": 38263,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::413",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::414"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "173.0",
+    "ignition_seconds": 38494,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::415",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::416",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::417",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::418",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::419",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::420",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::421",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::422",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::423"
+    ],
+    "distinct_condition_signatures": 9,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "173.0",
+    "ignition_seconds": 40092,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::424",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::425",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::426",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::427",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::428"
+    ],
+    "distinct_condition_signatures": 5,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "173.0",
+    "ignition_seconds": 40898,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::429",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::430",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::431",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::432",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::433",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::434",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::435"
+    ],
+    "distinct_condition_signatures": 7,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "173.0",
+    "ignition_seconds": 42503,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::436",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::437",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::438",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::439",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::440"
+    ],
+    "distinct_condition_signatures": 5,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "173.0",
+    "ignition_seconds": 43214,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::441",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::442",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::443",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::444",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::445"
+    ],
+    "distinct_condition_signatures": 5,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "173.0",
+    "ignition_seconds": 43906,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::446",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::447",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::448",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::449",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::450",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::451",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::452"
+    ],
+    "distinct_condition_signatures": 7,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "173.0",
+    "ignition_seconds": 44610,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::453",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::454",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::455",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::456",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::457",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::458"
+    ],
+    "distinct_condition_signatures": 6,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "173.0",
+    "ignition_seconds": 45569,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::459",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::460",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::461",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::462"
+    ],
+    "distinct_condition_signatures": 4,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "174.0",
+    "ignition_seconds": 36130,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::463"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "174.0",
+    "ignition_seconds": 38003,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::464",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::465"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "174.0",
+    "ignition_seconds": 38725,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::466",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::467",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::468"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "174.0",
+    "ignition_seconds": 38911,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::469",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::470"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "174.0",
+    "ignition_seconds": 39883,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::471",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::472",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::473"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "174.0",
+    "ignition_seconds": 40397,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::474",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::475",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::476"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "174.0",
+    "ignition_seconds": 40847,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::477",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::478",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::479",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::480",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::481",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::482"
+    ],
+    "distinct_condition_signatures": 6,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "174.0",
+    "ignition_seconds": 41070,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::483",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::484",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::485",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::486"
+    ],
+    "distinct_condition_signatures": 4,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "174.0",
+    "ignition_seconds": 41656,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::487",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::488",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::489",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::490",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::491"
+    ],
+    "distinct_condition_signatures": 5,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "174.0",
+    "ignition_seconds": 41885,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::492",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::493",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::494",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::495"
+    ],
+    "distinct_condition_signatures": 4,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "174.0",
+    "ignition_seconds": 42366,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::496",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::497",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::498",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::499",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::500",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::501",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::502"
+    ],
+    "distinct_condition_signatures": 7,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "174.0",
+    "ignition_seconds": 42617,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::503",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::504",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::505",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::506",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::507",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::508",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::509",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::510",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::511",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::512",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::513"
+    ],
+    "distinct_condition_signatures": 11,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "174.0",
+    "ignition_seconds": 43603,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::514"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "174.0",
+    "ignition_seconds": 43880,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::515"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "174.0",
+    "ignition_seconds": 45240,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::516",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::517",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::518"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "174.0",
+    "ignition_seconds": 45372,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::519",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::520",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::521"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "174.0",
+    "ignition_seconds": 45783,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::522",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::523",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::524"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "174.0",
+    "ignition_seconds": 45977,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::525",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::526",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::527",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::528",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::529",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::530"
+    ],
+    "distinct_condition_signatures": 6,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "45.0",
+    "ignition_seconds": 52628,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::5",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::6"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "45.0",
+    "ignition_seconds": 53407,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::7",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::8"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "45.0",
+    "ignition_seconds": 56144,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::9",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::10",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::11"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "45.0",
+    "ignition_seconds": 56542,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::12",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::13"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "45.0",
+    "ignition_seconds": 56919,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::14",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::15"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "45.0",
+    "ignition_seconds": 57059,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::16",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::17"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "45.0",
+    "ignition_seconds": 61906,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::18",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::19"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "45.0",
+    "ignition_seconds": 62105,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::20",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::21"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "45.0",
+    "ignition_seconds": 62446,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::22"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "45.0",
+    "ignition_seconds": 62447,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::23"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "45.0",
+    "ignition_seconds": 62583,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::24",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::25"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "45.0",
+    "ignition_seconds": 62868,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::26",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::27"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "45.0",
+    "ignition_seconds": 62988,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::29"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "45.0",
+    "ignition_seconds": 62989,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::28"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "48.0",
+    "ignition_seconds": 52325,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::30"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "48.0",
+    "ignition_seconds": 52437,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::31"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "48.0",
+    "ignition_seconds": 52497,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::32"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "48.0",
+    "ignition_seconds": 53037,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::33"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "48.0",
+    "ignition_seconds": 53038,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::34"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "48.0",
+    "ignition_seconds": 53299,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::35",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::36",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::37",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::38",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::39",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::40",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::41",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::42",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::43",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::44",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::45",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::46"
+    ],
+    "distinct_condition_signatures": 10,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "48.0",
+    "ignition_seconds": 60824,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::47"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "48.0",
+    "ignition_seconds": 60825,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::48"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "48.0",
+    "ignition_seconds": 61295,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::49",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::50"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "48.0",
+    "ignition_seconds": 61296,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::51",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::52"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "48.0",
+    "ignition_seconds": 61881,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::53",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::54",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::55",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::56"
+    ],
+    "distinct_condition_signatures": 4,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "48.0",
+    "ignition_seconds": 63878,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::59",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::60"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "52.0",
+    "ignition_seconds": 41931,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::61",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::62",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::63",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::64"
+    ],
+    "distinct_condition_signatures": 4,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "52.0",
+    "ignition_seconds": 42169,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::65",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::66"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "52.0",
+    "ignition_seconds": 42170,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::67",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::68"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "52.0",
+    "ignition_seconds": 42575,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::69",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::70",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::71",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::72"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "52.0",
+    "ignition_seconds": 43307,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::73",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::74"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "52.0",
+    "ignition_seconds": 44479,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::75",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::76",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::77",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::78"
+    ],
+    "distinct_condition_signatures": 4,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "52.0",
+    "ignition_seconds": 44774,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::79",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::80"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "52.0",
+    "ignition_seconds": 44804,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::81",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::82"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "52.0",
+    "ignition_seconds": 44932,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::83",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::84"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "52.0",
+    "ignition_seconds": 45767,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::85",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::86",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::87",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::88"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "52.0",
+    "ignition_seconds": 46922,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::89",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::90",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::91",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::92"
+    ],
+    "distinct_condition_signatures": 4,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "52.0",
+    "ignition_seconds": 47065,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::93",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::94",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::95",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::96"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "52.0",
+    "ignition_seconds": 58140,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::97"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "52.0",
+    "ignition_seconds": 58445,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::100",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::101"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "52.0",
+    "ignition_seconds": 58937,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::102",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::103",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::104"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "52.0",
+    "ignition_seconds": 61812,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::108",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::109",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::110",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::111"
+    ],
+    "distinct_condition_signatures": 4,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "52.0",
+    "ignition_seconds": 62747,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::112",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::113",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::114"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "52.0",
+    "ignition_seconds": 62749,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::115",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::116",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::117"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "52.0",
+    "ignition_seconds": 63017,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::118",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::119",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::120"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "52.0",
+    "ignition_seconds": 63018,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::121",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::122",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::123"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "52.0",
+    "ignition_seconds": 64031,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::124",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::125"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "52.0",
+    "ignition_seconds": 64032,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::126",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::127",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::128"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "52.0",
+    "ignition_seconds": 64249,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::129",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::130",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::131",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::132",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::133",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::134",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::135"
+    ],
+    "distinct_condition_signatures": 6,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "52.0",
+    "ignition_seconds": 64689,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::136",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::137",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::138"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "52.0",
+    "ignition_seconds": 64690,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::139",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::140",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::141",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::142",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::143",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::144"
+    ],
+    "distinct_condition_signatures": 6,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "55.0",
+    "ignition_seconds": 32176,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::145",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::146",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::147",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::148",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::149",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::150",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::151"
+    ],
+    "distinct_condition_signatures": 6,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "55.0",
+    "ignition_seconds": 32426,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::152",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::153",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::154",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::155",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::156",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::157",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::158"
+    ],
+    "distinct_condition_signatures": 5,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "55.0",
+    "ignition_seconds": 34574,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::159",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::160",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::161",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::162",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::163",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::164"
+    ],
+    "distinct_condition_signatures": 4,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "55.0",
+    "ignition_seconds": 34754,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::165",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::168",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::169",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::170",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::171"
+    ],
+    "distinct_condition_signatures": 5,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "55.0",
+    "ignition_seconds": 35396,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::172",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::173",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::174",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::175",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::176",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::177",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::178"
+    ],
+    "distinct_condition_signatures": 7,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "55.0",
+    "ignition_seconds": 35616,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::179",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::180",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::181",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::182",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::183",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::184"
+    ],
+    "distinct_condition_signatures": 6,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "55.0",
+    "ignition_seconds": 36060,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::185",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::187",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::188"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "55.0",
+    "ignition_seconds": 36939,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::189",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::190",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::191",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::192"
+    ],
+    "distinct_condition_signatures": 4,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "55.0",
+    "ignition_seconds": 37540,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::193",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::194",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::195",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::196"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "55.0",
+    "ignition_seconds": 38047,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::197",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::203",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::204",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::205",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::206",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::207",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::208"
+    ],
+    "distinct_condition_signatures": 7,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "55.0",
+    "ignition_seconds": 39140,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::209",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::210",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::211"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "55.0",
+    "ignition_seconds": 40361,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::212",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::215",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::216",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::217"
+    ],
+    "distinct_condition_signatures": 4,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "58.0",
+    "ignition_seconds": 34672,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::218",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::219",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::220",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::221"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "58.0",
+    "ignition_seconds": 35057,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::222",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::223",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::224",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::225",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::226"
+    ],
+    "distinct_condition_signatures": 4,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "58.0",
+    "ignition_seconds": 35225,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::227",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::228",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::229",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::230",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::231"
+    ],
+    "distinct_condition_signatures": 5,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "58.0",
+    "ignition_seconds": 35718,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::232",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::233",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::234",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::235",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::236"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "58.0",
+    "ignition_seconds": 36802,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::240",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::241",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::242"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "58.0",
+    "ignition_seconds": 37107,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::243",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::244",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::245"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "58.0",
+    "ignition_seconds": 38179,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::246",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::247",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::248"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "58.0",
+    "ignition_seconds": 38474,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::249",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::250",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::251"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "58.0",
+    "ignition_seconds": 40988,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::252",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::253"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "58.0",
+    "ignition_seconds": 41149,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::254",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::255",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::256",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::257"
+    ],
+    "distinct_condition_signatures": 3,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "58.0",
+    "ignition_seconds": 41520,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::258",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::259"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "58.0",
+    "ignition_seconds": 41658,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::260"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "58.0",
+    "ignition_seconds": 42173,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::262",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::263"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "58.0",
+    "ignition_seconds": 42933,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::264",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::265"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "58.0",
+    "ignition_seconds": 43246,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::266"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "58.0",
+    "ignition_seconds": 44141,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::268"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "58.0",
+    "ignition_seconds": 45779,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::269",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::270",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::271"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "58.0",
+    "ignition_seconds": 45946,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::272"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "62.0",
+    "ignition_seconds": 40614,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::273",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::274"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "62.0",
+    "ignition_seconds": 40615,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::275",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::276"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "62.0",
+    "ignition_seconds": 40810,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::277",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::278"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "62.0",
+    "ignition_seconds": 40811,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::279",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::280"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "62.0",
+    "ignition_seconds": 41141,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::281",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::282"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "62.0",
+    "ignition_seconds": 41143,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::283",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::284"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "62.0",
+    "ignition_seconds": 41259,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::285"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "62.0",
+    "ignition_seconds": 41262,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::286",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::287"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "62.0",
+    "ignition_seconds": 41553,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::288",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::289"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "62.0",
+    "ignition_seconds": 41554,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::290",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::291"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "62.0",
+    "ignition_seconds": 41994,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::292",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::293"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "62.0",
+    "ignition_seconds": 41995,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::294",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::295"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "62.0",
+    "ignition_seconds": 42112,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::296",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::297"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "62.0",
+    "ignition_seconds": 42113,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::298",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::299"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "62.0",
+    "ignition_seconds": 42351,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::300"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "62.0",
+    "ignition_seconds": 42352,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::301"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "62.0",
+    "ignition_seconds": 42925,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::302",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::303",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::304",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::305",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::306",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::307"
+    ],
+    "distinct_condition_signatures": 6,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "62.0",
+    "ignition_seconds": 42927,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::308",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::309",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::310",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::311",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::312",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::313"
+    ],
+    "distinct_condition_signatures": 6,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "62.0",
+    "ignition_seconds": 43413,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::314",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::315"
+    ],
+    "distinct_condition_signatures": 2,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "62.0",
+    "ignition_seconds": 43415,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::316",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::317",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::318",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::319",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::320"
+    ],
+    "distinct_condition_signatures": 5,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "62.0",
+    "ignition_seconds": 43889,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::321"
+    ],
+    "distinct_condition_signatures": 1,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  },
+  {
+    "day_source_normalized": "62.0",
+    "ignition_seconds": 43960,
+    "records": [
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::322",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::323",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::324",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::325",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::326",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::327",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::328",
+      "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::329"
+    ],
+    "distinct_condition_signatures": 6,
+    "status": "source_group_not_verified_run",
+    "protocol_evidence": "SPICE final report printed pp13–14"
+  }
+]

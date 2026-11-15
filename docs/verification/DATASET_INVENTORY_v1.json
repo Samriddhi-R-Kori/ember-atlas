@@ -1,0 +1,3557 @@
+{
+ "dataset_version": "p0_v1_review",
+ "manifest_sha256": "374628c5f4e80d2e8366cf0de7737fc3977916f4af34483593dc2df244defe69",
+ "contract_version": "2026-11-15.3",
+ "parameter_count": 118,
+ "counting_note": "Counts are source-record observations (exact repeats retained), not independent experiments.",
+ "items": [
+  {
+   "investigation": "PSI-101",
+   "definition_id": "f10f49b3009847c4b6a13b30c9e29612bf1608d117e7b21179afd37f2af21a1c",
+   "original_name": "Date",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/same-r/SAME-R.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 109,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 2,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-101",
+   "definition_id": "8bdf52dad3fce7a1004e84b3d18fb252dd0f39d31ed05faa462ba886f7541a6d",
+   "original_name": "Description",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/same-r/SAME-R.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 109,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 2,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-101",
+   "definition_id": "56dce38944b15d9ff51a4537b4f38d4f7571d89857599f829e60677c3c17c91e",
+   "original_name": "Duration (sec)",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": "s",
+   "normalized_unit": "s",
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/same-r/SAME-R.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 109,
+   "usable": 68,
+   "missing": 41,
+   "questionable_record_flags": 2,
+   "disputed": 0,
+   "min": 60.0,
+   "max": 120.0,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-101",
+   "definition_id": "bdc96af8089ae71f13018c515f1279c00ce4f8a28d567804abf8b599f1024f91",
+   "original_name": "Inlet velocity (cm/s)",
+   "normalized_name": "condition:flow",
+   "original_unit": "cm/s",
+   "normalized_unit": "m/s",
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/same-r/SAME-R.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 109,
+   "usable": 109,
+   "missing": 0,
+   "questionable_record_flags": 2,
+   "disputed": 0,
+   "min": 0.0,
+   "max": 0.081,
+   "criterion": "Air flow past a sample heated below its ignition point (smoke generation, no flame; Urban et al., AIAA 2012-3536, p. 1); not comparable with airflow around a flame.",
+   "restricted_by_contract": true,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved.",
+    "Restricted by dashboard contract: Air flow past a sample heated below its ignition point (smoke generation, no flame; Urban et al., AIAA 2012-3536, p. 1); not comparable with airflow around a flame."
+   ]
+  },
+  {
+   "investigation": "PSI-101",
+   "definition_id": "c6499aac2934707611fa1951f1c73fe6c8ca4034d0b2824a0500785e00a0d2b4",
+   "original_name": "Net aging time (sec)",
+   "normalized_name": "metric:net_aging_time",
+   "original_unit": "s",
+   "normalized_unit": "s",
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/same-r/SAME-R.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 109,
+   "usable": 104,
+   "missing": 5,
+   "questionable_record_flags": 2,
+   "disputed": 0,
+   "min": 21.0,
+   "max": 1923.0,
+   "criterion": "Smoke aging time",
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": true,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-101",
+   "definition_id": "fb99172f295a34b836d339c3906d48379ecd46346fa29e81ec66b8b6b3a5e314",
+   "original_name": "Primary aging time (sec)",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": "s",
+   "normalized_unit": "s",
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/same-r/SAME-R.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 109,
+   "usable": 67,
+   "missing": 42,
+   "questionable_record_flags": 2,
+   "disputed": 0,
+   "min": 1.0,
+   "max": 720.0,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-101",
+   "definition_id": "17ac7aa2896b76f130b380bdfd069fcf0d5b9e2ebd8a04f3d2edd7ffaf03e533",
+   "original_name": "Primary mixing time (sec)",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": "s",
+   "normalized_unit": "s",
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/same-r/SAME-R.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 109,
+   "usable": 67,
+   "missing": 42,
+   "questionable_record_flags": 2,
+   "disputed": 0,
+   "min": 8.0,
+   "max": 8.0,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-101",
+   "definition_id": "94426ea2a066146c59cf49e08f37ad83d760b4a9aac2d07ad4248119cfef868f",
+   "original_name": "Rt/R0",
+   "normalized_name": "metric:rt_r0",
+   "original_unit": "dimensionless",
+   "normalized_unit": "1",
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/same-r/SAME-R.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 109,
+   "usable": 109,
+   "missing": 0,
+   "questionable_record_flags": 2,
+   "disputed": 0,
+   "min": 1.22,
+   "max": 1.48,
+   "criterion": "Physical meaning of the ratio is not mapped in the index (semantics pending).",
+   "restricted_by_contract": true,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved.",
+    "Restricted by dashboard contract: Physical meaning of the ratio is not mapped in the index (semantics pending)."
+   ]
+  },
+  {
+   "investigation": "PSI-101",
+   "definition_id": "a1d67ab8c26c06be287003fc59804f34c682d83eb4e3a0d34522b64dfa98081e",
+   "original_name": "SAME Test #",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/same-r/SAME-R.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 109,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 2,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-101",
+   "definition_id": "e9ba45ea2313c1916641321e30e0f182b07421cba10bc3e52f1d758b4a6a547e",
+   "original_name": "Sample Type",
+   "normalized_name": "material",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/same-r/SAME-R.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 109,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 2,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": "Material / fuel label (literal source text)",
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "2cb47d4e9ef9b4110fa3864ef7120000ba4e1cd5f1eba46c52de6d0797647d41",
+   "original_name": "air_cm_s",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": "cm/s",
+   "normalized_unit": "m/s",
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet"
+   ],
+   "observations": 55,
+   "usable": 55,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": 0.05364215020781765,
+   "max": 0.645977842448442,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "d9fca61220b333acf979a1c3265f982ee49f8ee84937f6409aa1fb7d87c67074",
+   "original_name": "air_cm_s",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": "cm/s",
+   "normalized_unit": "m/s",
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet (2)"
+   ],
+   "observations": 55,
+   "usable": 55,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": 0.05364215020781765,
+   "max": 0.645977842448442,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "e60ad1cb4efa407f9dadb59cb0582f3b0cc03312db337559f069e3ab88232ff2",
+   "original_name": "air_cm_s",
+   "normalized_name": "condition:flow",
+   "original_unit": "cm/s",
+   "normalized_unit": "m/s",
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/Spice Flight Test Data II modified.xls"
+   ],
+   "sheets": [
+    "Data record of Video and Stills"
+   ],
+   "observations": 526,
+   "usable": 501,
+   "missing": 25,
+   "questionable_record_flags": 526,
+   "disputed": 0,
+   "min": -0.05918369593325366,
+   "max": 0.8528252270404062,
+   "criterion": "Coflow air velocity",
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": true,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "6ea63ac0ad81109e5696735dfdc592cf3b918eb62cdd390a4961609345aac076",
+   "original_name": "air_display",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/Spice Flight Test Data II modified.xls"
+   ],
+   "sheets": [
+    "Data record of Video and Stills"
+   ],
+   "observations": 526,
+   "usable": 0,
+   "missing": 3,
+   "questionable_record_flags": 526,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "ad699365d2157349b28bb6de5c375211e342357811db01175525d229e85cd71b",
+   "original_name": "air_display",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet"
+   ],
+   "observations": 55,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "5e01b7ef666ba163b7518e11bedd8f0703b47ed396b42609eea3f6c9b983a39b",
+   "original_name": "air_display",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet (2)"
+   ],
+   "observations": 55,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "2d4516406229932e0dd4fdf10d511a951eafa030fdcd1b092585902b8b1ad9ed",
+   "original_name": "Air Rate (cm/s)",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": "cm/s",
+   "normalized_unit": "m/s",
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/Spice.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 469,
+   "usable": 444,
+   "missing": 25,
+   "questionable_record_flags": 469,
+   "disputed": 0,
+   "min": -0.0592,
+   "max": 0.8528,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "4f58dcea0af47880437ed3c4adffce0bb39cab148accf0165973a0d3495a9241",
+   "original_name": "data",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet (2)"
+   ],
+   "observations": 55,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "fd9320cd6e24950fdb92335cf5e307769d0dab87b31ebf8bed17edd50d95ecbb",
+   "original_name": "data",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet"
+   ],
+   "observations": 55,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "8084f6c5f8bebf11a471d5d76d8de8a51ea492756698682b5b42a4216aa5e362",
+   "original_name": "data",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/Spice Flight Test Data II modified.xls"
+   ],
+   "sheets": [
+    "Data record of Video and Stills"
+   ],
+   "observations": 526,
+   "usable": 0,
+   "missing": 3,
+   "questionable_record_flags": 526,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "2cd6e275cb59955089e257ccd2b4a7dd6fb9fae67742110c85d1848468a2cc57",
+   "original_name": "day",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet"
+   ],
+   "observations": 55,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "1e780db239f2bcbda554d66941eb8659b3746f06064f0573e2c20b7d0a54187c",
+   "original_name": "day",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet (2)"
+   ],
+   "observations": 55,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "ee6497b3c20ba2a94503d2444da73993a5c92b8d7e1c675a41170bc30119c77c",
+   "original_name": "day",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/Spice Flight Test Data II modified.xls"
+   ],
+   "sheets": [
+    "Data record of Video and Stills"
+   ],
+   "observations": 526,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 526,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "45f0f10f5cd051626d60a944b66d5e066c6862907e3ef4e0647b06b3faaa6498",
+   "original_name": "fan",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet (2)"
+   ],
+   "observations": 55,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "c4e0714982bf900684aafbddbf806d0f8a2786c8142e6624afe92866e2aea977",
+   "original_name": "fan",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet"
+   ],
+   "observations": 55,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "62e2b82afa125e70f6b0022cbce720019d30d365e5c5b1759abd4fdba6f5211e",
+   "original_name": "fan",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/Spice Flight Test Data II modified.xls"
+   ],
+   "sheets": [
+    "Data record of Video and Stills"
+   ],
+   "observations": 526,
+   "usable": 0,
+   "missing": 3,
+   "questionable_record_flags": 526,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "2f7accd31e9e0b2c0c91eb2b4743debd578e5902c033571f3e2d332b3f3aaf96",
+   "original_name": "fuel",
+   "normalized_name": "material",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/Spice Flight Test Data II modified.xls"
+   ],
+   "sheets": [
+    "Data record of Video and Stills"
+   ],
+   "observations": 526,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 526,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": "Material / fuel label (literal source text)",
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "ba898dcbd1561234e96631ff98a03642cdaa1d514baf28dbf7c8e1a789cdb3cd",
+   "original_name": "fuel",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet (2)"
+   ],
+   "observations": 55,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "0cd7c1f64c1f648841fa37de18f11c11a06cd2b094b74c3031a9bfde50bec890",
+   "original_name": "fuel",
+   "normalized_name": "material",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet"
+   ],
+   "observations": 55,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": "Material / fuel label (literal source text)",
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "1a623b3a38cabb2f381f4fce8e507a0df8e5aa77b9736a1bba409eb05173cf8c",
+   "original_name": "Fuel",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/Spice.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 469,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 469,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "5d6f1700a685e917359e1a726b1283fb1381e82b8a4abbba973cb1bae4457e4c",
+   "original_name": "fuel_display",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/Spice Flight Test Data II modified.xls"
+   ],
+   "sheets": [
+    "Data record of Video and Stills"
+   ],
+   "observations": 526,
+   "usable": 0,
+   "missing": 1,
+   "questionable_record_flags": 526,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "2eab91be570a918419339ebb1c7472364f2334d3a293fa15844251d7fdb25a78",
+   "original_name": "fuel_display",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet (2)"
+   ],
+   "observations": 55,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "b0d6dd60e159d0c1e15f1e9ba42a1c58770ead9b293b4bb5a18dc5d94d48c1a5",
+   "original_name": "fuel_display",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet"
+   ],
+   "observations": 55,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "e58b41735b788e743b0ec422a931163e098ccd14aa11f214f861b740415e0afc",
+   "original_name": "fuel_mg_s",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": "mg/s",
+   "normalized_unit": "mg/s",
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet (2)"
+   ],
+   "observations": 55,
+   "usable": 55,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": 0.3931475497402682,
+   "max": 3.8937007882628185,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "fcd608d68f4b0cf274ab08e162387fc976fa1a117afd4080bafb2941430137ed",
+   "original_name": "fuel_mg_s",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": "mg/s",
+   "normalized_unit": "mg/s",
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet"
+   ],
+   "observations": 55,
+   "usable": 55,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": 0.3931475497402682,
+   "max": 3.8937007882628185,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "1903fcf031161f36d1ef4d14f96c482e4db7940ac16521096acac3a130b1dcc9",
+   "original_name": "fuel_mg_s",
+   "normalized_name": "metric:fuel_mass_flow",
+   "original_unit": "mg/s",
+   "normalized_unit": "mg/s",
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/Spice Flight Test Data II modified.xls"
+   ],
+   "sheets": [
+    "Data record of Video and Stills"
+   ],
+   "observations": 526,
+   "usable": 507,
+   "missing": 19,
+   "questionable_record_flags": 526,
+   "disputed": 0,
+   "min": 0.0,
+   "max": 4.3967915143356455,
+   "criterion": "Fuel mass flow rate setting/record",
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": true,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "d9be40a56eae3f8d249b5d35552c83dc5be4c69b646d2bc30884d5a847dffe21",
+   "original_name": "Fuel Rate (mg/s)",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": "mg/s",
+   "normalized_unit": "mg/s",
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/Spice.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 469,
+   "usable": 457,
+   "missing": 12,
+   "questionable_record_flags": 469,
+   "disputed": 0,
+   "min": 0.0,
+   "max": 4.397,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "1eae636e8434df9becd5faf106c0dc7d83b40f3342c49f92ee3f2741ff4875bd",
+   "original_name": "Fuel Rate (sccm)",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": "sccm",
+   "normalized_unit": "sccm",
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/Spice.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 469,
+   "usable": 457,
+   "missing": 12,
+   "questionable_record_flags": 469,
+   "disputed": 0,
+   "min": 0.0,
+   "max": 231.6,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "6875be064cbb8eb34835761f2a7ab6013719f957ee54f8abc46d072cc5e3b912",
+   "original_name": "fuel_sccm",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": "sccm",
+   "normalized_unit": "sccm",
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet"
+   ],
+   "observations": 55,
+   "usable": 55,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": 13.53,
+   "max": 201.0,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "132e0c7a2fbeea9893f0954f1079737d3b941252ea930995011da3a3ffeac15b",
+   "original_name": "fuel_sccm",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": "sccm",
+   "normalized_unit": "sccm",
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/Spice Flight Test Data II modified.xls"
+   ],
+   "sheets": [
+    "Data record of Video and Stills"
+   ],
+   "observations": 526,
+   "usable": 507,
+   "missing": 19,
+   "questionable_record_flags": 526,
+   "disputed": 0,
+   "min": 0.0,
+   "max": 357.12,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "2afc0870eb5ed5519056e415e8217942e16170e0d0d493896b017739c7757988",
+   "original_name": "fuel_sccm",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": "sccm",
+   "normalized_unit": "sccm",
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet (2)"
+   ],
+   "observations": 55,
+   "usable": 55,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": 13.53,
+   "max": 201.0,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "ba79887207d0c928cc5aa9fe2a819149f1cd19e76144ec77702500da4bad6947",
+   "original_name": "gain",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/Spice Flight Test Data II modified.xls"
+   ],
+   "sheets": [
+    "Data record of Video and Stills"
+   ],
+   "observations": 526,
+   "usable": 0,
+   "missing": 104,
+   "questionable_record_flags": 526,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "8c7f5d8af69b690f1e9315a86e2ca4d37858464817b14806be3c2b551d40f76b",
+   "original_name": "gain",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet (2)"
+   ],
+   "observations": 55,
+   "usable": 0,
+   "missing": 9,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "80b0d75bfd5439cdcd52acc5ff0f664f26396be3a9c211aa0f209dd1da162127",
+   "original_name": "gain",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet"
+   ],
+   "observations": 55,
+   "usable": 0,
+   "missing": 9,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "6942f63395ed22f22560b3270d6315a7bfe3a8e6fb5ae1e3acd2f3620ae0e91e",
+   "original_name": "GMT date",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/Spice.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 469,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 469,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "f0875c6f4c760843ddad4ac60ec7a8e6e6e747af4ab810b7ed2b7fe273f0ff88",
+   "original_name": "GMT  Flame Off ",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/Spice.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 469,
+   "usable": 0,
+   "missing": 12,
+   "questionable_record_flags": 469,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "75e385a58b0289a34ed85aaeb51c8a12049cb0253445fc7d73c269921a0161df",
+   "original_name": "GMT ignition",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/Spice.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 469,
+   "usable": 0,
+   "missing": 1,
+   "questionable_record_flags": 469,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "5a27bad5aac88de0acdf9cbb80263bdcb5f1c2b40b5f25784124fcf26bcee3ce",
+   "original_name": "HC Fuel Rate (mg/s)",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": "mg/s",
+   "normalized_unit": "mg/s",
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/Spice.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 469,
+   "usable": 469,
+   "missing": 0,
+   "questionable_record_flags": 469,
+   "disputed": 0,
+   "min": 0.0,
+   "max": 4.397,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "0acd921f0d36c51b48df7aa38038ae56e65fd070b19f75d79affde774d96cad0",
+   "original_name": "hc_mg_s",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": "mg/s",
+   "normalized_unit": "mg/s",
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet (2)"
+   ],
+   "observations": 55,
+   "usable": 55,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": 0.3931475497402682,
+   "max": 3.8937007882628185,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "2a9f15ba42bccdab3d578c29a45cd15599911a344c4368ac97c23951956b897a",
+   "original_name": "hc_mg_s",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": "mg/s",
+   "normalized_unit": "mg/s",
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/Spice Flight Test Data II modified.xls"
+   ],
+   "sheets": [
+    "Data record of Video and Stills"
+   ],
+   "observations": 526,
+   "usable": 526,
+   "missing": 0,
+   "questionable_record_flags": 526,
+   "disputed": 0,
+   "min": 0.0,
+   "max": 4.3967915143356455,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "72d881c4a9b2eb440960ee292ca41e65b05a69f11cc9d2c53a3e194cc0700e77",
+   "original_name": "hc_mg_s",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": "mg/s",
+   "normalized_unit": "mg/s",
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet"
+   ],
+   "observations": 55,
+   "usable": 55,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": 0.3931475497402682,
+   "max": 3.8937007882628185,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "02aa91b6b3e88c13e7a7f69bf602a959f3fb7d65e84f2b63d5f2a686d2ee7559",
+   "original_name": "ignition",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet (2)"
+   ],
+   "observations": 55,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "878f40c6aad4cbbd06cd12ab2ee4405b58851f28f7e7ef302a2c34dd1aeecaad",
+   "original_name": "ignition",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet"
+   ],
+   "observations": 55,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "a9c3e45c27739f7a0288ba5e72ff8307dafe1a6b6bb14670add69a22eafbf600",
+   "original_name": "ignition",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/Spice Flight Test Data II modified.xls"
+   ],
+   "sheets": [
+    "Data record of Video and Stills"
+   ],
+   "observations": 526,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 526,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "87831057001ce58bac359a5778413bfed5a74baed1a5ee9458e85f11389f9dd6",
+   "original_name": "label",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet (2)"
+   ],
+   "observations": 55,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "d48683c539c9f9c8ac53ae3a4a0b9cbe806f27a77e681acc98aab0e8d61664e3",
+   "original_name": "label",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/Spice Flight Test Data II modified.xls"
+   ],
+   "sheets": [
+    "Data record of Video and Stills"
+   ],
+   "observations": 526,
+   "usable": 0,
+   "missing": 356,
+   "questionable_record_flags": 526,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "aa55ab12106a23608db739477a0c1bce2a208edbf10d1cecd05f63f26a2f1a9c",
+   "original_name": "label",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet"
+   ],
+   "observations": 55,
+   "usable": 0,
+   "missing": 32,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "fa63509fbf0e6085b5ca27802536b7b1e6f58f8b370c4dc7f25c782974d63d78",
+   "original_name": "length_mm",
+   "normalized_name": "metric:smoke_point_length",
+   "original_unit": "mm",
+   "normalized_unit": "mm",
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet"
+   ],
+   "observations": 55,
+   "usable": 55,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": 13.416820766403589,
+   "max": 105.45049402335384,
+   "criterion": "Two smoke-point sheets disagree for 3 pairs; Day055/119/136 calibration assignments unapproved; neither sheet is authoritative.",
+   "restricted_by_contract": true,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved.",
+    "Restricted by dashboard contract: Two smoke-point sheets disagree for 3 pairs; Day055/119/136 calibration assignments unapproved; neither sheet is authoritative."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "1f464d7b4372a12b93ed338628ff214d09f007d5cffbcc6dd083cbddb092d39c",
+   "original_name": "length_mm",
+   "normalized_name": "metric:flame_length",
+   "original_unit": "mm",
+   "normalized_unit": "mm",
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/Spice Flight Test Data II modified.xls"
+   ],
+   "sheets": [
+    "Data record of Video and Stills"
+   ],
+   "observations": 526,
+   "usable": 134,
+   "missing": 388,
+   "questionable_record_flags": 526,
+   "disputed": 0,
+   "min": 2.284499999999994,
+   "max": 110.6434,
+   "criterion": "Image-derived length; calibration context and record-to-image assignment are unapproved (open SPICE calibration issues).",
+   "restricted_by_contract": true,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved.",
+    "Restricted by dashboard contract: Image-derived length; calibration context and record-to-image assignment are unapproved (open SPICE calibration issues)."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "2b6c365eaf4b0667ce78fe77b51301bae7965d6a2cdb0c8c66ceb93a04856984",
+   "original_name": "length_mm",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": "mm",
+   "normalized_unit": "mm",
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet (2)"
+   ],
+   "observations": 55,
+   "usable": 55,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": 13.416820766403589,
+   "max": 105.45049402335384,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "fae1e6d84d055a9a0db12904dfdfbc429edb7c1ad484f5bc81e9b7c9daa25f5e",
+   "original_name": "nozzle",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": "mm",
+   "normalized_unit": "mm",
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet (2)"
+   ],
+   "observations": 55,
+   "usable": 55,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": 0.4064,
+   "max": 1.6002,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "3823aa0b68ab848592b44d7e3000206991fce37510f42ba0e034731ef1ab8cf8",
+   "original_name": "nozzle",
+   "normalized_name": "context:nozzle_mm",
+   "original_unit": "mm",
+   "normalized_unit": "mm",
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/Spice Flight Test Data II modified.xls"
+   ],
+   "sheets": [
+    "Data record of Video and Stills"
+   ],
+   "observations": 526,
+   "usable": 526,
+   "missing": 0,
+   "questionable_record_flags": 526,
+   "disputed": 0,
+   "min": 0.4064,
+   "max": 1.6002,
+   "criterion": "Experimental context",
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": true,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "70a6c9a2e67ca77253cae9d54d7cd3ec047b1b1ab9c3e19a676b1d87fcfd914a",
+   "original_name": "nozzle",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": "mm",
+   "normalized_unit": "mm",
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet"
+   ],
+   "observations": 55,
+   "usable": 55,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": 0.4064,
+   "max": 1.6002,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "487ac5b737675244b62104ee1cef8bfbb8a100779f745ddc3b34859d0a160622",
+   "original_name": "Nozzle (mm)",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": "mm",
+   "normalized_unit": "mm",
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/Spice.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 469,
+   "usable": 469,
+   "missing": 0,
+   "questionable_record_flags": 469,
+   "disputed": 0,
+   "min": 0.4064,
+   "max": 1.6002,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "c1cb022c09c6181e58c87890f4d7062d17adda8cbdbee9d5e129c18888171e60",
+   "original_name": "off",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/Spice Flight Test Data II modified.xls"
+   ],
+   "sheets": [
+    "Data record of Video and Stills"
+   ],
+   "observations": 526,
+   "usable": 0,
+   "missing": 4,
+   "questionable_record_flags": 526,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "548b5d094757db06f87effb92317bea795a42a9141d1dab6ae94410afcde893b",
+   "original_name": "off",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet"
+   ],
+   "observations": 55,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "221c48e1fd0c150dc40c6b21832b96be7c85495551826f19a7c4347eb92ef85b",
+   "original_name": "off",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet (2)"
+   ],
+   "observations": 55,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "7c083e46da572d7a2dcdb6fd194156b226b7a2ddaf797510c4585c40cf062533",
+   "original_name": "pixel_length",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet"
+   ],
+   "observations": 55,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "25f65454fe7034cdb1dcf82587942e16ec87a1be7e5e29a32885fdf9ce236f7f",
+   "original_name": "pixel_length",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet (2)"
+   ],
+   "observations": 55,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "766fcca648b3cea3b10313f2b46bdfb79f11bf32722f6b43f7aaf2fd16428f58",
+   "original_name": "pressure",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": "Pa",
+   "normalized_unit": "Pa",
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet (2)"
+   ],
+   "observations": 55,
+   "usable": 55,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": 101325.0,
+   "max": 101325.0,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "9fcd74c9c4f406ef8b9c9585172470186af1dc788015090a4ea5f0226d3d30b1",
+   "original_name": "pressure",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": "Pa",
+   "normalized_unit": "Pa",
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet"
+   ],
+   "observations": 55,
+   "usable": 55,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": 101325.0,
+   "max": 101325.0,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "da35d4fe2e73cbf685259b97333baebc91f34e505074db85d54fab8d0c55e452",
+   "original_name": "pressure",
+   "normalized_name": "condition:pressure",
+   "original_unit": "Pa",
+   "normalized_unit": "Pa",
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/Spice Flight Test Data II modified.xls"
+   ],
+   "sheets": [
+    "Data record of Video and Stills"
+   ],
+   "observations": 526,
+   "usable": 526,
+   "missing": 0,
+   "questionable_record_flags": 526,
+   "disputed": 0,
+   "min": 101325.0,
+   "max": 101325.0,
+   "criterion": "Chamber pressure as recorded in the flight workbook",
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": true,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "118fb26a2ce503d26e554c9bc291142ae7202c402f3e2156471552aaa98dd45f",
+   "original_name": "radiometer",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet"
+   ],
+   "observations": 55,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "01431517a3ceaac72fd713955d658ec754abc371fb309a9c84ea9491ece7a02f",
+   "original_name": "radiometer",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet (2)"
+   ],
+   "observations": 55,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "b4dd9e413132c96b3e6f34ba092390091eac10dd661b44ab97aa8ae1b9b586e9",
+   "original_name": "radiometer",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/Spice Flight Test Data II modified.xls"
+   ],
+   "sheets": [
+    "Data record of Video and Stills"
+   ],
+   "observations": 526,
+   "usable": 0,
+   "missing": 199,
+   "questionable_record_flags": 526,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-107",
+   "definition_id": "2c189cf0edf42a18016f3bb3e1cf6bce424c2f46d959d6abd7c44c73430fc15f",
+   "original_name": "recipe",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "positional_mapping_semantics_pending",
+   "sources": [
+    "dataset/raw/spice/SmokePointReview-0g-3.xlsx"
+   ],
+   "sheets": [
+    "Smoke Point Datasheet"
+   ],
+   "observations": 55,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 55,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-25",
+   "definition_id": "74599108c097e9254e00567204ef553410eedc1eae38efe1160181544186bf0c",
+   "original_name": "Air display",
+   "normalized_name": "condition:flow",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/bass-ii/BASS-II.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 129,
+   "usable": 0,
+   "missing": 4,
+   "questionable_record_flags": 129,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": "Display value (cm/s per ReadMe) with slow response and mixed/ramped entries; not converted globally.",
+   "restricted_by_contract": true,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved.",
+    "Restricted by dashboard contract: Display value (cm/s per ReadMe) with slow response and mixed/ramped entries; not converted globally."
+   ]
+  },
+  {
+   "investigation": "PSI-25",
+   "definition_id": "a12cb09c0bdc3ca469fca29bb61e22c68e3bea2d325f3561310e915aaac448ff",
+   "original_name": "Calibrated final O2 % by vol",
+   "normalized_name": "metric:final_o2",
+   "original_unit": "vol_percent",
+   "normalized_unit": "volume_fraction",
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/bass-ii/BASS-II.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 129,
+   "usable": 127,
+   "missing": 2,
+   "questionable_record_flags": 129,
+   "disputed": 0,
+   "min": 0.006,
+   "max": 0.404,
+   "criterion": "Calibrated final O2 % by volume",
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": true,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-25",
+   "definition_id": "1b126b5e33e31184769845ce0e0318200e661c33ffd526801b6270858f7b2e1d",
+   "original_name": "Calibrated  initial O2 % by vol ",
+   "normalized_name": "condition:oxygen",
+   "original_unit": "vol_percent",
+   "normalized_unit": "volume_fraction",
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/bass-ii/BASS-II.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 129,
+   "usable": 129,
+   "missing": 0,
+   "questionable_record_flags": 129,
+   "disputed": 0,
+   "min": 0.136,
+   "max": 0.222,
+   "criterion": "Calibrated initial O2 sensor reading (% by volume)",
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": true,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-25",
+   "definition_id": "da831a3f01c92a4f17dfd4eb5f28ec5c7202a69e3d3ba18ef4d9ae3c1a53508b",
+   "original_name": "Date",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/bass-ii/BASS-II.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 129,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 129,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-25",
+   "definition_id": "0e0194b1ea6515efffb2f5e3d57ad7bd75fc1ec9283cd2b09a6786fa76301aaa",
+   "original_name": "Fan display",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/bass-ii/BASS-II.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 129,
+   "usable": 0,
+   "missing": 13,
+   "questionable_record_flags": 129,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-25",
+   "definition_id": "c868c7bb21be06907974d732aa9064b6fd2035d7449d781426ae1f84c9e51e76",
+   "original_name": "Final CO2 % by vol",
+   "normalized_name": "metric:final_co2",
+   "original_unit": "vol_percent",
+   "normalized_unit": "volume_fraction",
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/bass-ii/BASS-II.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 129,
+   "usable": 123,
+   "missing": 6,
+   "questionable_record_flags": 129,
+   "disputed": 0,
+   "min": 0.002,
+   "max": 0.0322,
+   "criterion": "Final CO2 % by volume",
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": true,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-25",
+   "definition_id": "83f26e352f5f99cb4c544c49574404e90740207fa6754bcaa97ffafd1ee632c9",
+   "original_name": "Final CO (ppm)",
+   "normalized_name": "metric:final_co",
+   "original_unit": "ppm_unspecified",
+   "normalized_unit": "ppm_unspecified",
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/bass-ii/BASS-II.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 129,
+   "usable": 120,
+   "missing": 5,
+   "questionable_record_flags": 129,
+   "disputed": 0,
+   "min": 0.3,
+   "max": 950.0,
+   "criterion": "ppm basis unspecified; CO overrange documented in ReadMe.",
+   "restricted_by_contract": true,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved.",
+    "Restricted by dashboard contract: ppm basis unspecified; CO overrange documented in ReadMe."
+   ]
+  },
+  {
+   "investigation": "PSI-25",
+   "definition_id": "29d8a542e2f7ac9d99690ceff3174069d7059ac2a5aaa64341ce539a68a1b1f2",
+   "original_name": "Flow restrictor",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/bass-ii/BASS-II.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 129,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 129,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-25",
+   "definition_id": "730759f248b4ee8c8967c51f6d7d47fba678e9d4bd584518aa230445450c93c6",
+   "original_name": "Fuel Sample Material",
+   "normalized_name": "material",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/bass-ii/BASS-II.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 129,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 129,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": "Material / fuel label (literal source text)",
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-25",
+   "definition_id": "f3c7e3525df2352c5d1fd45f2959b98b861167e5c70c5a864bd3d98f9fa5fa29",
+   "original_name": "GMT",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/bass-ii/BASS-II.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 129,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 129,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-25",
+   "definition_id": "beaf2a65605b8d039790162c134cc7c3f437696de05da743e9da1c2c44e06546",
+   "original_name": "Initial CO2 % by vol",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": "vol_percent",
+   "normalized_unit": "volume_fraction",
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/bass-ii/BASS-II.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 129,
+   "usable": 127,
+   "missing": 2,
+   "questionable_record_flags": 129,
+   "disputed": 0,
+   "min": 0.0,
+   "max": 0.0185,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-25",
+   "definition_id": "2d966a827013b4282ccab1bd462040c1d6dfb06577eb8fe74a6b4a00735c8385",
+   "original_name": "Initial CO (ppm)",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": "ppm_unspecified",
+   "normalized_unit": "ppm_unspecified",
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/bass-ii/BASS-II.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 129,
+   "usable": 126,
+   "missing": 2,
+   "questionable_record_flags": 129,
+   "disputed": 0,
+   "min": -3.0,
+   "max": 950.0,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-25",
+   "definition_id": "75126d99465a38fb9fb9eecc5a44d8cc997ae7415201a9068368dc6eb3680e24",
+   "original_name": "﻿PI",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/bass-ii/BASS-II.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 129,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 129,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-25",
+   "definition_id": "f7ac3e1d1a7e8b8ece0577e7d97246c7b4e9ca03b4d7e62aeb49423a4958c844",
+   "original_name": "Radiometer gain   (1000   250   50   10)",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/bass-ii/BASS-II.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 129,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 129,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-25",
+   "definition_id": "77189878f4c996312f626a1e1b4b92872f15e68dd116daa83d38971e173dd873",
+   "original_name": "Sample #",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/bass-ii/BASS-II.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 129,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 129,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-25",
+   "definition_id": "bc8d800244defa9e421c9082b5346b1aada856939ef011278724be4712fcb5b0",
+   "original_name": "Test #",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/bass-ii/BASS-II.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 129,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 129,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-25",
+   "definition_id": "9190d71b11fb7e582a23975cff0cc6ec22710a5d640bffbd5696e13b78be22c8",
+   "original_name": "Total Frames Shot",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/bass-ii/BASS-II.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 129,
+   "usable": 0,
+   "missing": 1,
+   "questionable_record_flags": 129,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-39",
+   "definition_id": "37f35450f2e69ca3cbea1111d9f20708edc25127f66f46d699b43f6bd4d094ff",
+   "original_name": "CIR ",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/cfi/CFI.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 87,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 87,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-39",
+   "definition_id": "c643927f41f64ea093701f0a5148e5a039ca49f2fa61efff1224af9fee566ae2",
+   "original_name": "Fiber",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/cfi/CFI.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 87,
+   "usable": 0,
+   "missing": 9,
+   "questionable_record_flags": 87,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-39",
+   "definition_id": "585977aa2564a31c6b9aab54bff7efff35c8fe0eb56b721216cbd06d838c77aa",
+   "original_name": "Flex Number",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/cfi/CFI.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 87,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 87,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-39",
+   "definition_id": "d672bfd3ce77a188bef2e6106647b04949ab2b29319c05c751d7d741377319c7",
+   "original_name": "Fuel ",
+   "normalized_name": "material",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/cfi/CFI.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 87,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 87,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": "Material / fuel label (literal source text)",
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-39",
+   "definition_id": "b5fef6ca21d3303230ff9f441356f042162c0dad40bb2a3640cce94097b28899",
+   "original_name": "Helium",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/cfi/CFI.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 87,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 87,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-39",
+   "definition_id": "1a7092b6facfa784479dfa2ace7c89e43263cedb803330852cf4e0d51ba4b9c7",
+   "original_name": "Local Time",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/cfi/CFI.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 87,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 87,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-39",
+   "definition_id": "82ab6ed450de2ef6e44ba5d15e8a43c7de1b3fe84a2fc574cc000640ca450602",
+   "original_name": "Nitrogen",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/cfi/CFI.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 87,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 87,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-39",
+   "definition_id": "22abc64cd7a34daf4eb1ca0caa6e914b7841d2e60b54ed537fda6d8a944b1bda",
+   "original_name": "Oxygen",
+   "normalized_name": "condition:oxygen",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/cfi/CFI.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 87,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 87,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": "Values (0.17, 0.21) are not normalized during curation: unit and basis (mole vs mass fraction) are not established in the index.",
+   "restricted_by_contract": true,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved.",
+    "Restricted by dashboard contract: Values (0.17, 0.21) are not normalized during curation: unit and basis (mole vs mass fraction) are not established in the index."
+   ]
+  },
+  {
+   "investigation": "PSI-39",
+   "definition_id": "e7f4ceb60a2ccfb7810319b2267f4fc346c4b12c0aa0dacb059a927273da3c45",
+   "original_name": "Pressure",
+   "normalized_name": "condition:pressure",
+   "original_unit": null,
+   "normalized_unit": "Pa",
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/cfi/CFI.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 87,
+   "usable": 87,
+   "missing": 0,
+   "questionable_record_flags": 87,
+   "disputed": 0,
+   "min": 50662.5,
+   "max": 506625.0,
+   "criterion": "Ambient pressure (source in atm)",
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": true,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-39",
+   "definition_id": "4afd701cbcb38a08c022b4c368f338761a70f284628c8093fb9048ffe273fa37",
+   "original_name": "Test Date",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/cfi/CFI.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 87,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 87,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-69",
+   "definition_id": "44aa7825d83a0eaec2398efec6d500a798c087eb17c213554b882820051453f8",
+   "original_name": "Ambient pressure; mmHg",
+   "normalized_name": "condition:pressure",
+   "original_unit": "mmHg",
+   "normalized_unit": "Pa",
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/flex/FLEX.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 274,
+   "usable": 273,
+   "missing": 0,
+   "questionable_record_flags": 274,
+   "disputed": 1,
+   "min": 70167.5724965145,
+   "max": 309294.6065640585,
+   "criterion": "Ambient chamber pressure",
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": true,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-69",
+   "definition_id": "b7dec8d69054bb9b1f9f3d0ad789b64bc88dd0e9311ac1a819d2e74dadc33e90",
+   "original_name": "Burning rate; mm",
+   "normalized_name": "metric:burning_rate",
+   "original_unit": "mm^2/s",
+   "normalized_unit": "mm^2/s",
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/flex/FLEX.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 274,
+   "usable": 258,
+   "missing": 16,
+   "questionable_record_flags": 274,
+   "disputed": 0,
+   "min": 0.05,
+   "max": 1.06,
+   "criterion": "d²-law burning-rate constant (NASA/TP-2015-216046 App. A.1, Table IX: mm²/s)",
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": true,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-69",
+   "definition_id": "88df7b4cfa523b5dfc8653964b2370dc022a283259afc728a0b7602fd8039e80",
+   "original_name": "Burn time; s",
+   "normalized_name": "metric:burn_time",
+   "original_unit": "s",
+   "normalized_unit": "s",
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/flex/FLEX.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 274,
+   "usable": 266,
+   "missing": 6,
+   "questionable_record_flags": 274,
+   "disputed": 0,
+   "min": 0.3,
+   "max": 39.2,
+   "criterion": "Burn duration; some values are source-approximate (estimated status kept)",
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": true,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-69",
+   "definition_id": "b13b3ef12b937ea974ede058a80a368f91b36db6a9208be8fdc33458537e44c9",
+   "original_name": "CO initial ambient composition; mole fraction",
+   "normalized_name": "context:co2_fraction",
+   "original_unit": "mole_fraction",
+   "normalized_unit": "mol/mol",
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/flex/FLEX.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 274,
+   "usable": 274,
+   "missing": 0,
+   "questionable_record_flags": 274,
+   "disputed": 0,
+   "min": 0.0,
+   "max": 0.7,
+   "criterion": "Experimental context",
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": true,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-69",
+   "definition_id": "3c04045922b67f16b5c6a1ec4d193a292113264fbdf71795d160c8210a56d0e2",
+   "original_name": "Droplet initial diameter; mm",
+   "normalized_name": "metric:initial_diameter",
+   "original_unit": "mm",
+   "normalized_unit": "mm",
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/flex/FLEX.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 274,
+   "usable": 262,
+   "missing": 12,
+   "questionable_record_flags": 274,
+   "disputed": 0,
+   "min": 1.1,
+   "max": 4.67,
+   "criterion": "Initial droplet diameter (sample scale)",
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": true,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-69",
+   "definition_id": "714db17644e79d0046438aebc101466c577e76cc872e6cafa3c1a5afb33414f2",
+   "original_name": "FLEX Identifier",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/flex/FLEX.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 274,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 274,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-69",
+   "definition_id": "708a490348dd1b81a7a9ba11683c75aca01fceada73b24cb45652e57db0adc31",
+   "original_name": "FLEX Test #",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/flex/FLEX.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 274,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 274,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-69",
+   "definition_id": "5f383d640ece7ccee5b7a19f771b1abe753e5e16f7a2ef45cbbac1b151d0123f",
+   "original_name": "Fuel",
+   "normalized_name": "material",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/flex/FLEX.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 274,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 274,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": "Material / fuel label (literal source text)",
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-69",
+   "definition_id": "ab8693ae8c208f879ae2c16e27a1e125c1e2cf5e1e9c31bed58571f931a67897",
+   "original_name": "He initial ambient composition; mole fraction",
+   "normalized_name": "context:he_fraction",
+   "original_unit": "mole_fraction",
+   "normalized_unit": "mol/mol",
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/flex/FLEX.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 274,
+   "usable": 274,
+   "missing": 0,
+   "questionable_record_flags": 274,
+   "disputed": 0,
+   "min": 0.0,
+   "max": 0.45,
+   "criterion": "Experimental context",
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": true,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-69",
+   "definition_id": "bf520260f27993a9a830f7ae5d82f2635697543969bce6344ecc8457ff58ea79",
+   "original_name": "N initial ambient composition; mole fraction",
+   "normalized_name": "context:n2_fraction",
+   "original_unit": "mole_fraction",
+   "normalized_unit": "mol/mol",
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/flex/FLEX.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 274,
+   "usable": 274,
+   "missing": 0,
+   "questionable_record_flags": 274,
+   "disputed": 0,
+   "min": 0.09,
+   "max": 0.88,
+   "criterion": "Experimental context",
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": true,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-69",
+   "definition_id": "543ec2c51a5f6ed435e961903b4caaf82a874f2ead2ebbbf32e3f23eb945b26b",
+   "original_name": "O initial ambient composition; mole fraction",
+   "normalized_name": "condition:oxygen",
+   "original_unit": "mole_fraction",
+   "normalized_unit": "mol/mol",
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/flex/FLEX.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 274,
+   "usable": 274,
+   "missing": 0,
+   "questionable_record_flags": 274,
+   "disputed": 0,
+   "min": 0.12,
+   "max": 0.34,
+   "criterion": "Initial ambient O2 mole fraction (prepared chamber composition)",
+   "restricted_by_contract": false,
+   "plot_suitable": true,
+   "model_target_candidate": false,
+   "model_input_candidate": true,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-69",
+   "definition_id": "c674819322e853562d0c6eb2b7ed7fe511ec11cee344866303f9b2433e8a20c2",
+   "original_name": "Test Date",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/flex/FLEX.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 274,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 274,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-69",
+   "definition_id": "9c95e5940e5b5742bf5a1829f000aca91a46609ced8db39bfc17656858e6374a",
+   "original_name": "Test end",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/flex/FLEX.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 274,
+   "usable": 0,
+   "missing": 0,
+   "questionable_record_flags": 274,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-69",
+   "definition_id": "cbdf2cddcd345f716456cc216c8663ef7b249a9b3b4c9721a88db4c52dcb280d",
+   "original_name": "Test GMT",
+   "normalized_name": "not_used_by_dashboard",
+   "original_unit": null,
+   "normalized_unit": null,
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/flex/FLEX.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 274,
+   "usable": 0,
+   "missing": 1,
+   "questionable_record_flags": 274,
+   "disputed": 0,
+   "min": null,
+   "max": null,
+   "criterion": null,
+   "restricted_by_contract": false,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved."
+   ]
+  },
+  {
+   "investigation": "PSI-69",
+   "definition_id": "31cf534a509c208fe7e11e3dd41e09a65675308bfff9f808e86913bd92800840",
+   "original_name": "Visible flame extinction diameter; mm",
+   "normalized_name": "metric:extinction_diameter",
+   "original_unit": "mm",
+   "normalized_unit": "mm",
+   "mapping_status": "header_unit_only_semantics_pending",
+   "sources": [
+    "dataset/raw/flex/FLEX.csv"
+   ],
+   "sheets": [
+    "CSV"
+   ],
+   "observations": 274,
+   "usable": 197,
+   "missing": 77,
+   "questionable_record_flags": 274,
+   "disputed": 0,
+   "min": 0.0,
+   "max": 4.6,
+   "criterion": "Zero/dash meanings vary per test (quality issue FLEX_EXTINCTION_AND_BURN_RATE partially resolved).",
+   "restricted_by_contract": true,
+   "plot_suitable": false,
+   "model_target_candidate": false,
+   "model_input_candidate": false,
+   "compatibility_restrictions": [
+    "Mapping semantics pending (curation review); not scientifically approved.",
+    "Restricted by dashboard contract: Zero/dash meanings vary per test (quality issue FLEX_EXTINCTION_AND_BURN_RATE partially resolved)."
+   ]
+  }
+ ]
+}

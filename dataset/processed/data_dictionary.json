@@ -1,0 +1,1274 @@
+[
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice.csv",
+    "sheet": null,
+    "column": 1,
+    "source_heading": "GMT date",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice.csv",
+    "sheet": null,
+    "column": 2,
+    "source_heading": "GMT ignition",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice.csv",
+    "sheet": null,
+    "column": 3,
+    "source_heading": "GMT  Flame Off ",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice.csv",
+    "sheet": null,
+    "column": 4,
+    "source_heading": "Fuel",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice.csv",
+    "sheet": null,
+    "column": 5,
+    "source_heading": "Nozzle (mm)",
+    "source_unit": "mm",
+    "canonical_unit": "mm",
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice.csv",
+    "sheet": null,
+    "column": 6,
+    "source_heading": "Fuel Rate (sccm)",
+    "source_unit": "sccm",
+    "canonical_unit": "sccm",
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice.csv",
+    "sheet": null,
+    "column": 7,
+    "source_heading": "Fuel Rate (mg/s)",
+    "source_unit": "mg/s",
+    "canonical_unit": "mg/s",
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice.csv",
+    "sheet": null,
+    "column": 8,
+    "source_heading": "HC Fuel Rate (mg/s)",
+    "source_unit": "mg/s",
+    "canonical_unit": "mg/s",
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice.csv",
+    "sheet": null,
+    "column": 9,
+    "source_heading": "Air Rate (cm/s)",
+    "source_unit": "cm/s",
+    "canonical_unit": "m/s",
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-69",
+    "source": "dataset/raw/flex/FLEX.csv",
+    "sheet": null,
+    "column": 1,
+    "source_heading": "FLEX Test #",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-69",
+    "source": "dataset/raw/flex/FLEX.csv",
+    "sheet": null,
+    "column": 2,
+    "source_heading": "FLEX Identifier",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-69",
+    "source": "dataset/raw/flex/FLEX.csv",
+    "sheet": null,
+    "column": 3,
+    "source_heading": "Test Date",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-69",
+    "source": "dataset/raw/flex/FLEX.csv",
+    "sheet": null,
+    "column": 4,
+    "source_heading": "Test GMT",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-69",
+    "source": "dataset/raw/flex/FLEX.csv",
+    "sheet": null,
+    "column": 5,
+    "source_heading": "Fuel",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-69",
+    "source": "dataset/raw/flex/FLEX.csv",
+    "sheet": null,
+    "column": 6,
+    "source_heading": "Ambient pressure; mmHg",
+    "source_unit": "mmHg",
+    "canonical_unit": "Pa",
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-69",
+    "source": "dataset/raw/flex/FLEX.csv",
+    "sheet": null,
+    "column": 7,
+    "source_heading": "O initial ambient composition; mole fraction",
+    "source_unit": "mole_fraction",
+    "canonical_unit": "mol/mol",
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-69",
+    "source": "dataset/raw/flex/FLEX.csv",
+    "sheet": null,
+    "column": 8,
+    "source_heading": "N initial ambient composition; mole fraction",
+    "source_unit": "mole_fraction",
+    "canonical_unit": "mol/mol",
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-69",
+    "source": "dataset/raw/flex/FLEX.csv",
+    "sheet": null,
+    "column": 9,
+    "source_heading": "CO initial ambient composition; mole fraction",
+    "source_unit": "mole_fraction",
+    "canonical_unit": "mol/mol",
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-69",
+    "source": "dataset/raw/flex/FLEX.csv",
+    "sheet": null,
+    "column": 10,
+    "source_heading": "He initial ambient composition; mole fraction",
+    "source_unit": "mole_fraction",
+    "canonical_unit": "mol/mol",
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-69",
+    "source": "dataset/raw/flex/FLEX.csv",
+    "sheet": null,
+    "column": 11,
+    "source_heading": "Droplet initial diameter; mm",
+    "source_unit": "mm",
+    "canonical_unit": "mm",
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-69",
+    "source": "dataset/raw/flex/FLEX.csv",
+    "sheet": null,
+    "column": 12,
+    "source_heading": "Visible flame extinction diameter; mm",
+    "source_unit": "mm",
+    "canonical_unit": "mm",
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-69",
+    "source": "dataset/raw/flex/FLEX.csv",
+    "sheet": null,
+    "column": 13,
+    "source_heading": "Burning rate; mm",
+    "source_unit": null,
+    "canonical_unit": "mm^2/s",
+    "mapping_status": "primary_report_unit_verified_source_heading_incomplete",
+    "interpreted_unit": "mm^2/s",
+    "evidence": "NASA/TP-2015-216046 Appendix A.1, Table IX"
+  },
+  {
+    "investigation": "PSI-69",
+    "source": "dataset/raw/flex/FLEX.csv",
+    "sheet": null,
+    "column": 14,
+    "source_heading": "Burn time; s",
+    "source_unit": "s",
+    "canonical_unit": "s",
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-69",
+    "source": "dataset/raw/flex/FLEX.csv",
+    "sheet": null,
+    "column": 15,
+    "source_heading": "Test end",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-39",
+    "source": "dataset/raw/cfi/CFI.csv",
+    "sheet": null,
+    "column": 1,
+    "source_heading": "Flex Number",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-39",
+    "source": "dataset/raw/cfi/CFI.csv",
+    "sheet": null,
+    "column": 2,
+    "source_heading": "Test Date",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-39",
+    "source": "dataset/raw/cfi/CFI.csv",
+    "sheet": null,
+    "column": 3,
+    "source_heading": "Local Time",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-39",
+    "source": "dataset/raw/cfi/CFI.csv",
+    "sheet": null,
+    "column": 4,
+    "source_heading": "CIR ",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-39",
+    "source": "dataset/raw/cfi/CFI.csv",
+    "sheet": null,
+    "column": 5,
+    "source_heading": "Pressure",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-39",
+    "source": "dataset/raw/cfi/CFI.csv",
+    "sheet": null,
+    "column": 6,
+    "source_heading": "Oxygen",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-39",
+    "source": "dataset/raw/cfi/CFI.csv",
+    "sheet": null,
+    "column": 7,
+    "source_heading": "Nitrogen",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-39",
+    "source": "dataset/raw/cfi/CFI.csv",
+    "sheet": null,
+    "column": 8,
+    "source_heading": "Helium",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-39",
+    "source": "dataset/raw/cfi/CFI.csv",
+    "sheet": null,
+    "column": 9,
+    "source_heading": "Fiber",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-39",
+    "source": "dataset/raw/cfi/CFI.csv",
+    "sheet": null,
+    "column": 10,
+    "source_heading": "Fuel ",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-101",
+    "source": "dataset/raw/same-r/SAME-R.csv",
+    "sheet": null,
+    "column": 1,
+    "source_heading": "Sample Type",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-101",
+    "source": "dataset/raw/same-r/SAME-R.csv",
+    "sheet": null,
+    "column": 2,
+    "source_heading": "SAME Test #",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-101",
+    "source": "dataset/raw/same-r/SAME-R.csv",
+    "sheet": null,
+    "column": 3,
+    "source_heading": "Description",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-101",
+    "source": "dataset/raw/same-r/SAME-R.csv",
+    "sheet": null,
+    "column": 4,
+    "source_heading": "Date",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-101",
+    "source": "dataset/raw/same-r/SAME-R.csv",
+    "sheet": null,
+    "column": 5,
+    "source_heading": "Inlet velocity (cm/s)",
+    "source_unit": "cm/s",
+    "canonical_unit": "m/s",
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-101",
+    "source": "dataset/raw/same-r/SAME-R.csv",
+    "sheet": null,
+    "column": 6,
+    "source_heading": "Rt/R0",
+    "source_unit": "dimensionless",
+    "canonical_unit": "1",
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-101",
+    "source": "dataset/raw/same-r/SAME-R.csv",
+    "sheet": null,
+    "column": 7,
+    "source_heading": "Duration (sec)",
+    "source_unit": "s",
+    "canonical_unit": "s",
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-101",
+    "source": "dataset/raw/same-r/SAME-R.csv",
+    "sheet": null,
+    "column": 8,
+    "source_heading": "Primary aging time (sec)",
+    "source_unit": "s",
+    "canonical_unit": "s",
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-101",
+    "source": "dataset/raw/same-r/SAME-R.csv",
+    "sheet": null,
+    "column": 9,
+    "source_heading": "Primary mixing time (sec)",
+    "source_unit": "s",
+    "canonical_unit": "s",
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-101",
+    "source": "dataset/raw/same-r/SAME-R.csv",
+    "sheet": null,
+    "column": 10,
+    "source_heading": "Net aging time (sec)",
+    "source_unit": "s",
+    "canonical_unit": "s",
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-25",
+    "source": "dataset/raw/bass-ii/BASS-II.csv",
+    "sheet": null,
+    "column": 1,
+    "source_heading": "﻿PI",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-25",
+    "source": "dataset/raw/bass-ii/BASS-II.csv",
+    "sheet": null,
+    "column": 2,
+    "source_heading": "Test #",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-25",
+    "source": "dataset/raw/bass-ii/BASS-II.csv",
+    "sheet": null,
+    "column": 3,
+    "source_heading": "Date",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-25",
+    "source": "dataset/raw/bass-ii/BASS-II.csv",
+    "sheet": null,
+    "column": 4,
+    "source_heading": "GMT",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-25",
+    "source": "dataset/raw/bass-ii/BASS-II.csv",
+    "sheet": null,
+    "column": 5,
+    "source_heading": "Sample #",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-25",
+    "source": "dataset/raw/bass-ii/BASS-II.csv",
+    "sheet": null,
+    "column": 6,
+    "source_heading": "Fuel Sample Material",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-25",
+    "source": "dataset/raw/bass-ii/BASS-II.csv",
+    "sheet": null,
+    "column": 7,
+    "source_heading": "Flow restrictor",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-25",
+    "source": "dataset/raw/bass-ii/BASS-II.csv",
+    "sheet": null,
+    "column": 8,
+    "source_heading": "Fan display",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-25",
+    "source": "dataset/raw/bass-ii/BASS-II.csv",
+    "sheet": null,
+    "column": 9,
+    "source_heading": "Air display",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-25",
+    "source": "dataset/raw/bass-ii/BASS-II.csv",
+    "sheet": null,
+    "column": 10,
+    "source_heading": "Radiometer gain   (1000   250   50   10)",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-25",
+    "source": "dataset/raw/bass-ii/BASS-II.csv",
+    "sheet": null,
+    "column": 11,
+    "source_heading": "Total Frames Shot",
+    "source_unit": null,
+    "canonical_unit": null,
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-25",
+    "source": "dataset/raw/bass-ii/BASS-II.csv",
+    "sheet": null,
+    "column": 12,
+    "source_heading": "Calibrated  initial O2 % by vol ",
+    "source_unit": "vol_percent",
+    "canonical_unit": "volume_fraction",
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-25",
+    "source": "dataset/raw/bass-ii/BASS-II.csv",
+    "sheet": null,
+    "column": 13,
+    "source_heading": "Calibrated final O2 % by vol",
+    "source_unit": "vol_percent",
+    "canonical_unit": "volume_fraction",
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-25",
+    "source": "dataset/raw/bass-ii/BASS-II.csv",
+    "sheet": null,
+    "column": 14,
+    "source_heading": "Initial CO2 % by vol",
+    "source_unit": "vol_percent",
+    "canonical_unit": "volume_fraction",
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-25",
+    "source": "dataset/raw/bass-ii/BASS-II.csv",
+    "sheet": null,
+    "column": 15,
+    "source_heading": "Final CO2 % by vol",
+    "source_unit": "vol_percent",
+    "canonical_unit": "volume_fraction",
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-25",
+    "source": "dataset/raw/bass-ii/BASS-II.csv",
+    "sheet": null,
+    "column": 16,
+    "source_heading": "Initial CO (ppm)",
+    "source_unit": "ppm_unspecified",
+    "canonical_unit": "ppm_unspecified",
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-25",
+    "source": "dataset/raw/bass-ii/BASS-II.csv",
+    "sheet": null,
+    "column": 17,
+    "source_heading": "Final CO (ppm)",
+    "source_unit": "ppm_unspecified",
+    "canonical_unit": "ppm_unspecified",
+    "mapping_status": "header_unit_only_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "column_letter": "A",
+    "canonical_candidate": "day",
+    "header_rows": [
+      "GMT",
+      "date"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "column_letter": "B",
+    "canonical_candidate": "ignition",
+    "header_rows": [
+      "GMT",
+      "ignite"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "column_letter": "C",
+    "canonical_candidate": "off",
+    "header_rows": [
+      "GMT",
+      "flame off"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "column_letter": "D",
+    "canonical_candidate": "data",
+    "header_rows": [
+      "GMT",
+      "data"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "column_letter": "E",
+    "canonical_candidate": "label",
+    "header_rows": [
+      "No."
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "column_letter": "F",
+    "canonical_candidate": "recipe",
+    "header_rows": [
+      "TP",
+      "#"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "column_letter": "G",
+    "canonical_candidate": "fuel",
+    "header_rows": [
+      "Fuel"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "column_letter": "H",
+    "canonical_candidate": "nozzle",
+    "header_rows": [
+      "Nozzle ",
+      "(mm)"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "column_letter": "I",
+    "canonical_candidate": "pressure",
+    "header_rows": [
+      "Pressure",
+      "(Pa)"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "column_letter": "M",
+    "canonical_candidate": "fuel_display",
+    "header_rows": [
+      "Fuel",
+      "Display"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "column_letter": "N",
+    "canonical_candidate": "air_display",
+    "header_rows": [
+      "Air",
+      "Display"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "column_letter": "O",
+    "canonical_candidate": "fan",
+    "header_rows": [
+      "Fan"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "column_letter": "P",
+    "canonical_candidate": "radiometer",
+    "header_rows": [
+      "Rad"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "column_letter": "Q",
+    "canonical_candidate": "gain",
+    "header_rows": [
+      "Gain"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "column_letter": "R",
+    "canonical_candidate": "pixel_length",
+    "header_rows": [
+      "Pixel",
+      "length"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "column_letter": "S",
+    "canonical_candidate": "length_mm",
+    "header_rows": [
+      "smk pt",
+      "mm"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "column_letter": "Z",
+    "canonical_candidate": "fuel_sccm",
+    "header_rows": [
+      "Total Fuel Rate",
+      "sccm"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "column_letter": "AB",
+    "canonical_candidate": "fuel_mg_s",
+    "header_rows": [
+      "mdotburner",
+      "(mg/s)"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "column_letter": "AC",
+    "canonical_candidate": "hc_mg_s",
+    "header_rows": [
+      "mdotHC",
+      "(mg/s)"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "column_letter": "AD",
+    "canonical_candidate": "air_cm_s",
+    "header_rows": [
+      "uair",
+      "(cm/s)"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "column_letter": "A",
+    "canonical_candidate": "day",
+    "header_rows": [
+      "GMT date"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "column_letter": "B",
+    "canonical_candidate": "ignition",
+    "header_rows": [
+      "GMT ignition"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "column_letter": "C",
+    "canonical_candidate": "off",
+    "header_rows": [
+      "GMT  Flame Off "
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "column_letter": "D",
+    "canonical_candidate": "data",
+    "header_rows": [
+      "GMT data"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "column_letter": "F",
+    "canonical_candidate": "label",
+    "header_rows": [
+      "No."
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "column_letter": "G",
+    "canonical_candidate": "fuel",
+    "header_rows": [
+      "Fuel"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "column_letter": "H",
+    "canonical_candidate": "nozzle",
+    "header_rows": [
+      "Nozzle ",
+      "(mm)"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "column_letter": "I",
+    "canonical_candidate": "pressure",
+    "header_rows": [
+      "Pressure",
+      "(Pa)"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "column_letter": "J",
+    "canonical_candidate": "fuel_display",
+    "header_rows": [
+      "Fuel",
+      "Display"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "column_letter": "K",
+    "canonical_candidate": "air_display",
+    "header_rows": [
+      "Air",
+      "Display"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "column_letter": "L",
+    "canonical_candidate": "fan",
+    "header_rows": [
+      "Fan"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "column_letter": "M",
+    "canonical_candidate": "radiometer",
+    "header_rows": [
+      "Rad"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "column_letter": "N",
+    "canonical_candidate": "gain",
+    "header_rows": [
+      "Gain"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "column_letter": "O",
+    "canonical_candidate": "pixel_length",
+    "header_rows": [
+      "x264 Pixel"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "column_letter": "P",
+    "canonical_candidate": "length_mm",
+    "header_rows": [
+      "Length",
+      "mm"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "column_letter": "T",
+    "canonical_candidate": "fuel_sccm",
+    "header_rows": [
+      "Total Fuel Rate",
+      "sccm"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "column_letter": "V",
+    "canonical_candidate": "fuel_mg_s",
+    "header_rows": [
+      "Total Fuel Rate",
+      "(mg/s)"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "column_letter": "W",
+    "canonical_candidate": "hc_mg_s",
+    "header_rows": [
+      "HC Only Rate",
+      "(mg/s)"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "column_letter": "X",
+    "canonical_candidate": "air_cm_s",
+    "header_rows": [
+      "Air Rate",
+      "(cm/s)"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice Flight Test Data II modified.xls",
+    "sheet": "Data record of Video and Stills",
+    "column_letter": "A",
+    "canonical_candidate": "day",
+    "header_rows": [
+      "GMT date"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice Flight Test Data II modified.xls",
+    "sheet": "Data record of Video and Stills",
+    "column_letter": "C",
+    "canonical_candidate": "ignition",
+    "header_rows": [
+      "GMT ignition"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice Flight Test Data II modified.xls",
+    "sheet": "Data record of Video and Stills",
+    "column_letter": "D",
+    "canonical_candidate": "off",
+    "header_rows": [
+      "GMT  Flame Off "
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice Flight Test Data II modified.xls",
+    "sheet": "Data record of Video and Stills",
+    "column_letter": "E",
+    "canonical_candidate": "data",
+    "header_rows": [
+      "GMT data"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice Flight Test Data II modified.xls",
+    "sheet": "Data record of Video and Stills",
+    "column_letter": "H",
+    "canonical_candidate": "label",
+    "header_rows": [
+      "No."
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice Flight Test Data II modified.xls",
+    "sheet": "Data record of Video and Stills",
+    "column_letter": "I",
+    "canonical_candidate": "fuel",
+    "header_rows": [
+      "Fuel"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice Flight Test Data II modified.xls",
+    "sheet": "Data record of Video and Stills",
+    "column_letter": "J",
+    "canonical_candidate": "nozzle",
+    "header_rows": [
+      "Nozzle ",
+      "(mm)"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice Flight Test Data II modified.xls",
+    "sheet": "Data record of Video and Stills",
+    "column_letter": "K",
+    "canonical_candidate": "pressure",
+    "header_rows": [
+      "Pressure",
+      "(Pa)"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice Flight Test Data II modified.xls",
+    "sheet": "Data record of Video and Stills",
+    "column_letter": "L",
+    "canonical_candidate": "fuel_display",
+    "header_rows": [
+      "Fuel",
+      "Display"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice Flight Test Data II modified.xls",
+    "sheet": "Data record of Video and Stills",
+    "column_letter": "M",
+    "canonical_candidate": "air_display",
+    "header_rows": [
+      "Air",
+      "Display"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice Flight Test Data II modified.xls",
+    "sheet": "Data record of Video and Stills",
+    "column_letter": "N",
+    "canonical_candidate": "fan",
+    "header_rows": [
+      "Fan"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice Flight Test Data II modified.xls",
+    "sheet": "Data record of Video and Stills",
+    "column_letter": "O",
+    "canonical_candidate": "radiometer",
+    "header_rows": [
+      "Rad"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice Flight Test Data II modified.xls",
+    "sheet": "Data record of Video and Stills",
+    "column_letter": "P",
+    "canonical_candidate": "gain",
+    "header_rows": [
+      "Gain"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice Flight Test Data II modified.xls",
+    "sheet": "Data record of Video and Stills",
+    "column_letter": "Q",
+    "canonical_candidate": "length_mm",
+    "header_rows": [
+      "Length",
+      "mm"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice Flight Test Data II modified.xls",
+    "sheet": "Data record of Video and Stills",
+    "column_letter": "R",
+    "canonical_candidate": "fuel_sccm",
+    "header_rows": [
+      "Fuel Rate",
+      "sccm"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice Flight Test Data II modified.xls",
+    "sheet": "Data record of Video and Stills",
+    "column_letter": "S",
+    "canonical_candidate": "fuel_mg_s",
+    "header_rows": [
+      "Fuel Rate",
+      "(mg/s)"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice Flight Test Data II modified.xls",
+    "sheet": "Data record of Video and Stills",
+    "column_letter": "T",
+    "canonical_candidate": "hc_mg_s",
+    "header_rows": [
+      "HC Fuel Rate",
+      "(mg/s)"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  },
+  {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice Flight Test Data II modified.xls",
+    "sheet": "Data record of Video and Stills",
+    "column_letter": "U",
+    "canonical_candidate": "air_cm_s",
+    "header_rows": [
+      "Air Rate",
+      "(cm/s)"
+    ],
+    "mapping_status": "positional_correspondence_semantics_pending"
+  }
+]

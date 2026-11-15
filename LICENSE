@@ -1,0 +1,21 @@
+Ember Atlas — Flame in Freefall
+Copyright (c) 2026 Samriddhi Kori. All rights reserved.
+
+No licence is granted for the source code, documentation or curated outputs of this repository. They may not be
+copied, modified or redistributed without the owner's written permission. (An open-source licence may be chosen
+later; until then this notice applies.)
+
+Third-party material keeps its own terms and is NOT covered by the notice above:
+
+* NASA Physical Sciences Informatics data in dataset/raw/ — CC0-1.0, as declared by each NASA PSI catalog record
+  (snapshots in dataset/references/nasa-psi/psi*_catalog.json). Cite the investigation DOIs listed in dataset/README.md.
+* dataset/raw/*/info.md and layout.json — NASA catalog text as packaged by the Fotia project; Fotia's MIT licence and
+  copyright notice are reproduced in dataset/upstream/FOTIA_LICENSE.
+* frontend/earth-module/original/ — the Ember Atlas Earth Applications module sources supplied by the project team
+  (hash-pinned in ORIGINAL_SHA256SUMS).
+* Fonts (Inter, Space Grotesk, JetBrains Mono) — SIL Open Font License 1.1, via @fontsource packages.
+* npm and Python dependencies — their respective licences (see frontend/package-lock.json and requirements.lock).
+* Cited NASA reports and publications are not redistributed; scripts/restore_references.py retrieves them from
+  their official sources for local use.
+
+Ember Atlas is an independent research project and is not endorsed by NASA.

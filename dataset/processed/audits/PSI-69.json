@@ -1,0 +1,241 @@
+{
+  "statistics": {
+    "investigation": "PSI-69",
+    "source": "dataset/raw/flex/FLEX.csv",
+    "encoding": "cp1252",
+    "headers": [
+      "FLEX Test #",
+      "FLEX Identifier",
+      "Test Date",
+      "Test GMT",
+      "Fuel",
+      "Ambient pressure; mmHg",
+      "O initial ambient composition; mole fraction",
+      "N initial ambient composition; mole fraction",
+      "CO initial ambient composition; mole fraction",
+      "He initial ambient composition; mole fraction",
+      "Droplet initial diameter; mm",
+      "Visible flame extinction diameter; mm",
+      "Burning rate; mm",
+      "Burn time; s",
+      "Test end"
+    ],
+    "source_rows": 274,
+    "exact_duplicate_rows_beyond_first": 0,
+    "repeated_identifier_groups": 0,
+    "fields": {
+      "1": {
+        "heading": "FLEX Test #",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "2": {
+        "heading": "FLEX Identifier",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "3": {
+        "heading": "Test Date",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "4": {
+        "heading": "Test GMT",
+        "blank": 1,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "5": {
+        "heading": "Fuel",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "6": {
+        "heading": "Ambient pressure; mmHg",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 1,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "7": {
+        "heading": "O initial ambient composition; mole fraction",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "8": {
+        "heading": "N initial ambient composition; mole fraction",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "9": {
+        "heading": "CO initial ambient composition; mole fraction",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 151,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "10": {
+        "heading": "He initial ambient composition; mole fraction",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 224,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "11": {
+        "heading": "Droplet initial diameter; mm",
+        "blank": 6,
+        "source_dash": 6,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "12": {
+        "heading": "Visible flame extinction diameter; mm",
+        "blank": 49,
+        "source_dash": 28,
+        "zero": 8,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "13": {
+        "heading": "Burning rate; mm",
+        "blank": 16,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "14": {
+        "heading": "Burn time; s",
+        "blank": 6,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 2,
+        "negative_numeric": 0
+      },
+      "15": {
+        "heading": "Test end",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      }
+    },
+    "scientific_status": "not_reviewed",
+    "provenance_status": "local_file_traced_external_authenticity_pending"
+  },
+  "scope": "bounded local structural/unit/missingness/identifier review; primary-source scientific validation pending",
+  "issues": [
+    {
+      "code": "FLEX_284_VS_274",
+      "evidence": "PSI-69",
+      "detail": "NASA-report count of 284 is reported in prior notes; 274 CSV rows; missing tests not reconstructed",
+      "status": "verified_discrepancy",
+      "requires_human_review": true,
+      "evidence_type": "local_metadata_or_prior_review_not_independently_validated",
+      "review_resolution": "Primary report table extends to 280; introduction claims284. CSV274; no invented tests281–284.",
+      "review_evidence": [
+        "FLEX_COVERAGE"
+      ],
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00342"
+    },
+    {
+      "code": "FLEX_PRESSURE_TEST114",
+      "evidence": "PSI-69",
+      "detail": "Source zero pressure versus processed blank requires primary-source review",
+      "status": "verified_source_contradiction",
+      "requires_human_review": true,
+      "evidence_type": "local_metadata_or_prior_review_not_independently_validated",
+      "review_resolution": "Report Table IX zero conflicts with TableVI/Fig118 0.70atm.",
+      "review_evidence": [
+        "FLEX_PRESSURE"
+      ],
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00343"
+    },
+    {
+      "code": "FLEX_EXTINCTION_AND_BURN_RATE",
+      "evidence": "PSI-69",
+      "detail": "Extinction zero/dash meaning and burning-rate unit require review; approximate processed burn times not substituted",
+      "status": "partially_resolved",
+      "requires_human_review": true,
+      "evidence_type": "local_metadata_or_prior_review_not_independently_validated",
+      "review_resolution": "Burning-rate unit and general dash semantics verified in primary report; individual extinction zeros and approximate burn times remain open.",
+      "review_evidence": [
+        "FLEX_BURNING_RATE_UNIT",
+        "FLEX_EXTINCTION"
+      ],
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00344"
+    },
+    {
+      "code": "EXTERNAL_PROVENANCE_AND_LICENSE",
+      "evidence": "PSI-69",
+      "detail": "Local hash and location verified; authoritative provenance, redistribution license and human scientific approval pending",
+      "status": "resolved_investigation_data_scope",
+      "requires_human_review": false,
+      "review_resolution": "NASA catalog and original dataset bytes verified; source-data CC0 distinct from code and publication rights.",
+      "review_evidence": [
+        "NASA_IDENTITY_LICENSE"
+      ],
+      "blocker_type": "none",
+      "issue_id": "P0-QI-00351"
+    },
+    {
+      "code": "FLEX_REPEATED_IDENTIFIER",
+      "evidence": "dataset/raw/flex/FLEX.csv::CSV::71",
+      "detail": "Original FLEX identifier repeated",
+      "status": "open",
+      "requires_human_review": true,
+      "identifier": "193F001",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00355"
+    },
+    {
+      "code": "FLEX_REPEATED_IDENTIFIER",
+      "evidence": "dataset/raw/flex/FLEX.csv::CSV::74",
+      "detail": "Original FLEX identifier repeated",
+      "status": "open",
+      "requires_human_review": true,
+      "identifier": "193F001",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00356"
+    },
+    {
+      "code": "FLEX_TEST114_SOURCE_PRESSURE",
+      "evidence": "dataset/raw/flex/FLEX.csv::CSV::115",
+      "detail": "Original pressure retained; discrepancy unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "source_value": "0",
+      "unit": "mmHg",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00357"
+    }
+  ]
+}

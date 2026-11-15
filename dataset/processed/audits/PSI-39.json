@@ -1,0 +1,360 @@
+{
+  "statistics": {
+    "investigation": "PSI-39",
+    "source": "dataset/raw/cfi/CFI.csv",
+    "encoding": "utf-8",
+    "headers": [
+      "Flex Number",
+      "Test Date",
+      "Local Time",
+      "CIR ",
+      "Pressure",
+      "Oxygen",
+      "Nitrogen",
+      "Helium",
+      "Fiber",
+      "Fuel "
+    ],
+    "source_rows": 87,
+    "exact_duplicate_rows_beyond_first": 8,
+    "repeated_identifier_groups": 8,
+    "fields": {
+      "1": {
+        "heading": "Flex Number",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "2": {
+        "heading": "Test Date",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "3": {
+        "heading": "Local Time",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "4": {
+        "heading": "CIR ",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "5": {
+        "heading": "Pressure",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "6": {
+        "heading": "Oxygen",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "7": {
+        "heading": "Nitrogen",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "8": {
+        "heading": "Helium",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 73,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "9": {
+        "heading": "Fiber",
+        "blank": 9,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "10": {
+        "heading": "Fuel ",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      }
+    },
+    "scientific_status": "not_reviewed",
+    "provenance_status": "local_file_traced_external_authenticity_pending"
+  },
+  "scope": "bounded local structural/unit/missingness/identifier review; primary-source scientific validation pending",
+  "issues": [
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/cfi/CFI.csv::CSV::81",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/cfi/CFI.csv::CSV::24",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00043"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/cfi/CFI.csv::CSV::82",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/cfi/CFI.csv::CSV::25",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00044"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/cfi/CFI.csv::CSV::83",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/cfi/CFI.csv::CSV::26",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00045"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/cfi/CFI.csv::CSV::84",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/cfi/CFI.csv::CSV::27",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00046"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/cfi/CFI.csv::CSV::85",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/cfi/CFI.csv::CSV::28",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00047"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/cfi/CFI.csv::CSV::86",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/cfi/CFI.csv::CSV::29",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00048"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/cfi/CFI.csv::CSV::87",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/cfi/CFI.csv::CSV::30",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00049"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/cfi/CFI.csv::CSV::88",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/cfi/CFI.csv::CSV::31",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00050"
+    },
+    {
+      "code": "REPEATED_SOURCE_IDENTIFIER",
+      "evidence": [
+        "dataset/raw/cfi/CFI.csv::CSV::24",
+        "dataset/raw/cfi/CFI.csv::CSV::81"
+      ],
+      "detail": "Identifier repetition does not establish duplicate experiments",
+      "status": "open",
+      "requires_human_review": true,
+      "identifier": "1285",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00051"
+    },
+    {
+      "code": "REPEATED_SOURCE_IDENTIFIER",
+      "evidence": [
+        "dataset/raw/cfi/CFI.csv::CSV::25",
+        "dataset/raw/cfi/CFI.csv::CSV::82"
+      ],
+      "detail": "Identifier repetition does not establish duplicate experiments",
+      "status": "open",
+      "requires_human_review": true,
+      "identifier": "1286",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00052"
+    },
+    {
+      "code": "REPEATED_SOURCE_IDENTIFIER",
+      "evidence": [
+        "dataset/raw/cfi/CFI.csv::CSV::26",
+        "dataset/raw/cfi/CFI.csv::CSV::83"
+      ],
+      "detail": "Identifier repetition does not establish duplicate experiments",
+      "status": "open",
+      "requires_human_review": true,
+      "identifier": "1287",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00053"
+    },
+    {
+      "code": "REPEATED_SOURCE_IDENTIFIER",
+      "evidence": [
+        "dataset/raw/cfi/CFI.csv::CSV::27",
+        "dataset/raw/cfi/CFI.csv::CSV::84"
+      ],
+      "detail": "Identifier repetition does not establish duplicate experiments",
+      "status": "open",
+      "requires_human_review": true,
+      "identifier": "1288",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00054"
+    },
+    {
+      "code": "REPEATED_SOURCE_IDENTIFIER",
+      "evidence": [
+        "dataset/raw/cfi/CFI.csv::CSV::28",
+        "dataset/raw/cfi/CFI.csv::CSV::85"
+      ],
+      "detail": "Identifier repetition does not establish duplicate experiments",
+      "status": "open",
+      "requires_human_review": true,
+      "identifier": "1289",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00055"
+    },
+    {
+      "code": "REPEATED_SOURCE_IDENTIFIER",
+      "evidence": [
+        "dataset/raw/cfi/CFI.csv::CSV::29",
+        "dataset/raw/cfi/CFI.csv::CSV::86"
+      ],
+      "detail": "Identifier repetition does not establish duplicate experiments",
+      "status": "open",
+      "requires_human_review": true,
+      "identifier": "1295",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00056"
+    },
+    {
+      "code": "REPEATED_SOURCE_IDENTIFIER",
+      "evidence": [
+        "dataset/raw/cfi/CFI.csv::CSV::30",
+        "dataset/raw/cfi/CFI.csv::CSV::87"
+      ],
+      "detail": "Identifier repetition does not establish duplicate experiments",
+      "status": "open",
+      "requires_human_review": true,
+      "identifier": "1296",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00057"
+    },
+    {
+      "code": "REPEATED_SOURCE_IDENTIFIER",
+      "evidence": [
+        "dataset/raw/cfi/CFI.csv::CSV::31",
+        "dataset/raw/cfi/CFI.csv::CSV::88"
+      ],
+      "detail": "Identifier repetition does not establish duplicate experiments",
+      "status": "open",
+      "requires_human_review": true,
+      "identifier": "1297",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00058"
+    },
+    {
+      "code": "CFI_DUPLICATE_PROVENANCE",
+      "evidence": "PSI-39",
+      "detail": "Exact repeated source records retained; meaning unresolved",
+      "status": "partially_resolved",
+      "requires_human_review": true,
+      "evidence_type": "local_metadata_or_prior_review_not_independently_validated",
+      "review_resolution": "Official CSV repeats verified; master workbook gives single test-ID rows; scientific handling remains open.",
+      "review_evidence": [
+        "CFI_DUPLICATE_ORIGIN"
+      ],
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00345"
+    },
+    {
+      "code": "EXTERNAL_PROVENANCE_AND_LICENSE",
+      "evidence": "PSI-39",
+      "detail": "Local hash and location verified; authoritative provenance, redistribution license and human scientific approval pending",
+      "status": "resolved_investigation_data_scope",
+      "requires_human_review": false,
+      "review_resolution": "NASA catalog and original dataset bytes verified; source-data CC0 distinct from code and publication rights.",
+      "review_evidence": [
+        "NASA_IDENTITY_LICENSE"
+      ],
+      "blocker_type": "none",
+      "issue_id": "P0-QI-00352"
+    },
+    {
+      "code": "CFI_COMPOSITION_SUM_REVIEW",
+      "evidence": "dataset/raw/cfi/CFI.csv::CSV::13",
+      "detail": "Oxygen+nitrogen+helium differ from unity; basis and omitted constituents require review",
+      "status": "open",
+      "requires_human_review": true,
+      "sum": 0.97,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00358"
+    },
+    {
+      "code": "CFI_COMPOSITION_SUM_REVIEW",
+      "evidence": "dataset/raw/cfi/CFI.csv::CSV::14",
+      "detail": "Oxygen+nitrogen+helium differ from unity; basis and omitted constituents require review",
+      "status": "open",
+      "requires_human_review": true,
+      "sum": 0.97,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00359"
+    },
+    {
+      "code": "CFI_COMPOSITION_SUM_REVIEW",
+      "evidence": "dataset/raw/cfi/CFI.csv::CSV::15",
+      "detail": "Oxygen+nitrogen+helium differ from unity; basis and omitted constituents require review",
+      "status": "open",
+      "requires_human_review": true,
+      "sum": 0.97,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00360"
+    },
+    {
+      "code": "CFI_COMPOSITION_SUM_REVIEW",
+      "evidence": "dataset/raw/cfi/CFI.csv::CSV::16",
+      "detail": "Oxygen+nitrogen+helium differ from unity; basis and omitted constituents require review",
+      "status": "open",
+      "requires_human_review": true,
+      "sum": 0.97,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00361"
+    }
+  ]
+}

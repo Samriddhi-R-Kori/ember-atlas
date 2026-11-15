@@ -1,0 +1,20 @@
+[
+  {
+    "evidence": "flex_ntrs.json",
+    "distribution": "PUBLIC",
+    "copyright_determination": "PUBLIC_USE_PERMITTED",
+    "blanket_cc0_inferred": false
+  },
+  {
+    "evidence": "bass_ntrs.json",
+    "distribution": "PUBLIC",
+    "copyright_determination": "GOV_PERMITTED",
+    "blanket_cc0_inferred": false
+  },
+  {
+    "evidence": "same_ntrs.json",
+    "distribution": "PUBLIC",
+    "copyright_determination": "PUBLIC_USE_PERMITTED",
+    "blanket_cc0_inferred": false
+  }
+]

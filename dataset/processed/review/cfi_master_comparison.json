@@ -1,0 +1,1133 @@
+[
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::2",
+    "source_identifier": "1206",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 2,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::3",
+    "source_identifier": "1207",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 3,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::4",
+    "source_identifier": "1208",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 4,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::5",
+    "source_identifier": "1209",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 5,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::6",
+    "source_identifier": "1210",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 6,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::7",
+    "source_identifier": "1211",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 7,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::8",
+    "source_identifier": "1213",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 9,
+        "oxygen": 0.17,
+        "nitrogen": 0.83,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::9",
+    "source_identifier": "1215",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 11,
+        "oxygen": 0.17,
+        "nitrogen": 0.83,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::10",
+    "source_identifier": "1216",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 12,
+        "oxygen": 0.17,
+        "nitrogen": 0.83,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::11",
+    "source_identifier": "1217",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 13,
+        "oxygen": 0.17,
+        "nitrogen": 0.83,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::12",
+    "source_identifier": "1218",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 14,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::13",
+    "source_identifier": "1219",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 15,
+        "oxygen": 0.21,
+        "nitrogen": 0.76,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::14",
+    "source_identifier": "1220",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 16,
+        "oxygen": 0.21,
+        "nitrogen": 0.76,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::15",
+    "source_identifier": "1221",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 17,
+        "oxygen": 0.21,
+        "nitrogen": 0.76,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::16",
+    "source_identifier": "1222",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 18,
+        "oxygen": 0.21,
+        "nitrogen": 0.76,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::17",
+    "source_identifier": "1223",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 19,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::18",
+    "source_identifier": "1224",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 20,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::19",
+    "source_identifier": "1225",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 21,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::20",
+    "source_identifier": "1226",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 22,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::21",
+    "source_identifier": "1227",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 23,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::22",
+    "source_identifier": "1228",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 24,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::23",
+    "source_identifier": "1229",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 25,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::24",
+    "source_identifier": "1285",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 82,
+        "oxygen": 0.17,
+        "nitrogen": 0.83,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::25",
+    "source_identifier": "1286",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 83,
+        "oxygen": 0.17,
+        "nitrogen": 0.83,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::26",
+    "source_identifier": "1287",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 84,
+        "oxygen": 0.17,
+        "nitrogen": 0.83,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::27",
+    "source_identifier": "1288",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 85,
+        "oxygen": 0.17,
+        "nitrogen": 0.83,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::28",
+    "source_identifier": "1289",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 86,
+        "oxygen": 0.17,
+        "nitrogen": 0.83,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::29",
+    "source_identifier": "1295",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 92,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::30",
+    "source_identifier": "1296",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 93,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::31",
+    "source_identifier": "1297",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 94,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::32",
+    "source_identifier": "1290",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 87,
+        "oxygen": 0.17,
+        "nitrogen": 0.83,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::33",
+    "source_identifier": "1291",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 88,
+        "oxygen": 0.17,
+        "nitrogen": 0.83,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::34",
+    "source_identifier": "1292",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 89,
+        "oxygen": 0.17,
+        "nitrogen": 0.83,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::35",
+    "source_identifier": "1293",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 90,
+        "oxygen": 0.17,
+        "nitrogen": 0.83,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::36",
+    "source_identifier": "1294",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 91,
+        "oxygen": 0.17,
+        "nitrogen": 0.83,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::37",
+    "source_identifier": "1300",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 97,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::38",
+    "source_identifier": "1301",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 98,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::39",
+    "source_identifier": "1310",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 107,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::40",
+    "source_identifier": "1311",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 108,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::41",
+    "source_identifier": "1312",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 109,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::42",
+    "source_identifier": "1313",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 110,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::43",
+    "source_identifier": "1314",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 111,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::44",
+    "source_identifier": "1320",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 117,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::45",
+    "source_identifier": "1321",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 118,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::46",
+    "source_identifier": "1322",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 119,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::47",
+    "source_identifier": "1323",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 120,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::48",
+    "source_identifier": "1328",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 125,
+        "oxygen": 0.17,
+        "nitrogen": 0.83,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::49",
+    "source_identifier": "1329",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 126,
+        "oxygen": 0.17,
+        "nitrogen": 0.83,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::50",
+    "source_identifier": "1330",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 127,
+        "oxygen": 0.17,
+        "nitrogen": 0.83,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::51",
+    "source_identifier": "1331",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 128,
+        "oxygen": 0.17,
+        "nitrogen": 0.83,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::52",
+    "source_identifier": "1332",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 129,
+        "oxygen": 0.17,
+        "nitrogen": 0.83,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::53",
+    "source_identifier": "1335",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 132,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::54",
+    "source_identifier": "1336",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 133,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::55",
+    "source_identifier": "1337",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 134,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::56",
+    "source_identifier": "1338",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 135,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::57",
+    "source_identifier": "1340",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 137,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::58",
+    "source_identifier": "1341",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 138,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::59",
+    "source_identifier": "1342",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 139,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::60",
+    "source_identifier": "1346",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 143,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::61",
+    "source_identifier": "1347",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 144,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::62",
+    "source_identifier": "1348",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 145,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::63",
+    "source_identifier": "1349",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 146,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::64",
+    "source_identifier": "1356",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 153,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::65",
+    "source_identifier": "1357",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 154,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::66",
+    "source_identifier": "1358",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 155,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::67",
+    "source_identifier": "1362",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 159,
+        "oxygen": 0.21,
+        "nitrogen": 0.5,
+        "helium": 0.29
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::68",
+    "source_identifier": "1363",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 160,
+        "oxygen": 0.21,
+        "nitrogen": 0.5,
+        "helium": 0.29
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::69",
+    "source_identifier": "1364",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 161,
+        "oxygen": 0.21,
+        "nitrogen": 0.5,
+        "helium": 0.29
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::70",
+    "source_identifier": "1365",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 162,
+        "oxygen": 0.21,
+        "nitrogen": 0.5,
+        "helium": 0.29
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::71",
+    "source_identifier": "1366",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 163,
+        "oxygen": 0.21,
+        "nitrogen": 0.5,
+        "helium": 0.29
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::72",
+    "source_identifier": "1367",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 164,
+        "oxygen": 0.21,
+        "nitrogen": 0.5,
+        "helium": 0.29
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::73",
+    "source_identifier": "1368",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 165,
+        "oxygen": 0.21,
+        "nitrogen": 0.5,
+        "helium": 0.29
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::74",
+    "source_identifier": "1369",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 166,
+        "oxygen": 0.21,
+        "nitrogen": 0.5,
+        "helium": 0.29
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::75",
+    "source_identifier": "1373",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 170,
+        "oxygen": 0.21,
+        "nitrogen": 0.2,
+        "helium": 0.59
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::76",
+    "source_identifier": "1374",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 171,
+        "oxygen": 0.21,
+        "nitrogen": 0.2,
+        "helium": 0.59
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::77",
+    "source_identifier": "1383",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 180,
+        "oxygen": 0.21,
+        "nitrogen": 0.2,
+        "helium": 0.59
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::78",
+    "source_identifier": "1384",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 181,
+        "oxygen": 0.21,
+        "nitrogen": 0.2,
+        "helium": 0.59
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::79",
+    "source_identifier": "1386",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 183,
+        "oxygen": 0.21,
+        "nitrogen": 0.2,
+        "helium": 0.59
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::80",
+    "source_identifier": "1387",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 184,
+        "oxygen": 0.21,
+        "nitrogen": 0.2,
+        "helium": 0.59
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::81",
+    "source_identifier": "1285",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 82,
+        "oxygen": 0.17,
+        "nitrogen": 0.83,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::82",
+    "source_identifier": "1286",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 83,
+        "oxygen": 0.17,
+        "nitrogen": 0.83,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::83",
+    "source_identifier": "1287",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 84,
+        "oxygen": 0.17,
+        "nitrogen": 0.83,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::84",
+    "source_identifier": "1288",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 85,
+        "oxygen": 0.17,
+        "nitrogen": 0.83,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::85",
+    "source_identifier": "1289",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 86,
+        "oxygen": 0.17,
+        "nitrogen": 0.83,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::86",
+    "source_identifier": "1295",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 92,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::87",
+    "source_identifier": "1296",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 93,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  },
+  {
+    "csv_record": "dataset/raw/cfi/CFI.csv::CSV::88",
+    "source_identifier": "1297",
+    "master_sheet_candidates": [
+      {
+        "sheet": "Master Sheet",
+        "row": 94,
+        "oxygen": 0.21,
+        "nitrogen": 0.79,
+        "helium": 0
+      }
+    ]
+  }
+]

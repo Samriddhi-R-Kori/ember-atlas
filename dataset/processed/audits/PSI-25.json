@@ -1,0 +1,377 @@
+{
+  "statistics": {
+    "investigation": "PSI-25",
+    "source": "dataset/raw/bass-ii/BASS-II.csv",
+    "encoding": "utf-8",
+    "headers": [
+      "﻿PI",
+      "Test #",
+      "Date",
+      "GMT",
+      "Sample #",
+      "Fuel Sample Material",
+      "Flow restrictor",
+      "Fan display",
+      "Air display",
+      "Radiometer gain   (1000   250   50   10)",
+      "Total Frames Shot",
+      "Calibrated  initial O2 % by vol ",
+      "Calibrated final O2 % by vol",
+      "Initial CO2 % by vol",
+      "Final CO2 % by vol",
+      "Initial CO (ppm)",
+      "Final CO (ppm)"
+    ],
+    "source_rows": 129,
+    "exact_duplicate_rows_beyond_first": 0,
+    "repeated_identifier_groups": 0,
+    "fields": {
+      "1": {
+        "heading": "﻿PI",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "2": {
+        "heading": "Test #",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "3": {
+        "heading": "Date",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "4": {
+        "heading": "GMT",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "5": {
+        "heading": "Sample #",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "6": {
+        "heading": "Fuel Sample Material",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "7": {
+        "heading": "Flow restrictor",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 12,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "8": {
+        "heading": "Fan display",
+        "blank": 13,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "9": {
+        "heading": "Air display",
+        "blank": 4,
+        "source_dash": 0,
+        "zero": 1,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "10": {
+        "heading": "Radiometer gain   (1000   250   50   10)",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "11": {
+        "heading": "Total Frames Shot",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 1,
+        "negative_numeric": 0
+      },
+      "12": {
+        "heading": "Calibrated  initial O2 % by vol ",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "13": {
+        "heading": "Calibrated final O2 % by vol",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 2,
+        "negative_numeric": 0
+      },
+      "14": {
+        "heading": "Initial CO2 % by vol",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 1,
+        "annotation": 2,
+        "negative_numeric": 0
+      },
+      "15": {
+        "heading": "Final CO2 % by vol",
+        "blank": 1,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 5,
+        "negative_numeric": 0
+      },
+      "16": {
+        "heading": "Initial CO (ppm)",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 23,
+        "annotation": 2,
+        "negative_numeric": 13
+      },
+      "17": {
+        "heading": "Final CO (ppm)",
+        "blank": 1,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 4,
+        "negative_numeric": 0
+      }
+    },
+    "scientific_status": "not_reviewed",
+    "provenance_status": "local_file_traced_external_authenticity_pending"
+  },
+  "scope": "bounded local structural/unit/missingness/identifier review; primary-source scientific validation pending",
+  "issues": [
+    {
+      "code": "NEGATIVE_NUMERIC_REVIEW",
+      "evidence": "dataset/raw/bass-ii/BASS-II.csv::CSV::5",
+      "detail": "Negative value retained; meaning depends on quantity",
+      "status": "open",
+      "requires_human_review": true,
+      "column": 16,
+      "heading": "Initial CO (ppm)",
+      "value": "-1",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00060"
+    },
+    {
+      "code": "NEGATIVE_NUMERIC_REVIEW",
+      "evidence": "dataset/raw/bass-ii/BASS-II.csv::CSV::22",
+      "detail": "Negative value retained; meaning depends on quantity",
+      "status": "open",
+      "requires_human_review": true,
+      "column": 16,
+      "heading": "Initial CO (ppm)",
+      "value": "-1",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00061"
+    },
+    {
+      "code": "NEGATIVE_NUMERIC_REVIEW",
+      "evidence": "dataset/raw/bass-ii/BASS-II.csv::CSV::23",
+      "detail": "Negative value retained; meaning depends on quantity",
+      "status": "open",
+      "requires_human_review": true,
+      "column": 16,
+      "heading": "Initial CO (ppm)",
+      "value": "-1",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00062"
+    },
+    {
+      "code": "NEGATIVE_NUMERIC_REVIEW",
+      "evidence": "dataset/raw/bass-ii/BASS-II.csv::CSV::37",
+      "detail": "Negative value retained; meaning depends on quantity",
+      "status": "open",
+      "requires_human_review": true,
+      "column": 16,
+      "heading": "Initial CO (ppm)",
+      "value": "-1",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00063"
+    },
+    {
+      "code": "NEGATIVE_NUMERIC_REVIEW",
+      "evidence": "dataset/raw/bass-ii/BASS-II.csv::CSV::48",
+      "detail": "Negative value retained; meaning depends on quantity",
+      "status": "open",
+      "requires_human_review": true,
+      "column": 16,
+      "heading": "Initial CO (ppm)",
+      "value": "-1",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00064"
+    },
+    {
+      "code": "NEGATIVE_NUMERIC_REVIEW",
+      "evidence": "dataset/raw/bass-ii/BASS-II.csv::CSV::49",
+      "detail": "Negative value retained; meaning depends on quantity",
+      "status": "open",
+      "requires_human_review": true,
+      "column": 16,
+      "heading": "Initial CO (ppm)",
+      "value": "-1",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00065"
+    },
+    {
+      "code": "NEGATIVE_NUMERIC_REVIEW",
+      "evidence": "dataset/raw/bass-ii/BASS-II.csv::CSV::53",
+      "detail": "Negative value retained; meaning depends on quantity",
+      "status": "open",
+      "requires_human_review": true,
+      "column": 16,
+      "heading": "Initial CO (ppm)",
+      "value": "-2",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00066"
+    },
+    {
+      "code": "NEGATIVE_NUMERIC_REVIEW",
+      "evidence": "dataset/raw/bass-ii/BASS-II.csv::CSV::72",
+      "detail": "Negative value retained; meaning depends on quantity",
+      "status": "open",
+      "requires_human_review": true,
+      "column": 16,
+      "heading": "Initial CO (ppm)",
+      "value": "-3",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00067"
+    },
+    {
+      "code": "NEGATIVE_NUMERIC_REVIEW",
+      "evidence": "dataset/raw/bass-ii/BASS-II.csv::CSV::125",
+      "detail": "Negative value retained; meaning depends on quantity",
+      "status": "open",
+      "requires_human_review": true,
+      "column": 16,
+      "heading": "Initial CO (ppm)",
+      "value": "-1",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00068"
+    },
+    {
+      "code": "NEGATIVE_NUMERIC_REVIEW",
+      "evidence": "dataset/raw/bass-ii/BASS-II.csv::CSV::126",
+      "detail": "Negative value retained; meaning depends on quantity",
+      "status": "open",
+      "requires_human_review": true,
+      "column": 16,
+      "heading": "Initial CO (ppm)",
+      "value": "-1",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00069"
+    },
+    {
+      "code": "NEGATIVE_NUMERIC_REVIEW",
+      "evidence": "dataset/raw/bass-ii/BASS-II.csv::CSV::127",
+      "detail": "Negative value retained; meaning depends on quantity",
+      "status": "open",
+      "requires_human_review": true,
+      "column": 16,
+      "heading": "Initial CO (ppm)",
+      "value": "-1",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00070"
+    },
+    {
+      "code": "NEGATIVE_NUMERIC_REVIEW",
+      "evidence": "dataset/raw/bass-ii/BASS-II.csv::CSV::128",
+      "detail": "Negative value retained; meaning depends on quantity",
+      "status": "open",
+      "requires_human_review": true,
+      "column": 16,
+      "heading": "Initial CO (ppm)",
+      "value": "-1",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00071"
+    },
+    {
+      "code": "NEGATIVE_NUMERIC_REVIEW",
+      "evidence": "dataset/raw/bass-ii/BASS-II.csv::CSV::130",
+      "detail": "Negative value retained; meaning depends on quantity",
+      "status": "open",
+      "requires_human_review": true,
+      "column": 16,
+      "heading": "Initial CO (ppm)",
+      "value": "-1",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00072"
+    },
+    {
+      "code": "BASS_DISPLAY_AND_ENCODING",
+      "evidence": "PSI-25",
+      "detail": "UTF-8 BOM retained in header; display settings and missing readings not converted to physical flows",
+      "status": "partially_resolved",
+      "requires_human_review": true,
+      "evidence_type": "local_metadata_or_prior_review_not_independently_validated",
+      "review_resolution": "UTF-8 BOM and official display definitions verified; source values retained. Dates and sensor anomalies require row-level interpretation.",
+      "review_evidence": [
+        "BASS_DISPLAY_DATE_SENSOR"
+      ],
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00347"
+    },
+    {
+      "code": "EXTERNAL_PROVENANCE_AND_LICENSE",
+      "evidence": "PSI-25",
+      "detail": "Local hash and location verified; authoritative provenance, redistribution license and human scientific approval pending",
+      "status": "resolved_investigation_data_scope",
+      "requires_human_review": false,
+      "review_resolution": "NASA catalog and original dataset bytes verified; source-data CC0 distinct from code and publication rights.",
+      "review_evidence": [
+        "NASA_IDENTITY_LICENSE"
+      ],
+      "blocker_type": "none",
+      "issue_id": "P0-QI-00354"
+    },
+    {
+      "code": "BASS_OXYGEN_INCREASE",
+      "evidence": "dataset/raw/bass-ii/BASS-II.csv::CSV::98",
+      "detail": "Final O2 exceeds initial by >0.2 percentage points; sensor/source interpretation unresolved. Purge causation not established for this row.",
+      "initial_percent": 20.0,
+      "final_percent": 39.1,
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00362"
+    },
+    {
+      "code": "BASS_OXYGEN_INCREASE",
+      "evidence": "dataset/raw/bass-ii/BASS-II.csv::CSV::129",
+      "detail": "Final O2 exceeds initial by >0.2 percentage points; sensor/source interpretation unresolved. Purge causation not established for this row.",
+      "initial_percent": 20.7,
+      "final_percent": 40.4,
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00363"
+    }
+  ]
+}

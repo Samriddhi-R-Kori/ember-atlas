@@ -1,0 +1,394 @@
+[
+ {
+  "id": "PSI-10",
+  "shortName": "ACME Flame Design",
+  "title": "Flame Design: a novel approach to clean, efficient diffusion flames",
+  "type(f=flight,g=ground)": "f",
+  "years": "1999–2025",
+  "doi": "10.60555/w4zy-bt45",
+  "areas": [
+   "clean"
+  ],
+  "rows": 208,
+  "size": "1.98 TB",
+  "study": "Soot-inception and extinction limits of spherical and coflow diffusion flames of ethylene and methane, across flow rate, inert gas and pressure.",
+  "earthRelevance": "Aims at more efficient, lower-emission combustors on Earth; the record cites input to future coal power plant designs."
+ },
+ {
+  "id": "PSI-20",
+  "shortName": "ACME BRE",
+  "title": "Burning Rate Emulator",
+  "type(f=flight,g=ground)": "f",
+  "years": "",
+  "doi": "10.60555/vb93-3y72",
+  "areas": [
+   "safety"
+  ],
+  "rows": 19,
+  "size": "1.85 TB",
+  "study": "Gas burners that imitate burning solids and liquids, tested in still air at spacecraft atmospheres from 21% to 34% oxygen.",
+  "earthRelevance": "Preliminary: flames kept burning with no airflow in oxygen-enriched atmospheres, while those at 21% oxygen went out quickly. Supports wider use of cone-calorimeter material testing."
+ },
+ {
+  "id": "PSI-21",
+  "shortName": "ACME CLD Flame",
+  "title": "Coflow Laminar Diffusion Flame",
+  "type(f=flight,g=ground)": "f",
+  "years": "",
+  "doi": "10.60555/23e1-9950",
+  "areas": [
+   "models",
+   "clean",
+   "safety"
+  ],
+  "rows": 33,
+  "size": "1.82 TB",
+  "study": "Weak and heavily sooting coflow flames of methane and ethylene: shape, lift-off, temperature, soot and extinction, as benchmark data for models.",
+  "earthRelevance": "Diffusion flames are the type in most practical devices. Better prediction of soot, radiation and extinction helps fire suppression and engine efficiency."
+ },
+ {
+  "id": "PSI-22",
+  "shortName": "ACME E-FIELD Flames",
+  "title": "Electric-field effects on laminar diffusion flames",
+  "type(f=flight,g=ground)": "f",
+  "years": "2016–2020",
+  "doi": "10.60555/se5a-8c73",
+  "areas": [
+   "clean"
+  ],
+  "rows": 33,
+  "size": "884.95 GB",
+  "study": "How an electric field changes ion current, flame stability and soot in laminar diffusion flames.",
+  "earthRelevance": "Electric-field control could cut pollutants and fuel use in terrestrial combustion. The record says it serves no direct space application."
+ },
+ {
+  "id": "PSI-23",
+  "shortName": "ACME s-Flame",
+  "title": "Structure and response of spherical diffusion flames",
+  "type(f=flight,g=ground)": "f",
+  "years": "2015–2019",
+  "doi": "10.60555/k57n-p030",
+  "areas": [
+   "models",
+   "engines",
+   "clean"
+  ],
+  "rows": 0,
+  "size": "728.45 GB",
+  "study": "Transient structure and extinction limits of spherical flames, soot-free and sooty, compared with detailed simulation.",
+  "earthRelevance": "Diffusion flames underlie many engines and devices; cleaner data improves prediction of power, efficiency, emissions and reliability."
+ },
+ {
+  "id": "PSI-25",
+  "shortName": "BASS-II",
+  "title": "Burning and Suppression of Solids II",
+  "type(f=flight,g=ground)": "f",
+  "years": "2010–2022",
+  "doi": "10.60555/4qc4-de67",
+  "areas": [
+   "safety",
+   "wildfire",
+   "models"
+  ],
+  "rows": 0,
+  "size": "255.77 GB",
+  "study": "Ignition, flame growth, spread and extinction limits of thicker solid fuels in slow forced airflow, and how they relate to the 1 g material test.",
+  "earthRelevance": "Evaluates fuel-burning models that can then be used on Earth for wildfires, building fires and energy recovery from waste."
+ },
+ {
+  "id": "PSI-26",
+  "shortName": "BASS",
+  "title": "Burning and Suppression of Solids",
+  "type(f=flight,g=ground)": "f",
+  "years": "2009–2013",
+  "doi": "10.60555/58h4-dy80",
+  "areas": [
+   "safety",
+   "models"
+  ],
+  "rows": 123,
+  "size": "152.32 GB",
+  "study": "Solid fuels in realistic shapes, including wake flames, and how well nitrogen puts them out.",
+  "earthRelevance": "Models validated in the simple microgravity flow are then built up to capture flames in normal gravity, with wide use across terrestrial combustion problems."
+ },
+ {
+  "id": "PSI-39",
+  "shortName": "CFI",
+  "title": "Cool Flames Investigation",
+  "type(f=flight,g=ground)": "f",
+  "years": "2020–2021",
+  "doi": "10.60555/m6pj-a914",
+  "areas": [
+   "engines",
+   "models"
+  ],
+  "rows": 88,
+  "size": "669.52 GB",
+  "study": "Droplets of n-dodecane and blends at 0.25 to 5 atm: cool-flame behaviour, helium dilution, extinction and soot.",
+  "earthRelevance": "Cool flames matter for ignition of practical fuels, HCCI engine design, and how octane and cetane ratings arise."
+ },
+ {
+  "id": "PSI-60",
+  "shortName": "SPICE data analysis",
+  "title": "Computational and experimental analysis of SPICE data sets",
+  "type(f=flight,g=ground)": "g",
+  "years": "2019–2022",
+  "doi": "10.60555/mzjm-yv57",
+  "areas": [
+   "clean",
+   "models"
+  ],
+  "rows": null,
+  "size": "7.56 KB",
+  "study": "Re-analysis of over 1,600 SPICE flame images with soot modelling, to explain why soot differs so much between 1 g and 0 g.",
+  "earthRelevance": "Better soot and radiation models for cleaner energy and industrial systems."
+ },
+ {
+  "id": "PSI-62",
+  "shortName": "Flame spread modelling vs BASS",
+  "title": "Concurrent flame spread modelling with flamelet generated manifolds, compared with BASS",
+  "type(f=flight,g=ground)": "g",
+  "years": "",
+  "doi": "10.60555/e9xp-ex83",
+  "areas": [
+   "safety",
+   "models"
+  ],
+  "rows": null,
+  "size": "9.47 KB",
+  "study": "A new modelling method for flame spread along a solid in the direction of airflow, checked against BASS measurements.",
+  "earthRelevance": "Predictive screening of material flammability limits; the record says it could improve fire modelling and safety standards on Earth."
+ },
+ {
+  "id": "PSI-68",
+  "shortName": "FLEX-2",
+  "title": "Flame Extinguishment Experiment 2",
+  "type(f=flight,g=ground)": "f",
+  "years": "",
+  "doi": "10.60555/byp8-h018",
+  "areas": [
+   "engines",
+   "clean",
+   "models"
+  ],
+  "rows": 9,
+  "size": "1.11 TB",
+  "study": "Two-component fuel droplets under conditions closer to real combustors: mixing, extinction and benchmark data for simulation.",
+  "earthRelevance": "Liquid fuels power transport. The data supports surrogate fuels and validation of jet-engine combustion models."
+ },
+ {
+  "id": "PSI-69",
+  "shortName": "FLEX",
+  "title": "Flame Extinguishment Experiment",
+  "type(f=flight,g=ground)": "f",
+  "years": "2007–2016",
+  "doi": "10.60555/mbq8-0451",
+  "areas": [
+   "safety",
+   "engines",
+   "models"
+  ],
+  "rows": 275,
+  "size": "860.39 GB",
+  "study": "Flammability limits of burning liquid droplets and the effect of the suppressants CO2, helium and SF6.",
+  "earthRelevance": "Informs suppression in confined settings such as submarines and high-altitude aircraft; its cool-flame findings feed engine design."
+ },
+ {
+  "id": "PSI-98",
+  "shortName": "Saffire-I",
+  "title": "Spacecraft Fire Safety Experiment I",
+  "type(f=flight,g=ground)": "f",
+  "years": "",
+  "doi": "10.60555/0t15-1z43",
+  "areas": [
+   "safety"
+  ],
+  "rows": 5,
+  "size": "11.41 GB",
+  "study": "How fast a large fire grows in low gravity, and how low-gravity flammability limits compare with the 1 g screening test.",
+  "earthRelevance": "Fire in a small sealed vehicle is a stand-in for mines, aircraft and submarines."
+ },
+ {
+  "id": "PSI-99",
+  "shortName": "Saffire-II",
+  "title": "Spacecraft Fire Experiment II",
+  "type(f=flight,g=ground)": "f",
+  "years": "2016–2017",
+  "doi": "10.60555/2chp-m469",
+  "areas": [
+   "safety"
+  ],
+  "rows": 16,
+  "size": "15.77 GB",
+  "study": "Large-scale fire growth and flammability limits for several spacecraft materials in low gravity.",
+  "earthRelevance": "Same Earth link as Saffire-I: fire safety in sealed spaces such as mines, aircraft and submarines."
+ },
+ {
+  "id": "PSI-100",
+  "shortName": "Saffire-III",
+  "title": "Spacecraft Fire Experiment III",
+  "type(f=flight,g=ground)": "f",
+  "years": "",
+  "doi": "10.60555/040q-4h36",
+  "areas": [
+   "safety"
+  ],
+  "rows": 3,
+  "size": "32.79 GB",
+  "study": "Large-scale fire growth in low gravity, continuing the Saffire series.",
+  "earthRelevance": "Same Earth link as Saffire-I: fire safety in sealed spaces such as mines, aircraft and submarines."
+ },
+ {
+  "id": "PSI-101",
+  "shortName": "SAME-R",
+  "title": "Smoke Aerosol Measurement Experiment, reflight",
+  "type(f=flight,g=ground)": "f",
+  "years": "2010",
+  "doi": "10.60555/2np7-jv14",
+  "areas": [
+   "safety"
+  ],
+  "rows": 110,
+  "size": "5.87 GB",
+  "study": "Sizes of smoke particles from overheated materials in low gravity, repeated after sample contamination in the first run.",
+  "earthRelevance": "Better detectors for extreme environments on Earth such as submarines and underwater laboratories."
+ },
+ {
+  "id": "PSI-102",
+  "shortName": "SAME",
+  "title": "Smoke and Aerosol Measurement Experiment",
+  "type(f=flight,g=ground)": "f",
+  "years": "2001–2008",
+  "doi": "10.60555/gd4k-8h62",
+  "areas": [
+   "safety"
+  ],
+  "rows": 9,
+  "size": "627.14 MB",
+  "study": "Smoke droplet size in low gravity, linked to how the smoke was made and carried, with a growth model.",
+  "earthRelevance": "Baseline data for judging smoke detectors; useful for submarines and underwater laboratories."
+ },
+ {
+  "id": "PSI-106",
+  "shortName": "SLICE",
+  "title": "Structure and Liftoff in Combustion Experiment",
+  "type(f=flight,g=ground)": "f",
+  "years": "",
+  "doi": "10.60555/pm12-rg61",
+  "areas": [
+   "clean",
+   "models",
+   "engines"
+  ],
+  "rows": 13,
+  "size": "67.91 GB",
+  "study": "Structure and stability of laminar diffusion flames: lift-off limits, nitrogen dilution, soot and radiative loss.",
+  "earthRelevance": "Better numerical models for efficient combustion, low-emission systems and cleaner engines and industrial burners."
+ },
+ {
+  "id": "PSI-107",
+  "shortName": "SPICE",
+  "title": "Smoke Point in Co-flow Experiment",
+  "type(f=flight,g=ground)": "f",
+  "years": "",
+  "doi": "10.60555/9kbh-e962",
+  "areas": [
+   "clean",
+   "models"
+  ],
+  "rows": 0,
+  "size": "6.47 GB",
+  "study": "The smoke point of non-buoyant jet flames: how burner size, coflow speed and fuel change the flame length at which soot escapes.",
+  "earthRelevance": "Better soot models; the record says it could inform fuel formulation and combustion processes."
+ },
+ {
+  "id": "PSI-108",
+  "shortName": "STDCE-1",
+  "title": "Surface Tension Driven Convection Experiment 1",
+  "type(f=flight,g=ground)": "f",
+  "years": "",
+  "doi": "10.60555/j1z3-bw42",
+  "areas": [],
+  "rows": 38,
+  "size": "22.57 GB",
+  "study": "Flows driven by surface tension in a heated liquid. A fluid physics experiment, not a flame study.",
+  "earthRelevance": "Its infrared imaging and particle velocimetry methods are now used to study combustion and other flows on Earth."
+ },
+ {
+  "id": "PSI-115",
+  "shortName": "SAME data modelling",
+  "title": "Using SAME data for simulation of smoke generation in microgravity",
+  "type(f=flight,g=ground)": "g",
+  "years": "2017–2019",
+  "doi": "10.60555/q0v5-1v28",
+  "areas": [
+   "safety",
+   "models"
+  ],
+  "rows": null,
+  "size": "252.16 MB",
+  "study": "Simulation of how gravity changes smoke particle growth from overheated materials.",
+  "earthRelevance": "Tools that predict smoke character from temperature, gravity and material, leading to better smoke detectors."
+ },
+ {
+  "id": "PSI-117",
+  "shortName": "Cool flame CFD",
+  "title": "Effect of external thermo-convective perturbation on cool flame dynamics",
+  "type(f=flight,g=ground)": "g",
+  "years": "",
+  "doi": "10.60555/gz0q-b577",
+  "areas": [
+   "engines",
+   "models"
+  ],
+  "rows": null,
+  "size": "67.54 MB",
+  "study": "Simulations using FLEX flight data to explain how heating and drift change cool-flame ignition, oscillation and extinction.",
+  "earthRelevance": "Low-temperature combustion knowledge for engine knock, efficiency and emissions, with validated CFD tools."
+ },
+ {
+  "id": "PSI-142",
+  "shortName": "Cool flame transitions",
+  "title": "Cool flame transitions at radiation and stretch extinction using counterflow flames",
+  "type(f=flight,g=ground)": "g",
+  "years": "2016–2021",
+  "doi": "10.60555/80qf-vj95",
+  "areas": [
+   "engines",
+   "models"
+  ],
+  "rows": 9,
+  "size": "730.58 KB",
+  "study": "Ground experiments and simulations, starting from FLEX data, mapping when hot flames turn into cool or warm flames.",
+  "earthRelevance": "Cool and warm flame regions widen at higher pressure, which matters because many engines run at 20 to 40 atm."
+ },
+ {
+  "id": "PSI-159",
+  "shortName": "ACME CFI-G",
+  "title": "Cool Flames Investigation with Gases",
+  "type(f=flight,g=ground)": "f",
+  "years": "",
+  "doi": "10.60555/cyt1-kh64",
+  "areas": [
+   "engines",
+   "models"
+  ],
+  "rows": 1016,
+  "size": "1.90 TB",
+  "study": "Conditions under which cool diffusion flames of propane, butane and pentane exist on a spherical burner, with CFD support.",
+  "earthRelevance": "Tests cool-flame chemistry needed for ultra-lean engines; the record says efficiency could rise from 38% or lower toward 60%."
+ },
+ {
+  "id": "PSI-181",
+  "shortName": "Solder study",
+  "title": "Pb-Sn and Pb-free solders made in terrestrial vs microgravity conditions",
+  "type(f=flight,g=ground)": "g",
+  "years": "",
+  "doi": "10.60555/td9e-cz97",
+  "areas": [],
+  "rows": 9,
+  "size": "487.38 GB",
+  "study": "Solder joint structure and strength when made in orbit versus on Earth. A materials study, not a flame study.",
+  "earthRelevance": "No combustion application. Included because it appeared in the repository search."
+ }
+]

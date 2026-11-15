@@ -1,0 +1,3302 @@
+[
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S5",
+    "formula": "=R5*Reference!$B$23+Reference!$B$24",
+    "cached_value": 75.35479859047882,
+    "recalculated_value": 75.35479859047882,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R5",
+        "value": 193,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B23",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(B12:B21,A12:A21)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B24",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(B11:B21,A11:A21)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S6",
+    "formula": "=R6*Reference!$B$23+Reference!$B$24",
+    "cached_value": 53.98915221446832,
+    "recalculated_value": 53.98915221446832,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R6",
+        "value": 286,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B23",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(B12:B21,A12:A21)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B24",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(B11:B21,A11:A21)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S7",
+    "formula": "=R7*Reference!$B$23+Reference!$B$24",
+    "cached_value": 55.827057279071376,
+    "recalculated_value": 55.827057279071376,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R7",
+        "value": 278,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B23",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(B12:B21,A12:A21)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B24",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(B11:B21,A11:A21)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S8",
+    "formula": "=R8*Reference!$R$60+Reference!$R$61",
+    "cached_value": 57.50449397145488,
+    "recalculated_value": 57.50449397145488,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R8",
+        "value": 271,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "R60",
+        "value": -0.22977008912430108,
+        "formula": "=SLOPE(R49:R58,Q49:Q58)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "R61",
+        "value": 119.77218812414047,
+        "formula": "=INTERCEPT(R48:R58,Q48:Q58)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S9",
+    "formula": "=R9*Reference!$B$23+Reference!$B$24",
+    "cached_value": 36.988530366890075,
+    "recalculated_value": 36.988530366890075,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R9",
+        "value": 360,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B23",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(B12:B21,A12:A21)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B24",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(B11:B21,A11:A21)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S10",
+    "formula": "=R10*Reference!$B$23+Reference!$B$24",
+    "cached_value": 105.22075589027845,
+    "recalculated_value": 105.22075589027845,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R10",
+        "value": 63,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B23",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(B12:B21,A12:A21)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B24",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(B11:B21,A11:A21)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S11",
+    "formula": "=R11*Reference!$B$42+Reference!$B$43",
+    "cached_value": 71.38356793885745,
+    "recalculated_value": 71.38356793885745,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R11",
+        "value": 216,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B42",
+        "value": -0.23327528660571759,
+        "formula": "=SLOPE(B31:B39,A31:A39)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B43",
+        "value": 121.77102984569245,
+        "formula": "=INTERCEPT(B30:B40,A30:A40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S12",
+    "formula": "=R12*Reference!$B$42+Reference!$B$43",
+    "cached_value": 61.11945532820588,
+    "recalculated_value": 61.11945532820588,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R12",
+        "value": 260,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B42",
+        "value": -0.23327528660571759,
+        "formula": "=SLOPE(B31:B39,A31:A39)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B43",
+        "value": 121.77102984569245,
+        "formula": "=INTERCEPT(B30:B40,A30:A40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S13",
+    "formula": "=R13*Reference!$N$78+Reference!$N$79",
+    "cached_value": 45.52258634864961,
+    "recalculated_value": 45.52258634864961,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R13",
+        "value": 325,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N78",
+        "value": -0.20207705013540278,
+        "formula": "=SLOPE(N67:N76,M67:M76)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N79",
+        "value": 111.19762764265552,
+        "formula": "=INTERCEPT(N67:N76,M67:M76)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S14",
+    "formula": "=R14*Reference!$F$42+Reference!$F$43",
+    "cached_value": 105.45049402335384,
+    "recalculated_value": 105.45049402335384,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R14",
+        "value": 62,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F42",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(F31:F40,E31:E40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F43",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(F30:F40,E30:E40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S15",
+    "formula": "=R15*Reference!$F$42+Reference!$F$43",
+    "cached_value": 75.58453672355421,
+    "recalculated_value": 75.58453672355421,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R15",
+        "value": 192,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F42",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(F31:F40,E31:E40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F43",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(F30:F40,E30:E40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S16",
+    "formula": "=R16*Reference!$F$42+Reference!$F$43",
+    "cached_value": 64.3273682028605,
+    "recalculated_value": 64.3273682028605,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R16",
+        "value": 241,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F42",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(F31:F40,E31:E40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F43",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(F30:F40,E30:E40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S17",
+    "formula": "=R17*Reference!$F$42+Reference!$F$43",
+    "cached_value": 37.67774476611622,
+    "recalculated_value": 37.67774476611622,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R17",
+        "value": 357,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F42",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(F31:F40,E31:E40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F43",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(F30:F40,E30:E40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S18",
+    "formula": "=R18*Reference!$B$23+Reference!$B$24",
+    "cached_value": 35.83983970151316,
+    "recalculated_value": 35.83983970151316,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R18",
+        "value": 365,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B23",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(B12:B21,A12:A21)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B24",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(B11:B21,A11:A21)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S19",
+    "formula": "=R19*Reference!$F$42+Reference!$F$43",
+    "cached_value": 31.704553306156285,
+    "recalculated_value": 31.704553306156285,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R19",
+        "value": 383,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F42",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(F31:F40,E31:E40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F43",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(F30:F40,E30:E40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S20",
+    "formula": "=R20*Reference!$B$23+Reference!$B$24",
+    "cached_value": 26.65031437849788,
+    "recalculated_value": 26.65031437849788,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R20",
+        "value": 405,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B23",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(B12:B21,A12:A21)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B24",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(B11:B21,A11:A21)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S21",
+    "formula": "=R21*Reference!$F$42+Reference!$F$43",
+    "cached_value": 21.13659918468872,
+    "recalculated_value": 21.13659918468872,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R21",
+        "value": 429,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F42",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(F31:F40,E31:E40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F43",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(F30:F40,E30:E40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S22",
+    "formula": "=R22*Reference!$F$42+Reference!$F$43",
+    "cached_value": 14.474193325502654,
+    "recalculated_value": 14.474193325502654,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R22",
+        "value": 458,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F42",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(F31:F40,E31:E40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F43",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(F30:F40,E30:E40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S23",
+    "formula": "=R23*Reference!$K$78+Reference!$K$79",
+    "cached_value": 14.158540794131824,
+    "recalculated_value": 14.158540794131824,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R23",
+        "value": 458,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "K78",
+        "value": -0.2298337603031411,
+        "formula": "=SLOPE(K67:K76,J67:J76)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "K79",
+        "value": 119.42240301297045,
+        "formula": "=INTERCEPT(K66:K76,J66:J76)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S24",
+    "formula": "=R24*Reference!$K$78+Reference!$K$79",
+    "cached_value": 20.36405232231664,
+    "recalculated_value": 20.36405232231664,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R24",
+        "value": 431,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "K78",
+        "value": -0.2298337603031411,
+        "formula": "=SLOPE(K67:K76,J67:J76)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "K79",
+        "value": 119.42240301297045,
+        "formula": "=INTERCEPT(K66:K76,J66:J76)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S25",
+    "formula": "=R25*Reference!$F$60+Reference!$F$61",
+    "cached_value": 15.608727809261254,
+    "recalculated_value": 15.608727809261254,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R25",
+        "value": 451,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F60",
+        "value": -0.22730105130258943,
+        "formula": "=SLOPE(F49:F58,E49:E58)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F61",
+        "value": 118.12150194672908,
+        "formula": "=INTERCEPT(F48:F58,E48:E58)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S26",
+    "formula": "=R26*Reference!$F$60+Reference!$F$61",
+    "cached_value": 17.88173832228715,
+    "recalculated_value": 17.88173832228715,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R26",
+        "value": 441,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F60",
+        "value": -0.22730105130258943,
+        "formula": "=SLOPE(F49:F58,E49:E58)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F61",
+        "value": 118.12150194672908,
+        "formula": "=INTERCEPT(F48:F58,E48:E58)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S27",
+    "formula": "=R27*Reference!$F$42+Reference!$F$43",
+    "cached_value": 39.51564983071927,
+    "recalculated_value": 39.51564983071927,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R27",
+        "value": 349,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F42",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(F31:F40,E31:E40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F43",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(F30:F40,E30:E40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S28",
+    "formula": "=R28*Reference!$F$60+Reference!$F$61",
+    "cached_value": 21.97315724573376,
+    "recalculated_value": 21.97315724573376,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R28",
+        "value": 423,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F60",
+        "value": -0.22730105130258943,
+        "formula": "=SLOPE(F49:F58,E49:E58)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F61",
+        "value": 118.12150194672908,
+        "formula": "=INTERCEPT(F48:F58,E48:E58)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S29",
+    "formula": "=R29*Reference!$F$60+Reference!$F$61",
+    "cached_value": 20.154748835313043,
+    "recalculated_value": 20.154748835313043,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R29",
+        "value": 431,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F60",
+        "value": -0.22730105130258943,
+        "formula": "=SLOPE(F49:F58,E49:E58)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F61",
+        "value": 118.12150194672908,
+        "formula": "=INTERCEPT(F48:F58,E48:E58)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S30",
+    "formula": "=R30*Reference!$B$78+Reference!$B$79",
+    "cached_value": 43.97615819320869,
+    "recalculated_value": 43.97615819320869,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R30",
+        "value": 328,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B78",
+        "value": -0.22589839768014963,
+        "formula": "=SLOPE(B67:B76,A67:A76)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B79",
+        "value": 118.07083263229777,
+        "formula": "=INTERCEPT(B66:B76,A66:A76)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S31",
+    "formula": "=R31*Reference!$J$42+Reference!$F$43",
+    "cached_value": 41.72808115184219,
+    "recalculated_value": 41.72808115184219,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R31",
+        "value": 338,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "J42",
+        "value": -0.2306691630833885,
+        "formula": "=SLOPE(J31:J40,I31:I40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F43",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(F30:F40,E30:E40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S32",
+    "formula": "=R32*Reference!$J$42+Reference!$F$43",
+    "cached_value": 32.50131462850665,
+    "recalculated_value": 32.50131462850665,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R32",
+        "value": 378,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "J42",
+        "value": -0.2306691630833885,
+        "formula": "=SLOPE(J31:J40,I31:I40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F43",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(F30:F40,E30:E40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S33",
+    "formula": "=R33*Reference!$N$60+Reference!$N$61",
+    "cached_value": 26.51562647149835,
+    "recalculated_value": 26.51562647149835,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R33",
+        "value": 406,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N60",
+        "value": -0.22989809143262036,
+        "formula": "=SLOPE(N49:N58,M49:M58)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N61",
+        "value": 119.85425159314221,
+        "formula": "=INTERCEPT(N48:N58,M48:M58)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S34",
+    "formula": "=R34*Reference!$N$60+Reference!$N$61",
+    "cached_value": 33.41256921447696,
+    "recalculated_value": 33.41256921447696,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R34",
+        "value": 376,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N60",
+        "value": -0.22989809143262036,
+        "formula": "=SLOPE(N49:N58,M49:M58)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N61",
+        "value": 119.85425159314221,
+        "formula": "=INTERCEPT(N48:N58,M48:M58)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S35",
+    "formula": "=R35*Reference!$N$60+Reference!$N$61",
+    "cached_value": 42.37859478034915,
+    "recalculated_value": 42.37859478034915,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R35",
+        "value": 337,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N60",
+        "value": -0.22989809143262036,
+        "formula": "=SLOPE(N49:N58,M49:M58)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N61",
+        "value": 119.85425159314221,
+        "formula": "=INTERCEPT(N48:N58,M48:M58)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S36",
+    "formula": "=R36*Reference!$N$60+Reference!$N$61",
+    "cached_value": 49.50543561476039,
+    "recalculated_value": 49.50543561476039,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R36",
+        "value": 306,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N60",
+        "value": -0.22989809143262036,
+        "formula": "=SLOPE(N49:N58,M49:M58)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N61",
+        "value": 119.85425159314221,
+        "formula": "=INTERCEPT(N48:N58,M48:M58)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S37",
+    "formula": "=R37*Reference!$J$42+Reference!$F$43",
+    "cached_value": 22.121202289754166,
+    "recalculated_value": 22.121202289754166,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R37",
+        "value": 423,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "J42",
+        "value": -0.2306691630833885,
+        "formula": "=SLOPE(J31:J40,I31:I40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F43",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(F30:F40,E30:E40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S38",
+    "formula": "=R38*Reference!$N$42+Reference!$N$43",
+    "cached_value": 25.731627702244865,
+    "recalculated_value": 25.731627702244865,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R38",
+        "value": 414,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N42",
+        "value": -0.22583620600119692,
+        "formula": "=SLOPE(N31:N40,M31:M40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N43",
+        "value": 119.2278169867404,
+        "formula": "=INTERCEPT(N30:N40,M30:M40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S39",
+    "formula": "=R39*Reference!$N$42+Reference!$N$43",
+    "cached_value": 19.63405014021255,
+    "recalculated_value": 19.63405014021255,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R39",
+        "value": 441,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N42",
+        "value": -0.22583620600119692,
+        "formula": "=SLOPE(N31:N40,M31:M40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N43",
+        "value": 119.2278169867404,
+        "formula": "=INTERCEPT(N30:N40,M30:M40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S40",
+    "formula": "=R40*Reference!$N$42+Reference!$N$43",
+    "cached_value": 15.7948346381922,
+    "recalculated_value": 15.7948346381922,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R40",
+        "value": 458,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N42",
+        "value": -0.22583620600119692,
+        "formula": "=SLOPE(N31:N40,M31:M40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N43",
+        "value": 119.2278169867404,
+        "formula": "=INTERCEPT(N30:N40,M30:M40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S41",
+    "formula": "=R41*Reference!$N$42+Reference!$N$43",
+    "cached_value": 13.988144990182633,
+    "recalculated_value": 13.988144990182633,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R41",
+        "value": 466,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N42",
+        "value": -0.22583620600119692,
+        "formula": "=SLOPE(N31:N40,M31:M40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N43",
+        "value": 119.2278169867404,
+        "formula": "=INTERCEPT(N30:N40,M30:M40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S42",
+    "formula": "=R42*Reference!$F$78+Reference!$F$79",
+    "cached_value": 15.486779909668897,
+    "recalculated_value": 15.486779909668897,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R42",
+        "value": 452,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F78",
+        "value": -0.22999546036281193,
+        "formula": "=SLOPE(F67:F76,E67:E76)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F79",
+        "value": 119.4447279936599,
+        "formula": "=INTERCEPT(F66:F76,E66:E76)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S43",
+    "formula": "=R43*Reference!$F$78+Reference!$F$79",
+    "cached_value": 13.416820766403589,
+    "recalculated_value": 13.416820766403589,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R43",
+        "value": 461,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F78",
+        "value": -0.22999546036281193,
+        "formula": "=SLOPE(F67:F76,E67:E76)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F79",
+        "value": 119.4447279936599,
+        "formula": "=INTERCEPT(F66:F76,E66:E76)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S44",
+    "formula": "=R44*Reference!$F$78+Reference!$F$79",
+    "cached_value": 17.556739052934205,
+    "recalculated_value": 17.556739052934205,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R44",
+        "value": 443,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F78",
+        "value": -0.22999546036281193,
+        "formula": "=SLOPE(F67:F76,E67:E76)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F79",
+        "value": 119.4447279936599,
+        "formula": "=INTERCEPT(F66:F76,E66:E76)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S45",
+    "formula": "=R45*Reference!$F$78+Reference!$F$79",
+    "cached_value": 26.526562007083882,
+    "recalculated_value": 26.526562007083882,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R45",
+        "value": 404,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F78",
+        "value": -0.22999546036281193,
+        "formula": "=SLOPE(F67:F76,E67:E76)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F79",
+        "value": 119.4447279936599,
+        "formula": "=INTERCEPT(F66:F76,E66:E76)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S46",
+    "formula": "=R46*Reference!$F$78+Reference!$F$79",
+    "cached_value": 23.076630101641697,
+    "recalculated_value": 23.076630101641697,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R46",
+        "value": 419,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F78",
+        "value": -0.22999546036281193,
+        "formula": "=SLOPE(F67:F76,E67:E76)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F79",
+        "value": 119.4447279936599,
+        "formula": "=INTERCEPT(F66:F76,E66:E76)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S47",
+    "formula": "=R47*Reference!$F$78+Reference!$F$79",
+    "cached_value": 19.396702735836712,
+    "recalculated_value": 19.396702735836712,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R47",
+        "value": 435,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F78",
+        "value": -0.22999546036281193,
+        "formula": "=SLOPE(F67:F76,E67:E76)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F79",
+        "value": 119.4447279936599,
+        "formula": "=INTERCEPT(F66:F76,E66:E76)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S48",
+    "formula": "=R48*Reference!$N$42+Reference!$N$43",
+    "cached_value": 26.634972526249655,
+    "recalculated_value": 26.634972526249655,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R48",
+        "value": 410,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N42",
+        "value": -0.22583620600119692,
+        "formula": "=SLOPE(N31:N40,M31:M40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N43",
+        "value": 119.2278169867404,
+        "formula": "=INTERCEPT(N30:N40,M30:M40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S49",
+    "formula": "=R49*Reference!$N$42+Reference!$N$43",
+    "cached_value": 22.795757024229317,
+    "recalculated_value": 22.795757024229317,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R49",
+        "value": 427,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N42",
+        "value": -0.22583620600119692,
+        "formula": "=SLOPE(N31:N40,M31:M40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N43",
+        "value": 119.2278169867404,
+        "formula": "=INTERCEPT(N30:N40,M30:M40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S50",
+    "formula": "=R50*Reference!$N$42+Reference!$N$43",
+    "cached_value": 21.666575994223322,
+    "recalculated_value": 21.666575994223322,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R50",
+        "value": 432,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N42",
+        "value": -0.22583620600119692,
+        "formula": "=SLOPE(N31:N40,M31:M40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N43",
+        "value": 119.2278169867404,
+        "formula": "=INTERCEPT(N30:N40,M30:M40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S51",
+    "formula": "=R51*Reference!$F$78+Reference!$F$79",
+    "cached_value": 21.926652799827636,
+    "recalculated_value": 21.926652799827636,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R51",
+        "value": 424,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F78",
+        "value": -0.22999546036281193,
+        "formula": "=SLOPE(F67:F76,E67:E76)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F79",
+        "value": 119.4447279936599,
+        "formula": "=INTERCEPT(F66:F76,E66:E76)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S52",
+    "formula": "=R52*Reference!$F$78+Reference!$F$79",
+    "cached_value": 15.946770830394527,
+    "recalculated_value": 15.946770830394527,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R52",
+        "value": 450,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F78",
+        "value": -0.22999546036281193,
+        "formula": "=SLOPE(F67:F76,E67:E76)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F79",
+        "value": 119.4447279936599,
+        "formula": "=INTERCEPT(F66:F76,E66:E76)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S53",
+    "formula": "=R53*Reference!$F$78+Reference!$F$79",
+    "cached_value": 31.816457595428545,
+    "recalculated_value": 31.816457595428545,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R53",
+        "value": 381,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F78",
+        "value": -0.22999546036281193,
+        "formula": "=SLOPE(F67:F76,E67:E76)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F79",
+        "value": 119.4447279936599,
+        "formula": "=INTERCEPT(F66:F76,E66:E76)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S54",
+    "formula": "=R54*Reference!$F$78+Reference!$F$79",
+    "cached_value": 26.296566546721067,
+    "recalculated_value": 26.296566546721067,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R54",
+        "value": 405,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F78",
+        "value": -0.22999546036281193,
+        "formula": "=SLOPE(F67:F76,E67:E76)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F79",
+        "value": 119.4447279936599,
+        "formula": "=INTERCEPT(F66:F76,E66:E76)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S55",
+    "formula": "=R55*Reference!$N$42+Reference!$N$43",
+    "cached_value": 14.213981196183823,
+    "recalculated_value": 14.213981196183823,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R55",
+        "value": 465,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N42",
+        "value": -0.22583620600119692,
+        "formula": "=SLOPE(N31:N40,M31:M40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N43",
+        "value": 119.2278169867404,
+        "formula": "=INTERCEPT(N30:N40,M30:M40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S56",
+    "formula": "=R56*Reference!$N$42+Reference!$N$43",
+    "cached_value": 53.2836448343909,
+    "recalculated_value": 53.2836448343909,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R56",
+        "value": 292,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N42",
+        "value": -0.22583620600119692,
+        "formula": "=SLOPE(N31:N40,M31:M40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N43",
+        "value": 119.2278169867404,
+        "formula": "=INTERCEPT(N30:N40,M30:M40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S57",
+    "formula": "=R57*Reference!$N$42+Reference!$N$43",
+    "cached_value": 46.96023106635738,
+    "recalculated_value": 46.96023106635738,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R57",
+        "value": 320,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N42",
+        "value": -0.22583620600119692,
+        "formula": "=SLOPE(N31:N40,M31:M40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N43",
+        "value": 119.2278169867404,
+        "formula": "=INTERCEPT(N30:N40,M30:M40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S58",
+    "formula": "=R58*Reference!$F$78+Reference!$F$79",
+    "cached_value": 59.18591737860317,
+    "recalculated_value": 59.18591737860317,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R58",
+        "value": 262,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F78",
+        "value": -0.22999546036281193,
+        "formula": "=SLOPE(F67:F76,E67:E76)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F79",
+        "value": 119.4447279936599,
+        "formula": "=INTERCEPT(F66:F76,E66:E76)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "cell": "S59",
+    "formula": "=R59*Reference!$N$42+Reference!$N$43",
+    "cached_value": 37.7009466203083,
+    "recalculated_value": 37.7009466203083,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet",
+        "cell": "R59",
+        "value": 361,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N42",
+        "value": -0.22583620600119692,
+        "formula": "=SLOPE(N31:N40,M31:M40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N43",
+        "value": 119.2278169867404,
+        "formula": "=INTERCEPT(N30:N40,M30:M40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P5",
+    "formula": "=O5*Reference!$B$23+Reference!$B$24",
+    "cached_value": 75.35479859047882,
+    "recalculated_value": 75.35479859047882,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O5",
+        "value": 193,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B23",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(B12:B21,A12:A21)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B24",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(B11:B21,A11:A21)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P6",
+    "formula": "=O6*Reference!$B$23+Reference!$B$24",
+    "cached_value": 53.98915221446832,
+    "recalculated_value": 53.98915221446832,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O6",
+        "value": 286,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B23",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(B12:B21,A12:A21)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B24",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(B11:B21,A11:A21)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P7",
+    "formula": "=O7*Reference!$B$23+Reference!$B$24",
+    "cached_value": 55.827057279071376,
+    "recalculated_value": 55.827057279071376,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O7",
+        "value": 278,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B23",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(B12:B21,A12:A21)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B24",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(B11:B21,A11:A21)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P8",
+    "formula": "=O8*Reference!$R$60+Reference!$R$61",
+    "cached_value": 57.50449397145488,
+    "recalculated_value": 57.50449397145488,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O8",
+        "value": 271,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "R60",
+        "value": -0.22977008912430108,
+        "formula": "=SLOPE(R49:R58,Q49:Q58)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "R61",
+        "value": 119.77218812414047,
+        "formula": "=INTERCEPT(R48:R58,Q48:Q58)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P9",
+    "formula": "=O9*Reference!$B$23+Reference!$B$24",
+    "cached_value": 36.988530366890075,
+    "recalculated_value": 36.988530366890075,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O9",
+        "value": 360,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B23",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(B12:B21,A12:A21)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B24",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(B11:B21,A11:A21)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P10",
+    "formula": "=O10*Reference!$B$23+Reference!$B$24",
+    "cached_value": 105.22075589027845,
+    "recalculated_value": 105.22075589027845,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O10",
+        "value": 63,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B23",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(B12:B21,A12:A21)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B24",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(B11:B21,A11:A21)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P11",
+    "formula": "=O11*Reference!$B$42+Reference!$B$43",
+    "cached_value": 71.38356793885745,
+    "recalculated_value": 71.38356793885745,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O11",
+        "value": 216,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B42",
+        "value": -0.23327528660571759,
+        "formula": "=SLOPE(B31:B39,A31:A39)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B43",
+        "value": 121.77102984569245,
+        "formula": "=INTERCEPT(B30:B40,A30:A40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P12",
+    "formula": "=O12*Reference!$B$42+Reference!$B$43",
+    "cached_value": 61.11945532820588,
+    "recalculated_value": 61.11945532820588,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O12",
+        "value": 260,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B42",
+        "value": -0.23327528660571759,
+        "formula": "=SLOPE(B31:B39,A31:A39)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B43",
+        "value": 121.77102984569245,
+        "formula": "=INTERCEPT(B30:B40,A30:A40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P13",
+    "formula": "=O13*Reference!$N$78+Reference!$N$79",
+    "cached_value": 45.52258634864961,
+    "recalculated_value": 45.52258634864961,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O13",
+        "value": 325,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N78",
+        "value": -0.20207705013540278,
+        "formula": "=SLOPE(N67:N76,M67:M76)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N79",
+        "value": 111.19762764265552,
+        "formula": "=INTERCEPT(N67:N76,M67:M76)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P14",
+    "formula": "=O14*Reference!$F$42+Reference!$F$43",
+    "cached_value": 105.45049402335384,
+    "recalculated_value": 105.45049402335384,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O14",
+        "value": 62,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F42",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(F31:F40,E31:E40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F43",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(F30:F40,E30:E40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P15",
+    "formula": "=O15*Reference!$F$42+Reference!$F$43",
+    "cached_value": 75.58453672355421,
+    "recalculated_value": 75.58453672355421,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O15",
+        "value": 192,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F42",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(F31:F40,E31:E40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F43",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(F30:F40,E30:E40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P16",
+    "formula": "=O16*Reference!$F$42+Reference!$F$43",
+    "cached_value": 64.3273682028605,
+    "recalculated_value": 64.3273682028605,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O16",
+        "value": 241,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F42",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(F31:F40,E31:E40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F43",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(F30:F40,E30:E40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P17",
+    "formula": "=O17*Reference!$F$42+Reference!$F$43",
+    "cached_value": 37.67774476611622,
+    "recalculated_value": 37.67774476611622,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O17",
+        "value": 357,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F42",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(F31:F40,E31:E40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F43",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(F30:F40,E30:E40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P18",
+    "formula": "=O18*Reference!$B$23+Reference!$B$24",
+    "cached_value": 35.83983970151316,
+    "recalculated_value": 35.83983970151316,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O18",
+        "value": 365,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B23",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(B12:B21,A12:A21)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B24",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(B11:B21,A11:A21)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P19",
+    "formula": "=O19*Reference!$F$42+Reference!$F$43",
+    "cached_value": 31.704553306156285,
+    "recalculated_value": 31.704553306156285,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O19",
+        "value": 383,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F42",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(F31:F40,E31:E40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F43",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(F30:F40,E30:E40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P20",
+    "formula": "=O20*Reference!$B$23+Reference!$B$24",
+    "cached_value": 26.65031437849788,
+    "recalculated_value": 26.65031437849788,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O20",
+        "value": 405,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B23",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(B12:B21,A12:A21)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B24",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(B11:B21,A11:A21)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P21",
+    "formula": "=O21*Reference!$F$42+Reference!$F$43",
+    "cached_value": 21.13659918468872,
+    "recalculated_value": 21.13659918468872,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O21",
+        "value": 429,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F42",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(F31:F40,E31:E40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F43",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(F30:F40,E30:E40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P22",
+    "formula": "=O22*Reference!$F$42+Reference!$F$43",
+    "cached_value": 14.474193325502654,
+    "recalculated_value": 14.474193325502654,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O22",
+        "value": 458,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F42",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(F31:F40,E31:E40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F43",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(F30:F40,E30:E40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P23",
+    "formula": "=O23*Reference!$R$42+Reference!$R$43",
+    "cached_value": 15.435434303976635,
+    "recalculated_value": 15.435434303976635,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O23",
+        "value": 459,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "R42",
+        "value": -0.2239081250482364,
+        "formula": "=SLOPE(R31:R40,Q31:Q40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "R43",
+        "value": 118.20926370111714,
+        "formula": "=INTERCEPT(R30:R40,Q30:Q40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P24",
+    "formula": "=O24*Reference!$R$42+Reference!$R$43",
+    "cached_value": 21.704861805327255,
+    "recalculated_value": 21.704861805327255,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O24",
+        "value": 431,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "R42",
+        "value": -0.2239081250482364,
+        "formula": "=SLOPE(R31:R40,Q31:Q40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "R43",
+        "value": 118.20926370111714,
+        "formula": "=INTERCEPT(R30:R40,Q30:Q40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P25",
+    "formula": "=O25*Reference!$F$60+Reference!$F$61",
+    "cached_value": 15.608727809261254,
+    "recalculated_value": 15.608727809261254,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O25",
+        "value": 451,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F60",
+        "value": -0.22730105130258943,
+        "formula": "=SLOPE(F49:F58,E49:E58)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F61",
+        "value": 118.12150194672908,
+        "formula": "=INTERCEPT(F48:F58,E48:E58)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P26",
+    "formula": "=O26*Reference!$F$60+Reference!$F$61",
+    "cached_value": 17.88173832228715,
+    "recalculated_value": 17.88173832228715,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O26",
+        "value": 441,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F60",
+        "value": -0.22730105130258943,
+        "formula": "=SLOPE(F49:F58,E49:E58)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F61",
+        "value": 118.12150194672908,
+        "formula": "=INTERCEPT(F48:F58,E48:E58)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P27",
+    "formula": "=O27*Reference!$F$42+Reference!$F$43",
+    "cached_value": 39.51564983071927,
+    "recalculated_value": 39.51564983071927,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O27",
+        "value": 349,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F42",
+        "value": -0.22973813307538177,
+        "formula": "=SLOPE(F31:F40,E31:E40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F43",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(F30:F40,E30:E40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P28",
+    "formula": "=O28*Reference!$F$60+Reference!$F$61",
+    "cached_value": 21.97315724573376,
+    "recalculated_value": 21.97315724573376,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O28",
+        "value": 423,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F60",
+        "value": -0.22730105130258943,
+        "formula": "=SLOPE(F49:F58,E49:E58)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F61",
+        "value": 118.12150194672908,
+        "formula": "=INTERCEPT(F48:F58,E48:E58)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P29",
+    "formula": "=O29*Reference!$F$60+Reference!$F$61",
+    "cached_value": 20.154748835313043,
+    "recalculated_value": 20.154748835313043,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O29",
+        "value": 431,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F60",
+        "value": -0.22730105130258943,
+        "formula": "=SLOPE(F49:F58,E49:E58)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F61",
+        "value": 118.12150194672908,
+        "formula": "=INTERCEPT(F48:F58,E48:E58)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P30",
+    "formula": "=O30*Reference!$B$78+Reference!$B$79",
+    "cached_value": 43.97615819320869,
+    "recalculated_value": 43.97615819320869,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O30",
+        "value": 328,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B78",
+        "value": -0.22589839768014963,
+        "formula": "=SLOPE(B67:B76,A67:A76)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "B79",
+        "value": 118.07083263229777,
+        "formula": "=INTERCEPT(B66:B76,A66:A76)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P31",
+    "formula": "=O31*Reference!$J$42+Reference!$F$43",
+    "cached_value": 41.72808115184219,
+    "recalculated_value": 41.72808115184219,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O31",
+        "value": 338,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "J42",
+        "value": -0.2306691630833885,
+        "formula": "=SLOPE(J31:J40,I31:I40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F43",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(F30:F40,E30:E40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P32",
+    "formula": "=O32*Reference!$J$42+Reference!$F$43",
+    "cached_value": 32.50131462850665,
+    "recalculated_value": 32.50131462850665,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O32",
+        "value": 378,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "J42",
+        "value": -0.2306691630833885,
+        "formula": "=SLOPE(J31:J40,I31:I40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F43",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(F30:F40,E30:E40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P33",
+    "formula": "=O33*Reference!$N$60+Reference!$N$61",
+    "cached_value": 26.51562647149835,
+    "recalculated_value": 26.51562647149835,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O33",
+        "value": 406,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N60",
+        "value": -0.22989809143262036,
+        "formula": "=SLOPE(N49:N58,M49:M58)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N61",
+        "value": 119.85425159314221,
+        "formula": "=INTERCEPT(N48:N58,M48:M58)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P34",
+    "formula": "=O34*Reference!$N$60+Reference!$N$61",
+    "cached_value": 33.41256921447696,
+    "recalculated_value": 33.41256921447696,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O34",
+        "value": 376,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N60",
+        "value": -0.22989809143262036,
+        "formula": "=SLOPE(N49:N58,M49:M58)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N61",
+        "value": 119.85425159314221,
+        "formula": "=INTERCEPT(N48:N58,M48:M58)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P35",
+    "formula": "=O35*Reference!$N$60+Reference!$N$61",
+    "cached_value": 42.37859478034915,
+    "recalculated_value": 42.37859478034915,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O35",
+        "value": 337,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N60",
+        "value": -0.22989809143262036,
+        "formula": "=SLOPE(N49:N58,M49:M58)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N61",
+        "value": 119.85425159314221,
+        "formula": "=INTERCEPT(N48:N58,M48:M58)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P36",
+    "formula": "=O36*Reference!$N$60+Reference!$N$61",
+    "cached_value": 49.50543561476039,
+    "recalculated_value": 49.50543561476039,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O36",
+        "value": 306,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N60",
+        "value": -0.22989809143262036,
+        "formula": "=SLOPE(N49:N58,M49:M58)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N61",
+        "value": 119.85425159314221,
+        "formula": "=INTERCEPT(N48:N58,M48:M58)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P37",
+    "formula": "=O37*Reference!$J$42+Reference!$F$43",
+    "cached_value": 22.121202289754166,
+    "recalculated_value": 22.121202289754166,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O37",
+        "value": 423,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "J42",
+        "value": -0.2306691630833885,
+        "formula": "=SLOPE(J31:J40,I31:I40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F43",
+        "value": 119.6942582740275,
+        "formula": "=INTERCEPT(F30:F40,E30:E40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P38",
+    "formula": "=O38*Reference!$N$42+Reference!$N$43",
+    "cached_value": 25.731627702244865,
+    "recalculated_value": 25.731627702244865,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O38",
+        "value": 414,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N42",
+        "value": -0.22583620600119692,
+        "formula": "=SLOPE(N31:N40,M31:M40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N43",
+        "value": 119.2278169867404,
+        "formula": "=INTERCEPT(N30:N40,M30:M40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P39",
+    "formula": "=O39*Reference!$N$42+Reference!$N$43",
+    "cached_value": 19.63405014021255,
+    "recalculated_value": 19.63405014021255,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O39",
+        "value": 441,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N42",
+        "value": -0.22583620600119692,
+        "formula": "=SLOPE(N31:N40,M31:M40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N43",
+        "value": 119.2278169867404,
+        "formula": "=INTERCEPT(N30:N40,M30:M40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P40",
+    "formula": "=O40*Reference!$N$42+Reference!$N$43",
+    "cached_value": 15.7948346381922,
+    "recalculated_value": 15.7948346381922,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O40",
+        "value": 458,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N42",
+        "value": -0.22583620600119692,
+        "formula": "=SLOPE(N31:N40,M31:M40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N43",
+        "value": 119.2278169867404,
+        "formula": "=INTERCEPT(N30:N40,M30:M40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P41",
+    "formula": "=O41*Reference!$N$42+Reference!$N$43",
+    "cached_value": 13.988144990182633,
+    "recalculated_value": 13.988144990182633,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O41",
+        "value": 466,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N42",
+        "value": -0.22583620600119692,
+        "formula": "=SLOPE(N31:N40,M31:M40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N43",
+        "value": 119.2278169867404,
+        "formula": "=INTERCEPT(N30:N40,M30:M40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P42",
+    "formula": "=O42*Reference!$F$78+Reference!$F$79",
+    "cached_value": 15.486779909668897,
+    "recalculated_value": 15.486779909668897,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O42",
+        "value": 452,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F78",
+        "value": -0.22999546036281193,
+        "formula": "=SLOPE(F67:F76,E67:E76)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F79",
+        "value": 119.4447279936599,
+        "formula": "=INTERCEPT(F66:F76,E66:E76)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P43",
+    "formula": "=O43*Reference!$F$78+Reference!$F$79",
+    "cached_value": 13.416820766403589,
+    "recalculated_value": 13.416820766403589,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O43",
+        "value": 461,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F78",
+        "value": -0.22999546036281193,
+        "formula": "=SLOPE(F67:F76,E67:E76)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F79",
+        "value": 119.4447279936599,
+        "formula": "=INTERCEPT(F66:F76,E66:E76)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P44",
+    "formula": "=O44*Reference!$F$78+Reference!$F$79",
+    "cached_value": 17.556739052934205,
+    "recalculated_value": 17.556739052934205,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O44",
+        "value": 443,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F78",
+        "value": -0.22999546036281193,
+        "formula": "=SLOPE(F67:F76,E67:E76)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F79",
+        "value": 119.4447279936599,
+        "formula": "=INTERCEPT(F66:F76,E66:E76)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P45",
+    "formula": "=O45*Reference!$F$78+Reference!$F$79",
+    "cached_value": 26.526562007083882,
+    "recalculated_value": 26.526562007083882,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O45",
+        "value": 404,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F78",
+        "value": -0.22999546036281193,
+        "formula": "=SLOPE(F67:F76,E67:E76)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F79",
+        "value": 119.4447279936599,
+        "formula": "=INTERCEPT(F66:F76,E66:E76)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P46",
+    "formula": "=O46*Reference!$F$78+Reference!$F$79",
+    "cached_value": 23.076630101641697,
+    "recalculated_value": 23.076630101641697,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O46",
+        "value": 419,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F78",
+        "value": -0.22999546036281193,
+        "formula": "=SLOPE(F67:F76,E67:E76)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F79",
+        "value": 119.4447279936599,
+        "formula": "=INTERCEPT(F66:F76,E66:E76)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P47",
+    "formula": "=O47*Reference!$F$78+Reference!$F$79",
+    "cached_value": 19.396702735836712,
+    "recalculated_value": 19.396702735836712,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O47",
+        "value": 435,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F78",
+        "value": -0.22999546036281193,
+        "formula": "=SLOPE(F67:F76,E67:E76)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F79",
+        "value": 119.4447279936599,
+        "formula": "=INTERCEPT(F66:F76,E66:E76)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P48",
+    "formula": "=O48*Reference!$N$42+Reference!$N$43",
+    "cached_value": 26.634972526249655,
+    "recalculated_value": 26.634972526249655,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O48",
+        "value": 410,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N42",
+        "value": -0.22583620600119692,
+        "formula": "=SLOPE(N31:N40,M31:M40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N43",
+        "value": 119.2278169867404,
+        "formula": "=INTERCEPT(N30:N40,M30:M40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P49",
+    "formula": "=O49*Reference!$N$42+Reference!$N$43",
+    "cached_value": 22.795757024229317,
+    "recalculated_value": 22.795757024229317,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O49",
+        "value": 427,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N42",
+        "value": -0.22583620600119692,
+        "formula": "=SLOPE(N31:N40,M31:M40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N43",
+        "value": 119.2278169867404,
+        "formula": "=INTERCEPT(N30:N40,M30:M40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P50",
+    "formula": "=O50*Reference!$N$42+Reference!$N$43",
+    "cached_value": 21.666575994223322,
+    "recalculated_value": 21.666575994223322,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O50",
+        "value": 432,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N42",
+        "value": -0.22583620600119692,
+        "formula": "=SLOPE(N31:N40,M31:M40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N43",
+        "value": 119.2278169867404,
+        "formula": "=INTERCEPT(N30:N40,M30:M40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P51",
+    "formula": "=O51*Reference!$F$78+Reference!$F$79",
+    "cached_value": 21.926652799827636,
+    "recalculated_value": 21.926652799827636,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O51",
+        "value": 424,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F78",
+        "value": -0.22999546036281193,
+        "formula": "=SLOPE(F67:F76,E67:E76)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F79",
+        "value": 119.4447279936599,
+        "formula": "=INTERCEPT(F66:F76,E66:E76)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P52",
+    "formula": "=O52*Reference!$F$78+Reference!$F$79",
+    "cached_value": 15.946770830394527,
+    "recalculated_value": 15.946770830394527,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O52",
+        "value": 450,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F78",
+        "value": -0.22999546036281193,
+        "formula": "=SLOPE(F67:F76,E67:E76)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F79",
+        "value": 119.4447279936599,
+        "formula": "=INTERCEPT(F66:F76,E66:E76)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P53",
+    "formula": "=O53*Reference!$F$78+Reference!$F$79",
+    "cached_value": 31.816457595428545,
+    "recalculated_value": 31.816457595428545,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O53",
+        "value": 381,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F78",
+        "value": -0.22999546036281193,
+        "formula": "=SLOPE(F67:F76,E67:E76)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F79",
+        "value": 119.4447279936599,
+        "formula": "=INTERCEPT(F66:F76,E66:E76)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P54",
+    "formula": "=O54*Reference!$F$78+Reference!$F$79",
+    "cached_value": 26.296566546721067,
+    "recalculated_value": 26.296566546721067,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O54",
+        "value": 405,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F78",
+        "value": -0.22999546036281193,
+        "formula": "=SLOPE(F67:F76,E67:E76)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F79",
+        "value": 119.4447279936599,
+        "formula": "=INTERCEPT(F66:F76,E66:E76)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P55",
+    "formula": "=O55*Reference!$N$42+Reference!$N$43",
+    "cached_value": 14.213981196183823,
+    "recalculated_value": 14.213981196183823,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O55",
+        "value": 465,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N42",
+        "value": -0.22583620600119692,
+        "formula": "=SLOPE(N31:N40,M31:M40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N43",
+        "value": 119.2278169867404,
+        "formula": "=INTERCEPT(N30:N40,M30:M40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P56",
+    "formula": "=O56*Reference!$N$42+Reference!$N$43",
+    "cached_value": 53.2836448343909,
+    "recalculated_value": 53.2836448343909,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O56",
+        "value": 292,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N42",
+        "value": -0.22583620600119692,
+        "formula": "=SLOPE(N31:N40,M31:M40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N43",
+        "value": 119.2278169867404,
+        "formula": "=INTERCEPT(N30:N40,M30:M40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P57",
+    "formula": "=O57*Reference!$N$42+Reference!$N$43",
+    "cached_value": 46.96023106635738,
+    "recalculated_value": 46.96023106635738,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O57",
+        "value": 320,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N42",
+        "value": -0.22583620600119692,
+        "formula": "=SLOPE(N31:N40,M31:M40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N43",
+        "value": 119.2278169867404,
+        "formula": "=INTERCEPT(N30:N40,M30:M40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P58",
+    "formula": "=O58*Reference!$F$78+Reference!$F$79",
+    "cached_value": 59.18591737860317,
+    "recalculated_value": 59.18591737860317,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O58",
+        "value": 262,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F78",
+        "value": -0.22999546036281193,
+        "formula": "=SLOPE(F67:F76,E67:E76)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "F79",
+        "value": 119.4447279936599,
+        "formula": "=INTERCEPT(F66:F76,E66:E76)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "cell": "P59",
+    "formula": "=O59*Reference!$N$42+Reference!$N$43",
+    "cached_value": 37.7009466203083,
+    "recalculated_value": 37.7009466203083,
+    "cached_minus_recalculated": 0.0,
+    "inputs": [
+      {
+        "sheet": "Smoke Point Datasheet (2)",
+        "cell": "O59",
+        "value": 361,
+        "formula": null
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N42",
+        "value": -0.22583620600119692,
+        "formula": "=SLOPE(N31:N40,M31:M40)"
+      },
+      {
+        "sheet": "Reference",
+        "cell": "N43",
+        "value": 119.2278169867404,
+        "formula": "=INTERCEPT(N30:N40,M30:M40)"
+      }
+    ],
+    "status": "arithmetic_checked_calibration_assignment_unapproved"
+  }
+]

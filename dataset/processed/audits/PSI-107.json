@@ -1,0 +1,3406 @@
+{
+  "statistics": {
+    "investigation": "PSI-107",
+    "source": "dataset/raw/spice/Spice.csv",
+    "encoding": "utf-8",
+    "headers": [
+      "GMT date",
+      "GMT ignition",
+      "GMT  Flame Off ",
+      "Fuel",
+      "Nozzle (mm)",
+      "Fuel Rate (sccm)",
+      "Fuel Rate (mg/s)",
+      "HC Fuel Rate (mg/s)",
+      "Air Rate (cm/s)"
+    ],
+    "source_rows": 469,
+    "exact_duplicate_rows_beyond_first": 34,
+    "repeated_identifier_groups": 0,
+    "fields": {
+      "1": {
+        "heading": "GMT date",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "2": {
+        "heading": "GMT ignition",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 1,
+        "negative_numeric": 0
+      },
+      "3": {
+        "heading": "GMT  Flame Off ",
+        "blank": 11,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 1,
+        "negative_numeric": 0
+      },
+      "4": {
+        "heading": "Fuel",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "5": {
+        "heading": "Nozzle (mm)",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "6": {
+        "heading": "Fuel Rate (sccm)",
+        "blank": 12,
+        "source_dash": 0,
+        "zero": 1,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "7": {
+        "heading": "Fuel Rate (mg/s)",
+        "blank": 12,
+        "source_dash": 0,
+        "zero": 1,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "8": {
+        "heading": "HC Fuel Rate (mg/s)",
+        "blank": 0,
+        "source_dash": 0,
+        "zero": 13,
+        "annotation": 0,
+        "negative_numeric": 0
+      },
+      "9": {
+        "heading": "Air Rate (cm/s)",
+        "blank": 25,
+        "source_dash": 0,
+        "zero": 0,
+        "annotation": 0,
+        "negative_numeric": 8
+      }
+    },
+    "scientific_status": "not_reviewed",
+    "provenance_status": "local_file_traced_external_authenticity_pending"
+  },
+  "scope": "bounded local structural/unit/missingness/identifier review; primary-source scientific validation pending",
+  "issues": [
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::3",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::2",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00001"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::7",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::6",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00002"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::10",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::9",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00003"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::12",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::11",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00004"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::14",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::13",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00005"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::103",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::102",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00006"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::125",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::123",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00007"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::131",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::129",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00008"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::132",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::129",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00009"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::146",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::142",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00010"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::148",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::144",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00011"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::153",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::150",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00012"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::155",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::151",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00013"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::159",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::156",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00014"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::160",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::157",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00015"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::165",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::162",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00016"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::167",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::164",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00017"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::172",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::169",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00018"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::173",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::170",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00019"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::174",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::171",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00020"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::184",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::182",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00021"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::185",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::183",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00022"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::192",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::191",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00023"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::216",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::215",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00024"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::222",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::220",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00025"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::231",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::229",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00026"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::232",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::230",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00027"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::235",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::234",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00028"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::236",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::234",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00029"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::241",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::240",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00030"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::242",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::240",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00031"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::253",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::251",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00032"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::267",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::266",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00033"
+    },
+    {
+      "code": "NEGATIVE_NUMERIC_REVIEW",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::296",
+      "detail": "Negative value retained; meaning depends on quantity",
+      "status": "open",
+      "requires_human_review": true,
+      "column": 9,
+      "heading": "Air Rate (cm/s)",
+      "value": "-0.28",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00034"
+    },
+    {
+      "code": "NEGATIVE_NUMERIC_REVIEW",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::298",
+      "detail": "Negative value retained; meaning depends on quantity",
+      "status": "open",
+      "requires_human_review": true,
+      "column": 9,
+      "heading": "Air Rate (cm/s)",
+      "value": "-0.28",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00035"
+    },
+    {
+      "code": "NEGATIVE_NUMERIC_REVIEW",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::299",
+      "detail": "Negative value retained; meaning depends on quantity",
+      "status": "open",
+      "requires_human_review": true,
+      "column": 9,
+      "heading": "Air Rate (cm/s)",
+      "value": "-0.28",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00036"
+    },
+    {
+      "code": "NEGATIVE_NUMERIC_REVIEW",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::300",
+      "detail": "Negative value retained; meaning depends on quantity",
+      "status": "open",
+      "requires_human_review": true,
+      "column": 9,
+      "heading": "Air Rate (cm/s)",
+      "value": "-0.28",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00037"
+    },
+    {
+      "code": "NEGATIVE_NUMERIC_REVIEW",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::301",
+      "detail": "Negative value retained; meaning depends on quantity",
+      "status": "open",
+      "requires_human_review": true,
+      "column": 9,
+      "heading": "Air Rate (cm/s)",
+      "value": "-0.28",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00038"
+    },
+    {
+      "code": "EXACT_DUPLICATE",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::336",
+      "detail": "Retained; experimental identity unresolved",
+      "status": "open",
+      "requires_human_review": true,
+      "first_occurrence": "dataset/raw/spice/Spice.csv::CSV::330",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00039"
+    },
+    {
+      "code": "NEGATIVE_NUMERIC_REVIEW",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::337",
+      "detail": "Negative value retained; meaning depends on quantity",
+      "status": "open",
+      "requires_human_review": true,
+      "column": 9,
+      "heading": "Air Rate (cm/s)",
+      "value": "-5.92",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00040"
+    },
+    {
+      "code": "NEGATIVE_NUMERIC_REVIEW",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::338",
+      "detail": "Negative value retained; meaning depends on quantity",
+      "status": "open",
+      "requires_human_review": true,
+      "column": 9,
+      "heading": "Air Rate (cm/s)",
+      "value": "-5.92",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00041"
+    },
+    {
+      "code": "NEGATIVE_NUMERIC_REVIEW",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::339",
+      "detail": "Negative value retained; meaning depends on quantity",
+      "status": "open",
+      "requires_human_review": true,
+      "column": 9,
+      "heading": "Air Rate (cm/s)",
+      "value": "-5.92",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00042"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::5",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "smoke_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00073"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::19",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "smoke_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00074"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::22",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "smoke_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00075"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::5",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "smoke_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00076"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::19",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "smoke_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00077"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::22",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "smoke_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00078"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::5",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "smoke_csv",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00079"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::19",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "smoke_csv",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00080"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::22",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "smoke_csv",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00081"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::5",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "smoke_csv",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00082"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::19",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "smoke_csv",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00083"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::22",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "smoke_csv",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00084"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::54",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00085"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::55",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00086"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::95",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00087"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::96",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00088"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::102",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00089"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::103",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00090"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::104",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00091"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::234",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00092"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::235",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00093"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::236",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00094"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::258",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00095"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::264",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00096"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::337",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00097"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::338",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00098"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::339",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00099"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::57",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00100"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::58",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00101"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::98",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00102"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::99",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00103"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::105",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00104"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::106",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00105"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::107",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00106"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::166",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00107"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::167",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00108"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::186",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00109"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::198",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00110"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::199",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00111"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::200",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00112"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::201",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00113"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::202",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00114"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::213",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00115"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::214",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00116"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::237",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00117"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::238",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00118"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::239",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00119"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::261",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00120"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::267",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00121"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::273",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00122"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::274",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00123"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::275",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00124"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::276",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00125"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::277",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00126"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::278",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00127"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::279",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00128"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::280",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00129"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::281",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00130"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::282",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00131"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::283",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00132"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::284",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00133"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::285",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00134"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::286",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00135"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::287",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00136"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::288",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00137"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::289",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00138"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::290",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00139"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::291",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00140"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::292",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00141"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::293",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00142"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::294",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00143"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::295",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00144"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::296",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00145"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::297",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00146"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::298",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00147"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::299",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00148"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::300",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00149"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::301",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00150"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::302",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00151"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::303",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00152"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::304",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00153"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::305",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00154"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::306",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00155"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::307",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00156"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::308",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00157"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::309",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00158"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::310",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00159"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::311",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00160"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::312",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00161"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::313",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00162"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::314",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00163"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::315",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00164"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::316",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00165"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::317",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00166"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::318",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00167"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::319",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00168"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::320",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00169"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::321",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00170"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::322",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00171"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::323",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00172"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::324",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00173"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::325",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00174"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::326",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00175"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::327",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00176"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::328",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00177"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::329",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00178"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::397",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00179"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::398",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00180"
+    },
+    {
+      "code": "UNMATCHED_RECORD",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::399",
+      "detail": "No candidate under documented match rule",
+      "status": "open",
+      "requires_human_review": true,
+      "relation": "csv_flight",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00181"
+    },
+    {
+      "code": "DATA_OUTSIDE_IGNITION_INTERVAL",
+      "evidence": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::10",
+      "detail": "Data time outside recorded interval; retained",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00182"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::19",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "Ku LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00183"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::22",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "no ku",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00184"
+    },
+    {
+      "code": "TIME_ORDER",
+      "evidence": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::44",
+      "detail": "Flame-off precedes ignition; no midnight correction assumed",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00185"
+    },
+    {
+      "code": "DATA_OUTSIDE_IGNITION_INTERVAL",
+      "evidence": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::44",
+      "detail": "Data time outside recorded interval; retained",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00186"
+    },
+    {
+      "code": "TIME_ORDER",
+      "evidence": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::52",
+      "detail": "Flame-off precedes ignition; no midnight correction assumed",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00187"
+    },
+    {
+      "code": "DATA_OUTSIDE_IGNITION_INTERVAL",
+      "evidence": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::52",
+      "detail": "Data time outside recorded interval; retained",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00188"
+    },
+    {
+      "code": "DATA_OUTSIDE_IGNITION_INTERVAL",
+      "evidence": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::10",
+      "detail": "Data time outside recorded interval; retained",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00189"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::19",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "Ku              LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00190"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::22",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "no ku",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00191"
+    },
+    {
+      "code": "TIME_ORDER",
+      "evidence": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::44",
+      "detail": "Flame-off precedes ignition; no midnight correction assumed",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00192"
+    },
+    {
+      "code": "DATA_OUTSIDE_IGNITION_INTERVAL",
+      "evidence": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::44",
+      "detail": "Data time outside recorded interval; retained",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00193"
+    },
+    {
+      "code": "TIME_ORDER",
+      "evidence": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::52",
+      "detail": "Flame-off precedes ignition; no midnight correction assumed",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00194"
+    },
+    {
+      "code": "DATA_OUTSIDE_IGNITION_INTERVAL",
+      "evidence": "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::52",
+      "detail": "Data time outside recorded interval; retained",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00195"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::36",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 1.6193981481481483,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00196"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::37",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 2.6193981481481483,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00197"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::38",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 3.6193981481481483,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00198"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::39",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 4.619398148148148,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00199"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::57",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": 1744.0,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00200"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::58",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": 1746.0,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00201"
+    },
+    {
+      "code": "DATA_OUTSIDE_IGNITION_INTERVAL",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::81",
+      "detail": "Data time outside recorded interval; retained",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00202"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::87",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "?",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00203"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::88",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "?",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00204"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::98",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "no ku",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00205"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::99",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "no ku",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00206"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::105",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "Ku              LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00207"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::106",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "Ku              LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00208"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::107",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "Ku              LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00209"
+    },
+    {
+      "code": "DATA_OUTSIDE_IGNITION_INTERVAL",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::125",
+      "detail": "Data time outside recorded interval; retained",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00210"
+    },
+    {
+      "code": "TIME_ORDER",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::136",
+      "detail": "Flame-off precedes ignition; no midnight correction assumed",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00211"
+    },
+    {
+      "code": "DATA_OUTSIDE_IGNITION_INTERVAL",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::136",
+      "detail": "Data time outside recorded interval; retained",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00212"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::153",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 1.3765162037037038,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00213"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::154",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 2.3765162037037038,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00214"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::160",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 1.4013194444444443,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00215"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::161",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 2.4013194444444443,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00216"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::166",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": 1.4022453703703703,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00217"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::166",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 1.4033912037037037,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00218"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::167",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": 2.4022453703703706,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00219"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::167",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 2.4033912037037037,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00220"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::173",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 1.4107407407407409,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00221"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::174",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 2.410740740740741,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00222"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::180",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 1.4131597222222223,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00223"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::181",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 2.4131597222222223,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00224"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::186",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": 1.417361111111111,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00225"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::186",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 1.418460648148148,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00226"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::190",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 1.4286342592592591,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00227"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::194",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 1.4351967592592594,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00228"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::198",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": 1.4403587962962963,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00229"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::198",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 1.4422569444444444,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00230"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::199",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": 2.4403587962962963,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00231"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::199",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 2.4422569444444444,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00232"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::200",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": 3.4403587962962963,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00233"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::200",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 3.4422569444444444,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00234"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::201",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": 4.440358796296296,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00235"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::201",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 4.442256944444445,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00236"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::202",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": 5.440358796296296,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00237"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::202",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 5.442256944444445,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00238"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::213",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": 1.4671412037037037,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00239"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::213",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 1.4681134259259259,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00240"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::214",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": 2.4671412037037035,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00241"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::214",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 2.468113425925926,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00242"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::237",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "Ku           LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00243"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::237",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "Ku           LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00244"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::238",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "Ku           LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00245"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::238",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "Ku           LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00246"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::239",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "Ku           LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00247"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::239",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "Ku           LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00248"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::243",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "Ku           LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00249"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::244",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "Ku           LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00250"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::245",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "Ku           LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00251"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::261",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "n/a",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00252"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::261",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "n/a",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00253"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::261",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "data",
+      "value": "n/a\nn/a\n",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00254"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::267",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "Ku         LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00255"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::267",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "Ku         LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00256"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::293",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 1.4867708333333334,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00257"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::297",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 1.4878587962962964,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00258"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::300",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 1.4908333333333332,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00259"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::302",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 1.498576388888889,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00260"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::303",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 2.498576388888889,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00261"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::304",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 3.498576388888889,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00262"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::305",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 4.498576388888889,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00263"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::306",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 5.498576388888889,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00264"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::307",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 6.498576388888889,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00265"
+    },
+    {
+      "code": "DATA_OUTSIDE_IGNITION_INTERVAL",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::320",
+      "detail": "Data time outside recorded interval; retained",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00266"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::321",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "Blew out",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00267"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::323",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 1.510162037037037,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00268"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::324",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 2.5101620370370368,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00269"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::325",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": 3.5101620370370368,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00270"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::357",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "?",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00271"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::358",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "?",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00272"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::359",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "?",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00273"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::360",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "?",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00274"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::361",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "?",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00275"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::397",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00276"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::397",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00277"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::397",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "data",
+      "value": "LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00278"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::398",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00279"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::398",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00280"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::398",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "data",
+      "value": "LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00281"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::399",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00282"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::399",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00283"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::399",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "data",
+      "value": "LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00284"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::416",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "data",
+      "value": "LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00285"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::417",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "data",
+      "value": "LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00286"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::418",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "data",
+      "value": "LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00287"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::419",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "data",
+      "value": "LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00288"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::420",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "data",
+      "value": "LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00289"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::421",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "data",
+      "value": "LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00290"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::422",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "data",
+      "value": "LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00291"
+    },
+    {
+      "code": "TIME_ORDER",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::471",
+      "detail": "Flame-off precedes ignition; no midnight correction assumed",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00292"
+    },
+    {
+      "code": "DATA_OUTSIDE_IGNITION_INTERVAL",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::471",
+      "detail": "Data time outside recorded interval; retained",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00293"
+    },
+    {
+      "code": "TIME_ORDER",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::472",
+      "detail": "Flame-off precedes ignition; no midnight correction assumed",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00294"
+    },
+    {
+      "code": "DATA_OUTSIDE_IGNITION_INTERVAL",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::472",
+      "detail": "Data time outside recorded interval; retained",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00295"
+    },
+    {
+      "code": "TIME_ORDER",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::473",
+      "detail": "Flame-off precedes ignition; no midnight correction assumed",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00296"
+    },
+    {
+      "code": "DATA_OUTSIDE_IGNITION_INTERVAL",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::473",
+      "detail": "Data time outside recorded interval; retained",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00297"
+    },
+    {
+      "code": "TIME_ORDER",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::519",
+      "detail": "Flame-off precedes ignition; no midnight correction assumed",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00298"
+    },
+    {
+      "code": "DATA_OUTSIDE_IGNITION_INTERVAL",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::519",
+      "detail": "Data time outside recorded interval; retained",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00299"
+    },
+    {
+      "code": "TIME_ORDER",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::520",
+      "detail": "Flame-off precedes ignition; no midnight correction assumed",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00300"
+    },
+    {
+      "code": "DATA_OUTSIDE_IGNITION_INTERVAL",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::520",
+      "detail": "Data time outside recorded interval; retained",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00301"
+    },
+    {
+      "code": "TIME_ORDER",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::521",
+      "detail": "Flame-off precedes ignition; no midnight correction assumed",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00302"
+    },
+    {
+      "code": "DATA_OUTSIDE_IGNITION_INTERVAL",
+      "evidence": "dataset/raw/spice/Spice Flight Test Data II modified.xls::Data record of Video and Stills::521",
+      "detail": "Data time outside recorded interval; retained",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00303"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::54",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "1744",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00304"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::55",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "1746",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00305"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::95",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "no ku",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00306"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::96",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "no ku",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00307"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::102",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "Ku              LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00308"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::103",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "Ku              LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00309"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::104",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "Ku              LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00310"
+    },
+    {
+      "code": "TIME_ORDER",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::133",
+      "detail": "Flame-off precedes ignition; no midnight correction assumed",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00311"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::234",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "Ku LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00312"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::234",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "Ku LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00313"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::235",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "Ku LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00314"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::235",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "Ku LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00315"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::236",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "Ku LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00316"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::236",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "Ku LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00317"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::240",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "Ku LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00318"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::241",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "Ku LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00319"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::242",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "Ku LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00320"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::258",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "n/a",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00321"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::258",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "n/a",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00322"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::264",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "Ku LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00323"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::264",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "Ku LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00324"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::337",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00325"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::337",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00326"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::338",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00327"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::338",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00328"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::339",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "ignition",
+      "value": "LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00329"
+    },
+    {
+      "code": "UNPARSED_TIME",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::339",
+      "detail": "Qualitative, ambiguous, or nonstandard time retained",
+      "status": "open",
+      "requires_human_review": true,
+      "field": "off",
+      "value": "LOS",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00330"
+    },
+    {
+      "code": "TIME_ORDER",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::411",
+      "detail": "Flame-off precedes ignition; no midnight correction assumed",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00331"
+    },
+    {
+      "code": "TIME_ORDER",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::412",
+      "detail": "Flame-off precedes ignition; no midnight correction assumed",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00332"
+    },
+    {
+      "code": "TIME_ORDER",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::413",
+      "detail": "Flame-off precedes ignition; no midnight correction assumed",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00333"
+    },
+    {
+      "code": "TIME_ORDER",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::459",
+      "detail": "Flame-off precedes ignition; no midnight correction assumed",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00334"
+    },
+    {
+      "code": "TIME_ORDER",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::460",
+      "detail": "Flame-off precedes ignition; no midnight correction assumed",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00335"
+    },
+    {
+      "code": "TIME_ORDER",
+      "evidence": "dataset/raw/spice/Spice.csv::CSV::461",
+      "detail": "Flame-off precedes ignition; no midnight correction assumed",
+      "status": "open",
+      "requires_human_review": true,
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00336"
+    },
+    {
+      "code": "SMOKE_SHEET_DISAGREEMENT",
+      "evidence": [
+        "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::23",
+        "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::23"
+      ],
+      "detail": "Neither sheet selected as authoritative",
+      "status": "open",
+      "requires_human_review": true,
+      "differences": [
+        {
+          "field": "length_mm",
+          "left": 14.158540794131824,
+          "right": 15.435434303976635,
+          "left_cell": "S23",
+          "right_cell": "P23"
+        },
+        {
+          "field": "pixel_length",
+          "left": 458,
+          "right": 459,
+          "left_cell": "R23",
+          "right_cell": "O23"
+        }
+      ],
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00337"
+    },
+    {
+      "code": "SMOKE_SHEET_DISAGREEMENT",
+      "evidence": [
+        "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::24",
+        "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::24"
+      ],
+      "detail": "Neither sheet selected as authoritative",
+      "status": "open",
+      "requires_human_review": true,
+      "differences": [
+        {
+          "field": "length_mm",
+          "left": 20.36405232231664,
+          "right": 21.704861805327255,
+          "left_cell": "S24",
+          "right_cell": "P24"
+        }
+      ],
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00338"
+    },
+    {
+      "code": "SMOKE_SHEET_DISAGREEMENT",
+      "evidence": [
+        "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::35",
+        "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::35"
+      ],
+      "detail": "Neither sheet selected as authoritative",
+      "status": "open",
+      "requires_human_review": true,
+      "differences": [
+        {
+          "field": "data",
+          "left": "09:41:01",
+          "right": "09:40:59",
+          "left_cell": "D35",
+          "right_cell": "D35"
+        }
+      ],
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00339"
+    },
+    {
+      "code": "CALIBRATION_REFERENCE_DISAGREEMENT",
+      "evidence": [
+        "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::23",
+        "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::23"
+      ],
+      "detail": "Preserved both formulas; no authoritative calibration selected",
+      "status": "open",
+      "requires_human_review": true,
+      "left_formula": "=R23*Reference!$K$78+Reference!$K$79",
+      "right_formula": "=O23*Reference!$R$42+Reference!$R$43",
+      "review_evidence": [
+        "SPICE_CALIBRATION_COEFFICIENTS"
+      ],
+      "review_resolution": "Day119 DVD and DVCAM contexts independently documented; Day174-labelled coefficient values also match published Day119 DVCAM. Image method/pixel selection unresolved.",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00340"
+    },
+    {
+      "code": "CALIBRATION_REFERENCE_DISAGREEMENT",
+      "evidence": [
+        "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet::24",
+        "dataset/raw/spice/SmokePointReview-0g-3.xlsx::Smoke Point Datasheet (2)::24"
+      ],
+      "detail": "Preserved both formulas; no authoritative calibration selected",
+      "status": "open",
+      "requires_human_review": true,
+      "left_formula": "=R24*Reference!$K$78+Reference!$K$79",
+      "right_formula": "=O24*Reference!$R$42+Reference!$R$43",
+      "review_evidence": [
+        "SPICE_CALIBRATION_COEFFICIENTS"
+      ],
+      "review_resolution": "Day119 DVD and DVCAM contexts independently documented; Day174-labelled coefficient values also match published Day119 DVCAM. Image method/pixel selection unresolved.",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00341"
+    },
+    {
+      "code": "SPICE_CALIBRATION_CONTEXT",
+      "evidence": "PSI-107",
+      "detail": "Day055 mixed J42/F43, Day119 DVD/DVCAM, Day136 calibration errors and Days173/174 assignments require scientific review",
+      "status": "open",
+      "requires_human_review": true,
+      "evidence_type": "local_metadata_or_prior_review_not_independently_validated",
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00348"
+    },
+    {
+      "code": "SPICE_526_VS_SOURCE_ROWS",
+      "evidence": "PSI-107",
+      "detail": "info.md claims 526 flames; row counts include conditions and media and do not establish run count",
+      "status": "verified_discrepancy",
+      "requires_human_review": true,
+      "evidence_type": "local_metadata_or_prior_review_not_independently_validated",
+      "review_resolution": "Final report confirms 526 flames but 52 smoke points; sheet/CSV rows are separate denominators.",
+      "review_evidence": [
+        "SPICE_COUNTS"
+      ],
+      "blocker_type": "qualified_scientific_review",
+      "issue_id": "P0-QI-00349"
+    },
+    {
+      "code": "EXTERNAL_PROVENANCE_AND_LICENSE",
+      "evidence": "PSI-107",
+      "detail": "Local hash and location verified; authoritative provenance, redistribution license and human scientific approval pending",
+      "status": "resolved_investigation_data_scope",
+      "requires_human_review": false,
+      "review_resolution": "NASA catalog and original dataset bytes verified; source-data CC0 distinct from code and publication rights.",
+      "review_evidence": [
+        "NASA_IDENTITY_LICENSE"
+      ],
+      "blocker_type": "none",
+      "issue_id": "P0-QI-00350"
+    }
+  ]
+}

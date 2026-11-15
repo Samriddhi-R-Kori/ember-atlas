@@ -1,0 +1,326 @@
+[
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet",
+    "extent_rows": 310,
+    "extent_columns": 66,
+    "nonempty_rows": 117,
+    "merged_ranges": [
+      "AR2:BB2"
+    ]
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Reference",
+    "extent_rows": 79,
+    "extent_columns": 25,
+    "nonempty_rows": 71,
+    "merged_ranges": []
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Smoke Point Datasheet (2)",
+    "extent_rows": 1221,
+    "extent_columns": 67,
+    "nonempty_rows": 58,
+    "merged_ranges": [
+      "AS2:AX2",
+      "C3:C4",
+      "A3:A4",
+      "B3:B4",
+      "D3:D4",
+      "B1:B2",
+      "G1:G2",
+      "AY2:BC2"
+    ]
+  },
+  {
+    "source": "dataset/raw/spice/SmokePointReview-0g-3.xlsx",
+    "sheet": "Reference (2)",
+    "extent_rows": 102,
+    "extent_columns": 25,
+    "nonempty_rows": 65,
+    "merged_ranges": []
+  },
+  {
+    "source": "dataset/raw/spice/Spice Flight Test Data II modified.xls",
+    "sheet": "Data record of Video and Stills",
+    "extent_rows": 625,
+    "extent_columns": 64,
+    "nonempty_rows": 529,
+    "date_mode": 0,
+    "shared_formula_records": [
+      {
+        "opcode": "0x4bc",
+        "payload_hex": "040043001313004005004c0000ffc0"
+      },
+      {
+        "opcode": "0x4bc",
+        "payload_hex": "050044000101004013004c0000ffc01705006d6d6d2d64413000417100"
+      },
+      {
+        "opcode": "0x4bc",
+        "payload_hex": "27002d00040400070c004c00001fc01e080042027300"
+      },
+      {
+        "opcode": "0x4bc",
+        "payload_hex": "44005e001313001b05004c0000ffc0"
+      },
+      {
+        "opcode": "0x4bc",
+        "payload_hex": "450084000101004013004c0000ffc01705006d6d6d2d64413000417100"
+      },
+      {
+        "opcode": "0x4bc",
+        "payload_hex": "61006a000404000a0c004c00001fc01e080042027300"
+      },
+      {
+        "opcode": "0x4bc",
+        "payload_hex": "8500c4000101004013004c0000ffc01705006d6d6d2d64413000417100"
+      },
+      {
+        "opcode": "0x4bc",
+        "payload_hex": "8a008f00040400060c004c00001fc01e080042027300"
+      },
+      {
+        "opcode": "0x4bc",
+        "payload_hex": "8a008f002323000605004c0000fec0"
+      },
+      {
+        "opcode": "0x4bc",
+        "payload_hex": "ba00bf00040400040c004c00001fc01e080042027300"
+      },
+      {
+        "opcode": "0x4bc",
+        "payload_hex": "c50004010101004013004c0000ffc01705006d6d6d2d64413000417100"
+      },
+      {
+        "opcode": "0x4bc",
+        "payload_hex": "ca00cf00040400060c004c00001fc01e080042027300"
+      },
+      {
+        "opcode": "0x4bc",
+        "payload_hex": "ca00cf002323000605004c0000fec0"
+      },
+      {
+        "opcode": "0x4bc",
+        "payload_hex": "d600dc00040400060c004c00001fc01e080042027300"
+      },
+      {
+        "opcode": "0x4bc",
+        "payload_hex": "db001a011313004005004c0000ffc0"
+      },
+      {
+        "opcode": "0x4bc",
+        "payload_hex": "e900fc00040400140c004c00001fc01e080042027300"
+      },
+      {
+        "opcode": "0x4bc",
+        "payload_hex": "ff000b010404000d0c004c00001fc01e080042027300"
+      },
+      {
+        "opcode": "0x4bc",
+        "payload_hex": "050144010101004013004c0000ffc01705006d6d6d2d64413000417100"
+      },
+      {
+        "opcode": "0x4bc",
+        "payload_hex": "1b0148011313002e05004c0000ffc0"
+      },
+      {
+        "opcode": "0x4bc",
+        "payload_hex": "33013801040400060c004c00001fc01e080042027300"
+      },
+      {
+        "opcode": "0x4bc",
+        "payload_hex": "3b014001040400060c004c00001fc01e080042027300"
+      },
+      {
+        "opcode": "0x4bc",
+        "payload_hex": "450150010101000c13004c0000ffc01705006d6d6d2d64413000417100"
+      },
+      {
+        "opcode": "0x4bc",
+        "payload_hex": "520191010101004018004c0000ffc01e010003151705006d6d6d2d64413000417100"
+      },
+      {
+        "opcode": "0x4bc",
+        "payload_hex": "920111020101008018004c0000ffc01e010003151705006d6d6d2d64413000417100"
+      },
+      {
+        "opcode": "0x4bc",
+        "payload_hex": "93019b011313000905004c0000ffc0"
+      },
+      {
+        "opcode": "0x4bc",
+        "payload_hex": "cf0111021313004305004c0000ffc0"
+      }
+    ],
+    "merged_ranges": [
+      [
+        2,
+        4,
+        28,
+        29
+      ],
+      [
+        2,
+        4,
+        0,
+        1
+      ],
+      [
+        2,
+        4,
+        2,
+        3
+      ],
+      [
+        2,
+        4,
+        3,
+        4
+      ],
+      [
+        2,
+        4,
+        4,
+        5
+      ],
+      [
+        2,
+        4,
+        7,
+        8
+      ],
+      [
+        2,
+        4,
+        8,
+        9
+      ],
+      [
+        2,
+        4,
+        1,
+        2
+      ],
+      [
+        2,
+        4,
+        29,
+        30
+      ],
+      [
+        2,
+        4,
+        30,
+        31
+      ],
+      [
+        2,
+        4,
+        42,
+        43
+      ],
+      [
+        2,
+        4,
+        34,
+        35
+      ],
+      [
+        2,
+        4,
+        35,
+        36
+      ],
+      [
+        2,
+        3,
+        36,
+        39
+      ],
+      [
+        2,
+        3,
+        39,
+        42
+      ],
+      [
+        2,
+        4,
+        31,
+        32
+      ],
+      [
+        2,
+        4,
+        32,
+        33
+      ],
+      [
+        2,
+        4,
+        33,
+        34
+      ]
+    ]
+  },
+  {
+    "source": "dataset/raw/spice/Spice Flight Test Data II modified.xls",
+    "sheet": "Reference",
+    "extent_rows": 35,
+    "extent_columns": 16,
+    "nonempty_rows": 29,
+    "date_mode": 0,
+    "shared_formula_records": [
+      {
+        "opcode": "0x4bc",
+        "payload_hex": "16001f000e0e000a12004c0000fdc01ff949b54fc763b63f41100006"
+      }
+    ],
+    "merged_ranges": [
+      [
+        19,
+        20,
+        11,
+        14
+      ]
+    ]
+  },
+  {
+    "source": "dataset/raw/spice/Spice_Flight_Flamelength.xls",
+    "sheet": "Calib",
+    "extent_rows": 14,
+    "extent_columns": 4,
+    "nonempty_rows": 13,
+    "date_mode": 0,
+    "shared_formula_records": [],
+    "merged_ranges": []
+  },
+  {
+    "source": "dataset/raw/spice/Spice_Flight_Flamelength.xls",
+    "sheet": "FlameLength",
+    "extent_rows": 15,
+    "extent_columns": 3,
+    "nonempty_rows": 14,
+    "date_mode": 0,
+    "shared_formula_records": [
+      {
+        "opcode": "0x4bc",
+        "payload_hex": "04000e000202000a19001fa69bc420b0322dc04c0000ffc0051fc3f5285c8fc25b4003"
+      }
+    ],
+    "merged_ranges": []
+  },
+  {
+    "source": "dataset/raw/spice/Spice_Flight_Flamelength.xls",
+    "sheet": "Sheet3",
+    "extent_rows": 0,
+    "extent_columns": 0,
+    "nonempty_rows": 0,
+    "date_mode": 0,
+    "shared_formula_records": [],
+    "merged_ranges": []
+  }
+]

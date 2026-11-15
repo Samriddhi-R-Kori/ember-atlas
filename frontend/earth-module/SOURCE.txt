@@ -1,0 +1,1 @@
+source_zip=ember-atlas-earth.zip (Earth Applications module archive supplied by the project team) sha256=5b935f6e369caba58a71bb646d2a30c4f23269c6c2871fa9597bfff53d6a0f8e extracted=2026-11-15

@@ -1,0 +1,34 @@
+[
+ {
+  "file": "luci_ntrs_20250010653.pdf",
+  "url": "https://ntrs.nasa.gov/api/citations/20250010653/downloads/ASGSR%202025-LUCI-Ferkul-Presentation-v2-20250010653.pdf?attachment=true",
+  "sha256": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+  "bytes": 2906408,
+  "retrieved": "2026-11-15",
+  "use": "page-located statements and values for supplemental partial-gravity / hazard evidence; not ingested into PostgreSQL"
+ },
+ {
+  "file": "konno_pci39_manuscript.pdf",
+  "url": "https://discovery.ucl.ac.uk/id/eprint/10154634/1/PCI39_CNES-Partial-G-report_manuscript.pdf",
+  "sha256": "d59702a77ff426503a7482a2bc8ff31cbdea65e600d5e549d1c041d9da67f574",
+  "bytes": 1440589,
+  "retrieved": "2026-11-15",
+  "use": "page-located statements and values for supplemental partial-gravity / hazard evidence; not ingested into PostgreSQL"
+ },
+ {
+  "file": "gollner_ntrs_20210022402.pdf",
+  "url": "https://ntrs.nasa.gov/api/citations/20210022402/downloads/217-_GollnerMichaelJ.pdf",
+  "sha256": "ed300588dae8d09102e851a81c66018a9e050514aa63b4d62ee13e200630d2ad",
+  "bytes": 212687,
+  "retrieved": "2026-11-15",
+  "use": "page-located statements and values for supplemental partial-gravity / hazard evidence; not ingested into PostgreSQL"
+ },
+ {
+  "file": "acme_ntrs_20210022542.pdf",
+  "url": "https://ntrs.nasa.gov/api/citations/20210022542/downloads/ACME%20JASMAC-33%2020211007.pdf",
+  "sha256": "6524faf4675134d7d7ca9be629ff95284d5b9acd38a4e230ede39c6a092e8ccf",
+  "bytes": 2753389,
+  "retrieved": "2026-11-15",
+  "use": "page-located statements and values for supplemental partial-gravity / hazard evidence; not ingested into PostgreSQL"
+ }
+]
