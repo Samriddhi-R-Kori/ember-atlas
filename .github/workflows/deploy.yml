@@ -1,0 +1,61 @@
+name: Deploy dashboard to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - name: Install dependencies (lockfile)
+        run: npm ci --legacy-peer-deps
+      - name: Unit tests (gap engine, fire-safety insights, graph, interpolation)
+        run: npx vitest run
+      - name: Production build
+        env:
+          VITE_BASE_PATH: /ember-atlas/
+          # Public URL of the hosted API (repository variable, not a secret). Empty = bundled data only.
+          VITE_API_BASE_URL: ${{ vars.EMBER_ATLAS_API_URL }}
+        run: npm run build
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: frontend/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Check the published site responds
+        run: |
+          url="${{ steps.deployment.outputs.page_url }}"
+          for i in 1 2 3 4 5 6; do
+            code=$(curl -s -o /tmp/index.html -w '%{http_code}' "$url") && [ "$code" = 200 ] && grep -q 'Ember Atlas' /tmp/index.html && { echo "Live: $url"; exit 0; }
+            sleep 10
+          done
+          echo "Published site did not respond correctly ($code)"; exit 1

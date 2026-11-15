@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Ember Atlas</title>
+<script>
+// GitHub Pages serves this file for unknown paths. Ember Atlas uses hash routes (#/simulator), so a direct
+// link such as /ember-atlas/simulator is redirected to /ember-atlas/#/simulator.
+(function () {
+  var parts = location.pathname.split('/').filter(Boolean);
+  var base = parts.length && parts[0] !== 'simulator' && parts[0] !== 'graph' && parts[0] !== 'earth' && parts[0] !== 'resources' && parts[0] !== 'records' ? '/' + parts.shift() + '/' : '/';
+  location.replace(base + (parts.length ? '#/' + parts.join('/') : '') + location.search);
+})();
+</script></head><body style="background:#050608;color:#F3F4F6;font-family:system-ui">Redirecting to Ember Atlas…</body></html>

@@ -1,3 +1,4 @@
+import { apiUrl } from '../lib/apiBase'
 import { useEffect, useState } from 'react'
 import { useAppState } from '../state/AppState'
 import { postJson } from '../lib/data'
@@ -14,7 +15,7 @@ export default function ReviewPage() {
   const { mode } = useAppState()
   const [items, setItems] = useState<Item[]>([]); const [error, setError] = useState('')
   const [reviewer, setReviewer] = useState(''); const [token, setToken] = useState('')
-  const load = () => fetch('/api/review/queue').then(async r => { if (!r.ok) throw new Error((await r.json()).detail); return r.json() })
+  const load = () => fetch(apiUrl('/review/queue')).then(async r => { if (!r.ok) throw new Error((await r.json()).detail); return r.json() })
     .then(d => { setItems(d.items); setError('') }).catch(e => setError((e as Error).message))
   useEffect(() => { if (mode === 'live_api') void load() }, [mode])
   if (mode !== 'live_api') return <div className="page"><div className="empty-state">The review queue is a local team tool and is unavailable in the static demo.</div></div>

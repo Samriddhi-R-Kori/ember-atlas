@@ -5,8 +5,9 @@ export type Detail=RecordRow&{issues:{id:string;code:string;status:string;scope:
 export type Parameter={id:string;heading:string;unit:string|null;source_path:string;count:number;mapping_status:string}
 export type Series={parameter:{id:string;heading:string;unit:string|null};points:{record_id:string;label:string;source_row:number;value:number;unit:string;source_path:string;source_sha256:string;source_url:string;sheet:string|null;coordinate:string|null;value_status:string;scientific_status:string;normalization_status:string;quality_codes:string[];uncertainty_status:string}[];excluded:{record_id:string;row:number;reason:string}[];axis_note:string;notice:string}
 export type Baseline={version:string;manifest_sha256:string;baseline_sha256:string;scientific_approval:boolean;external_signoff:boolean;summary:{csv_rows:number;duplicates_retained:number;official_data_files_byte_verified:number}}
+import { apiUrl } from './lib/apiBase'
 export async function api<T>(path:string,signal?:AbortSignal):Promise<T>{
- const response=await fetch('/api'+path,{signal})
+ const response=await fetch(apiUrl(path),{signal})
  if(!response.ok){const body=await response.json().catch(()=>({}));throw new Error(body.detail||`Request failed (${response.status})`)}
  return response.json() as Promise<T>
 }

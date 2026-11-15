@@ -1,0 +1,30 @@
+# Render Blueprint for the Ember Atlas API (free web service). The PostgreSQL database is hosted separately
+# (Neon free plan: persistent; Render's free PostgreSQL is deleted ~44 days after creation).
+# DATABASE_URL is entered once in the Render dashboard (sync: false) and is never stored in this repository.
+services:
+  - type: web
+    name: ember-atlas-api
+    runtime: python
+    plan: free
+    region: ohio
+    branch: main
+    autoDeploy: true
+    # The real import pipeline runs at build time against the hosted database: restore the cited reference
+    # documents (SHA-256 verified), then migrations + hash-verified ingestion + record-count check (idempotent).
+    buildCommand: >-
+      pip install -r requirements.lock &&
+      python scripts/restore_references.py --download &&
+      python scripts/init_database.py
+    startCommand: PYTHONPATH=.:backend uvicorn app.main:app --host 0.0.0.0 --port $PORT --proxy-headers --forwarded-allow-ips '*'
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.12
+      - key: DATABASE_URL
+        sync: false
+      - key: EMBER_ATLAS_CORS_ORIGINS
+        value: https://samriddhi-r-kori.github.io
+      - key: EMBER_ATLAS_RATE_LIMIT_PER_MINUTE
+        value: "300"
+      - key: EMBER_ATLAS_REVIEW_ENABLED
+        value: "0"

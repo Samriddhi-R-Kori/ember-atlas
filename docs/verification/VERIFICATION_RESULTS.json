@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T11:19:45+00:00",
+ "generated_at": "2026-11-15T11:54:55+00:00",
  "checks": [
   {
    "name": "Dataset manifest, hashes and record counts",
@@ -10,13 +10,13 @@
   {
    "name": "Curation pipeline regression tests (pytest)",
    "status": "passed",
-   "detail": "30 passed in 8.63s",
+   "detail": "30 passed in 8.52s",
    "evidence": "python -m pytest -q -p no:cacheprovider tests"
   },
   {
    "name": "PostgreSQL API, research, science and ML tests (pytest)",
    "status": "passed",
-   "detail": "47 passed, 1 warning in 13.15s",
+   "detail": "47 passed, 1 warning in 12.63s",
    "evidence": "python -m pytest -q -p no:cacheprovider backend/tests"
   },
   {
@@ -40,19 +40,19 @@
   {
    "name": "TypeScript + Vite production build",
    "status": "passed",
-   "detail": "built in 3.85s",
+   "detail": "built in 3.80s",
    "evidence": "(frontend) npm run build"
   },
   {
    "name": "Static public build (VITE_STATIC_ONLY=1)",
    "status": "passed",
-   "detail": "built in 3.93s",
+   "detail": "built in 3.84s",
    "evidence": "(frontend) npx vite build --outDir dist-static --base ./"
   },
   {
    "name": "Browser journeys incl. legacy MVP (Playwright, Chromium)",
    "status": "passed",
-   "detail": "17 passed (33.5s)",
+   "detail": "17 passed (34.3s)",
    "evidence": "(frontend) npx playwright test"
   },
   {

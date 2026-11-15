@@ -11,7 +11,8 @@ from sqlalchemy import create_engine
 from app.models import Base
 
 config=context.config
-url=os.environ.get('DATABASE_URL',config.get_main_option('sqlalchemy.url'))
+from app.database import database_url
+url=database_url() if os.environ.get('DATABASE_URL') else config.get_main_option('sqlalchemy.url')
 if context.is_offline_mode():
     context.configure(url=url,target_metadata=Base.metadata,literal_binds=True)
     with context.begin_transaction():context.run_migrations()

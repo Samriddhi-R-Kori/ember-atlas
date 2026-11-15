@@ -1,7 +1,8 @@
 import type { Spine } from '../types/spine'
+import { API_BASE, apiUrl } from './apiBase'
 
-// Data source selection: the live local API when reachable, otherwise the versioned static
-// export bundled under public/data (public demo mode). VITE_STATIC_ONLY=1 forces static mode.
+// Data source selection: the live API (local, or VITE_API_BASE_URL when hosted) when reachable, otherwise the
+// versioned, SHA-256-checked static export bundled under public/data. VITE_STATIC_ONLY=1 forces static mode.
 const STATIC_ONLY = import.meta.env.VITE_STATIC_ONLY === '1'
 const BASE = import.meta.env.BASE_URL
 
@@ -22,22 +23,37 @@ async function loadStatic(signal?: AbortSignal): Promise<LoadResult> {
   return { spine: JSON.parse(text) as Spine, mode: 'static_export', exportVersion: manifest.export_version }
 }
 
+// A hosted free-tier backend can take up to about a minute to wake, so a remote API gets a longer timeout.
+export const API_TIMEOUT_MS = API_BASE ? 75_000 : 8_000
+export const remoteApi = Boolean(API_BASE) && !STATIC_ONLY
+
+export async function loadLive(signal?: AbortSignal): Promise<LoadResult> {
+  const timeout = new AbortController()
+  const timer = setTimeout(() => timeout.abort(), API_TIMEOUT_MS)
+  const onAbort = () => timeout.abort()
+  signal?.addEventListener('abort', onAbort)
+  try {
+    const response = await fetch(apiUrl('/spine'), { signal: timeout.signal })
+    if (!response.ok) throw new Error(`API responded ${response.status}`)
+    return { spine: await response.json() as Spine, mode: 'live_api' }
+  } finally { clearTimeout(timer); signal?.removeEventListener('abort', onAbort) }
+}
+
 export async function loadSpine(signal?: AbortSignal): Promise<LoadResult> {
   if (!STATIC_ONLY) {
-    try {
-      const response = await fetch('/api/spine', { signal })
-      if (response.ok) return { spine: await response.json() as Spine, mode: 'live_api' }
-    } catch (error) {
-      if ((error as Error).name === 'AbortError') throw error
+    try { return await loadLive(signal) } catch (error) {
+      if (signal?.aborted) throw error
     }
   }
   return loadStatic(signal)
 }
 
+export { loadStatic }
+
 export const apiAvailable = (mode: string) => mode === 'live_api'
 
 export async function postJson<T>(path: string, body: unknown, headers: Record<string, string> = {}): Promise<T> {
-  const response = await fetch('/api' + path, { method: 'POST', headers: { 'Content-Type': 'application/json', ...headers }, body: JSON.stringify(body) })
+  const response = await fetch(apiUrl(path), { method: 'POST', headers: { 'Content-Type': 'application/json', ...headers }, body: JSON.stringify(body) })
   const payload = await response.json().catch(() => ({}))
   if (!response.ok) throw new Error((payload as { detail?: string }).detail || `Request failed (${response.status})`)
   return payload as T

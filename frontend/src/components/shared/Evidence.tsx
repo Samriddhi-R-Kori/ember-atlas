@@ -1,3 +1,4 @@
+import { apiUrl } from '../../lib/apiBase'
 import { Crosshair, ExternalLink, X } from 'lucide-react'
 import { Fragment, useEffect, useState, type ReactNode } from 'react'
 import { useAppState } from '../../state/AppState'
@@ -22,7 +23,7 @@ function RecordSource({ record, metric }: { record: SpineRecord; metric?: string
   useEffect(() => {
     if (mode !== 'live_api') return
     const c = new AbortController()
-    fetch(`/api/records/detail?record_id=${encodeURIComponent(record.id)}`, { signal: c.signal }).then(r => r.ok ? r.json() : null).then(setDetail).catch(() => {})
+    fetch(apiUrl(`/records/detail?record_id=${encodeURIComponent(record.id)}`), { signal: c.signal }).then(r => r.ok ? r.json() : null).then(setDetail).catch(() => {})
     return () => c.abort()
   }, [record.id, mode])
   const rows: [string, ReturnType<typeof entryRow>][] = [

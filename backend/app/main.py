@@ -1,5 +1,6 @@
 """Read-only scientific browsing API over pinned provisional source evidence."""
 import json
+import os
 import math
 from typing import Literal
 from fastapi import Depends,FastAPI,HTTPException,Query
@@ -12,7 +13,33 @@ from .models import (Investigation,SourceRecord,EvidenceSource,EvidenceLocation,
                      ParameterDefinition,QualityIssue,RecordQuality,ReconciliationLink,DatasetRelease,Measurement)
 
 app=FastAPI(title='Ember Atlas API',version='1.0.0',description='Provisional source-linked research evidence. No scientific approval or verified run identity is implied.')
-app.add_middleware(CORSMiddleware,allow_origins=['http://localhost:5173','http://127.0.0.1:5173'],allow_methods=['GET'],allow_headers=['*'])
+# Allowed browser origins: local development plus EMBER_ATLAS_CORS_ORIGINS (comma-separated, e.g. the GitHub Pages origin).
+_ORIGINS=['http://localhost:5173','http://127.0.0.1:5173']+[o.strip().rstrip('/') for o in os.environ.get('EMBER_ATLAS_CORS_ORIGINS','').split(',') if o.strip()]
+app.add_middleware(CORSMiddleware,allow_origins=_ORIGINS,allow_methods=['GET','POST'],allow_headers=['Content-Type','X-Reviewer-Token'],max_age=3600)
+
+# Optional per-client rate limit for public hosting (EMBER_ATLAS_RATE_LIMIT_PER_MINUTE; 0 or unset = off).
+_RATE=int(os.environ.get('EMBER_ATLAS_RATE_LIMIT_PER_MINUTE','0') or 0)
+_HITS:dict[str,list[float]]={}
+
+
+@app.middleware('http')
+async def rate_limit(request,call_next):
+    if _RATE>0 and request.url.path.startswith('/api/') and request.url.path!='/api/health':
+        import time
+        client=(request.headers.get('x-forwarded-for','').split(',')[0].strip() or (request.client.host if request.client else 'unknown'))
+        now=time.monotonic();window=[t for t in _HITS.get(client,[]) if now-t<60]
+        if len(window)>=_RATE:
+            from fastapi.responses import JSONResponse
+            return JSONResponse({'detail':'Too many requests; please retry in a minute.'},status_code=429,headers={'Retry-After':'60'})
+        window.append(now);_HITS[client]=window
+        if len(_HITS)>5000:_HITS.clear()
+    return await call_next(request)
+
+
+@app.exception_handler(SQLAlchemyError)
+async def database_unavailable(request,exc):
+    from fastapi.responses import JSONResponse
+    return JSONResponse({'detail':'The scientific database is temporarily unavailable. Please retry shortly.'},status_code=503)
 NOTICE='Provisional research evidence · Scientific approval pending · Source records are not verified experiment runs.'
 
 
