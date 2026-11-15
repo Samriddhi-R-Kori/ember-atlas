@@ -2,6 +2,10 @@
 
 *NASA Space Apps Challenge 2026 · Flame in Free Fall*
 
+**[▶ Live dashboard](https://samriddhi-r-kori.github.io/ember-atlas/)** · **[Source code](https://github.com/Samriddhi-R-Kori/ember-atlas)** · **[Scientific data](dataset/README.md)** · **[Documentation](docs/ARCHITECTURE.md)** · **[NASA research sources](docs/SOURCES.md)** · [API health](https://ember-atlas-api-9l9i.onrender.com/api/health)
+
+> The live API runs on a free hosting plan that sleeps when idle; the first visit can take up to a minute while it wakes. The page offers to continue at once with the bundled, checksum-verified copy of the same data.
+
 **Ember Atlas** is an interactive evidence-exploration platform for NASA microgravity combustion research. It brings together five International Space Station investigations in one source-linked catalogue:
 
 - FLEX: flame extinguishment;
@@ -103,6 +107,25 @@ dataset/raw (NASA files) ─► curation/ (extraction · units · reconciliation
 **One path configuration.** Every component resolves paths through [`ember_atlas/paths.py`](ember_atlas/paths.py).
 
 See [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) for the full source-to-visualization data flow.
+
+## Public Hosting
+
+```
+Browser ──► GitHub Pages  https://samriddhi-r-kori.github.io/ember-atlas/   (static React build, frontend/)
+              │  VITE_API_BASE_URL (public URL only)
+              ▼
+            Render web service  https://ember-atlas-api-9l9i.onrender.com   (FastAPI, render.yaml, free plan)
+              │  DATABASE_URL (secret, stored only in Render)
+              ▼
+            Neon PostgreSQL (free plan, persistent)   loaded by the real pipeline at build time:
+            restore_references.py → init_database.py (migrations + hash-verified ingestion + record counts)
+```
+
+- **Frontend:** every push to `main` runs `.github/workflows/deploy.yml`: `npm ci`, the unit tests, a production build with base `/ember-atlas/`, deployment to GitHub Pages and a live response check. Routes use hashes (`#/simulator`), and `404.html` redirects direct links such as `/ember-atlas/graph`.
+- **Backend:** Render redeploys automatically from `main`. Its build re-verifies and (idempotently) ingests the dataset, and it only accepts browser requests from the Pages origin (CORS). Each client is limited to 300 requests a minute. The review tools that can write data are disabled.
+- **Fallback:** if the API is unreachable, the site can run entirely on the bundled static export, which holds the same records, checked by SHA-256. The Research Gap Explorer needs the live API.
+
+See [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md) for setup, limits and costs.
 
 ## Repository Structure
 
